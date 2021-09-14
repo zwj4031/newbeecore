@@ -1,0 +1,2 @@
+\windows\system32\onecoreuapcommonproxystub.dll
+\Windows\System32\chartv.dll

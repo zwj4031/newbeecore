@@ -1,0 +1,4 @@
+;文件类型过滤
+Windows\System32\StructuredQuery.dll
+;覆盖文件提示
+Windows\System32\shellstyle.dll

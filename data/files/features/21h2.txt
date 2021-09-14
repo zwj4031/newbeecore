@@ -1,0 +1,33 @@
+;11pe_Boot_need
+\Windows\System32\ServicingCommon.dll
+;11pe_DWM_need
+\Windows\System32\utcapi.dll
+\Windows\System32\lsaadt.dll
+;11pe_Devmgr_need
+\Windows\System32\wofutil.dll
+;sun 21H2
+Windows\System32\UIAutomationCore.Dll
+Windows\SysWOW64\ResampleDmo.Dll
+Windows\SysWOW64\dxcore.dll
+;sun 21H2 support DBadmin
+\Windows\System32\prxyqry.dll
+\Windows\syswow64\prxyqry.dll
+;22449_Boot_need
+\Windows\System32\win32ksgd.sys
+\Windows\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-Client-Desktop-Required-Package0511~*~amd64~~*.*.*.*.cat
+\Windows\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-WinPE-SKU-Foundation-merged-Package~*~amd64~~*.*.*.*.cat
+\Windows\System32\KerbClientShared.dll
+\Windows\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-OneCore-EnterpriseNetworking-Package~*~amd64~~*.*.*.*.cat
+\Windows\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-WinPE-SKU-Foundation-WOW64-merged-Package~*~amd64~~*.*.*.*.cat
+\Windows\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-WinPE-SKU-Foundation-merged-Package~*~amd64~~*.*.*.*.cat
+\Windows\System32\kerberos.dll
+\Windows\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-OneCore-EnterpriseNetworking-Package~*~amd64~~*.*.*.*.cat
+\Windows\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-WinPE-SKU-Foundation-merged-Package~*~amd64~~*.*.*.*.cat
+\Windows\System32\netprovfw.dll 
+\Windows\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-WinPE-SKU-Foundation-merged-Package~*~amd64~~*.*.*.*.cat
+;22449_DWM_need
+\Windows\System32\wuceffects.dll
+;22449_end
+;tiankeng
+
+

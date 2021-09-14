@@ -1,0 +1,14 @@
+Windows\System32\devmgmt.msc
+Windows\System32\devmgr.dll
+Windows\System32\zh-CN\devmgmt.msc
+Windows\System32\zh-CN\devmgr.dll.mui
+Windows\System32\devmgr.dll
+Windows\System32\dmocx.dll
+Windows\System32\dmdskmgr.dll
+Windows\System32\dmdskres.dll
+Windows\System32\dmdskres2.dll
+Windows\System32\dmdlgs.dll
+Windows\System32\dmocx.dll
+Windows\System32\dmutil.dll
+Windows\System32\dmvdsitf.dll
+Windows\System32\dmview.ocx

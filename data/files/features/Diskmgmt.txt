@@ -1,0 +1,5 @@
+Windows\System32\diskmgmt.msc
+Windows\System32\zh-CN\diskmgmt.msc
+Windows\System32\zh-CN\dmdskres.dll.mui
+Windows\System32\zh-CN\dmdskres2.dll.mui
+Windows\System32\zh-CN\dmutil.dll.mui

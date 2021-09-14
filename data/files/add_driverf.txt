@@ -1,0 +1,14 @@
+Windows\System32\config\BBI
+Windows\System32\config\BCD-Template
+Windows\System32\config\ELAM
+Windows\System32\config\COMPONENTS
+\Windows\System32\DISM\DismHost.exe
+\Windows\System32\DISM\DmiProvider.dll
+\Windows\System32\DISM\OSProvider.dll
+\Windows\System32\DISM\vhdprovider.dll
+\Windows\System32\DISM\zh-CN\DmiProvider.dll.mui
+\Windows\System32\DISM\zh-CN\OSProvider.dll.mui
+\Windows\System32\DISM\zh-CN\VHDProvider.dll.mui
+\Windows\System32\wdscore.dll
+Windows\System32\SSShim.dll
+Windows\Syswow64\SSShim.dll

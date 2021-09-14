@@ -1,0 +1,5 @@
+\Windows\System32\d3d11.dll
+\Windows\System32\DataExchange.dll
+\Windows\System32\dcomp.dll
+\Windows\System32\dxgi.dll
+\Windows\System32\ksuser.dll

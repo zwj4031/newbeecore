@@ -1,0 +1,36 @@
+Windows Registry Editor Version 5.00
+[HKEY_LOCAL_MACHINE\system\CurrentControlSet\Services\mpssvc]
+"Start"=dword:00000003
+[HKEY_LOCAL_MACHINE\system\ControlSet001\Services\mpssvc]
+"Start"=dword:00000003
+
+
+[HKEY_CLASSES_ROOT\*\shell\用DriverIndexer安装驱动]
+"icon"="X:\\Windows\\System32\\ico\\mycomput.ico"
+
+[HKEY_CLASSES_ROOT\*\shell\用DriverIndexer安装驱动\command]
+@="\"X:\\windows\\system32\\Driverindexer\" load-driver \"%1\""
+[HKEY_CLASSES_ROOT\7-Zip.7z\shell\用DriverIndexer安装驱动]
+"icon"="X:\\Windows\\System32\\ico\\mycomput.ico"
+
+[HKEY_CLASSES_ROOT\7-Zip.7z\shell\用DriverIndexer安装驱动\command]
+@="\"X:\\windows\\system32\\Driverindexer\" load-driver \"%1\""
+
+[HKEY_CLASSES_ROOT\folder\shell\用DriverIndexer安装驱动]
+"icon"="X:\\Windows\\System32\\ico\\mycomput.ico"
+
+[HKEY_CLASSES_ROOT\folder\shell\用DriverIndexer安装驱动\command]
+@="\"X:\\windows\\system32\\Driverindexer\" load-driver \"%1\""
+
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\从离线系统安装网卡驱动到PE]
+"icon"="X:\\Windows\\System32\\ico\\mycomput.ico"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\从离线系统安装网卡驱动到PE\command]
+@="\"X:\\Program Files\\BatchTools\\驱动安装(从本机系统离线获取).bat\" net"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\从离线系统安装所有驱动到PE]
+"icon"="X:\\Windows\\System32\\ico\\mycomput.ico"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\从离线系统安装所有驱动到PE\command]
+@="\"X:\\Program Files\\BatchTools\\驱动安装(从本机系统离线获取).bat\""

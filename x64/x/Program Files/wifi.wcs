@@ -1,0 +1,38 @@
+_SUB Insdriver
+     NAME &&fname=%1     
+     EXEC =!X:\windows\system32\driverindexer load-driver %mycab%
+     WAIT 500
+_END 
+
+_sub loadc
+
+
+  forx %fdrive%\WifiDriver\*.xml,con,0,exec !cmd.exe /c netsh wlan add profile filename="%con%"
+  exit file
+_end
+
+_sub sload
+ exec* &&wxfw=!net start
+ SED &&W=?,WLAN,,%&wxfw%
+ ifex $0=%&W%, TEAM TEXT   启动无线服务.....$30|WAIT 500|EXEC -hide -wait net start Wlansvc| WAIT 100
+ TEAM TEXT   搜索无线连接配置....$30|WAIT 100
+ forx !\WifiDriver\*.xml,con,1,set &&exi=%con%
+ find $Z=Z%&exi%, TEAM mess+icon0 未能找到配置\n任意盘根目录下\WifiDriver\*.xml *5000 | exit file
+ FDRV fDrive=%&exi%
+ call loadc 
+_end
+
+find $%1=sl,call sload
+
+
+find $3=%&bx64%, envi &&wei=_64! envi &&wei=
+FORX !\WifiDriver\DRIVERS_NET_WIRELESS%&wei%.7z,fcab,1,envi &&mycab=%fcab%
+find $Z=Z%&Mycab%,TEAM mess+icon0 未能找到无线驱动包\n任意盘根目录下\WifiDriver\DRIVERS_NET_WIRELESS%&wei%.7z | TEXT | exit file
+FDRV fDrive=%&Mycab%
+TEAM TEXT   加载无线网卡驱动.....$30|WAIT 100
+CALL Insdriver %&Mycab%
+
+EXEC =!net start Wlansvc
+WAIT 100
+forx %fdrive%\WifiDriver\*.xml,con,1,set &&exi=%con%
+find $Z=Z%&exi%, exec -hide -wait "X:\Program Files\开启WiFi网络.BAT"

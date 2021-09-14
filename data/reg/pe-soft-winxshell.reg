@@ -1,0 +1,124 @@
+Windows Registry Editor Version 5.00
+;测试iscsi服务不能启动的问题
+;[-KEY_LOCAL_MACHINE\PE-SOFT\Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{f404b94e-27e0-4384-bfe8-1d8d390b0aa3}]
+
+;使用不安装的来宾登录
+[HKEY_LOCAL_MACHINE\PE-SOFT\Policies\Microsoft\Windows\LanmanWorkstation]
+"AllowInsecureGuestAuth"=dword:00000001
+;此电脑右键管理调用方式
+
+;删除原有右键管理  
+[-HKEY_LOCAL_MACHINE\PE-SOFT\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Manage]
+
+;增加自定义管理mmc单元
+
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\管理]
+@=hex(2):40,00,25,00,73,00,79,00,73,00,74,00,65,00,6d,00,72,00,6f,00,6f,00,74,\
+  00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,\
+  79,00,63,00,6f,00,6d,00,70,00,75,00,74,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,\
+  00,34,00,30,00,30,00,00,00
+"MUIVerb"=hex(2):40,00,25,00,73,00,79,00,73,00,74,00,65,00,6d,00,72,00,6f,00,\
+  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,6d,00,6d,00,63,00,2e,00,6d,00,73,00,63,00,00,00
+"SuppressionPolicy"=dword:4000003c
+"icon"="X:\\Windows\\System32\\ico\\mycomput.ico"
+
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\管理\command]
+@=hex(2):58,00,3a,00,5c,00,77,00,69,00,6e,00,64,00,6f,00,77,00,73,00,5c,00,73,\
+  00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,6d,00,63,00,2e,00,\
+  65,00,78,00,65,00,20,00,63,00,6f,00,6d,00,70,00,6d,00,67,00,6d,00,74,00,2e,\
+  00,6d,00,73,00,63,00,00,00
+
+
+;隐藏资源管理器左侧快速访问
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\CLSID\{679F85CB-0220-4080-B29B-5540CC05AAB6}\ShellFolder]
+"Attributes"=dword:a0600000
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\Wow6432Node\CLSID\{679F85CB-0220-4080-B29B-5540CC05AAB6}\ShellFolder]
+"Attributes"=dword:a0600000
+;任务栏时钟设置为WIN8样式
+[HKEY_LOCAL_MACHINE\PE-SOFT\Microsoft\Windows\CurrentVersion\ImmersiveShell]
+"UseWin32TrayClockExperience"=dword:00000001
+"UseWin32BatteryFlyout"=dword:00000001
+;右键显示在此处打开命令提示符
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\Directory\background\shell\cmd]
+"ShowBasedOnVelocityId"=dword:00639bc8
+"HideBasedOnVelocityId"=-
+;隐藏快捷方式小箭头  文件位置为windows\system32\transparent.ico
+[HKEY_LOCAL_MACHINE\PE-SOFT\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons]
+"29"=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,\
+  25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,74,00,72,\
+  00,61,00,6e,00,73,00,70,00,61,00,72,00,65,00,6e,00,74,00,2e,00,69,00,63,00,\
+  6f,00,00,00
+;修复音量进度条
+[HKEY_LOCAL_MACHINE\PE-SOFT\Microsoft\Windows NT\CurrentVersion\MTCUVC]
+"EnableMtcUvc"=dword:00000000
+;更改system用户目录为X:\USERS\DEFAULT
+[HKEY_LOCAL_MACHINE\PE-SOFT\Microsoft\Windows NT\CurrentVersion\ProfileList\S-1-5-18]
+"ProfileImagePath"=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,44,00,72,\
+  00,69,00,76,00,65,00,25,00,5c,00,55,00,73,00,65,00,72,00,73,00,5c,00,44,00,\
+  65,00,66,00,61,00,75,00,6c,00,74,00,00,00
+;隐藏开始菜单管理工具
+[HKEY_LOCAL_MACHINE\PE-SOFT\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{724EF170-A42D-4FEF-9F26-B60E846FBA4F}]
+"Attributes"=dword:00000002
+;隐藏开始菜单启动
+[HKEY_LOCAL_MACHINE\PE-SOFT\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B97D20BB-F46A-4C97-BA10-5E3608430854}]
+"Attributes"=dword:00000002
+;右键安装inf
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\inffile\shell\install]
+@="安装驱动(&I)"
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\inffile\shell\install\command]
+@="pecmd.exe team exec !drvload.exe \"%1\"|MESS 驱动文件安装： \\n%1!@驱动安装 #OK *10000"
+;右键加载ini配置文件
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\inifile\shell\iniinstall]
+@="加载配置文件"
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\inifile\shell\iniinstall\command]
+@="pecmd.exe load \"%1\""
+;右键注册DLL
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\dllfile\shell\install]
+@="注册此DLL"
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\dllfile\shell\install\command]
+@="regsvr32.exe /i \"%1\""
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\dllfile\shell\uninstall]
+@="取消注册此DLL"
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\dllfile\shell\uninstall\command]
+@="regsvr32.exe /u \"%1\""
+;开始菜单修正
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\CLSID\{865e5e76-ad83-4dca-a109-50dc2113ce9b}]
+@="StartIsBack All Programs Folder"
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\CLSID\{865e5e76-ad83-4dca-a109-50dc2113ce9b}\InProcServer32]
+@="X:\\Windows\\System32\\StartIsBack64.dll"
+"ThreadingModel"="Apartment"
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\CLSID\{865e5e76-ad83-4dca-a109-50dc2113ce9b}\ShellFolder]
+"Attributes"=dword:28100000
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\CLSID\{99E2B362-3E4E-4255-9B29-41A7F40777BA}\InProcServer32]
+@="X:\\Windows\\System32\\StartIsBack64.dll"
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\CLSID\{99E2B362-3E4E-4255-9B29-41A7F40777BB}\InProcServer32]
+@="X:\\Windows\\System32\\StartIsBack64.dll"
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\CLSID\{a2a9545d-a0c2-42b4-9708-a0b2badd77c9}]
+"ImplementsVerbs"="startpin;startunpin"
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\CLSID\{a2a9545d-a0c2-42b4-9708-a0b2badd77c9}\InprocServer32]
+@="X:\\Windows\\System32\\StartIsBack64.dll"
+"ThreadingModel"="Apartment"
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\CLSID\{AD1405D2-30CF-4877-8468-1EE1C52C759F}]
+@="All Apps"
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\CLSID\{AD1405D2-30CF-4877-8468-1EE1C52C759F}\InProcServer32]
+@="X:\\Windows\\System32\\StartIsBack64.dll"
+"ThreadingModel"="Apartment"
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\CLSID\{AD1405D2-30CF-4877-8468-1EE1C52C759F}\ShellFolder]
+"Attributes"=dword:a0000000
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\CLSID\{c71c41f1-ddad-42dc-a8fc-f5bfc61df957}\TreatAs]
+@="{c71c41f1-ddad-42dc-a8fc-f5bfc61df958}"
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\CLSID\{c71c41f1-ddad-42dc-a8fc-f5bfc61df958}\InProcServer32]
+@="X:\\Windows\\System32\\StartIsBack64.dll"
+"ThreadingModel"="Apartment"
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\CLSID\{C71C41F1-DDAD-42DC-A8FC-F5BFC61DF957}\InProcServer32]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,45,00,78,00,\
+  70,00,6c,00,6f,00,72,00,65,00,72,00,46,00,72,00,61,00,6d,00,65,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\CLSID\{E5C31EC8-C5E6-4E07-957E-944DB4AAD85E}\InProcServer32]
+@="X:\\Windows\\System32\\StartIsBack64.dll"
+"ThreadingModel"="Apartment"
+;winxshell方案cmdline方式显示鼠标
+[HKEY_LOCAL_MACHINE\PE-SOFT\Microsoft\Windows\CurrentVersion\Policies\System]
+"EnableCursorSuppression"=dword:00000000

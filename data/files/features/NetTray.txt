@@ -1,0 +1,5 @@
+
+\Windows\System32\netprofm.dll
+\Windows\System32\netprofmsvc.dll
+\Windows\System32\DriverStore\FileRepository\net*x64.inf*
+\Windows\System32\zh-CN\netprofmsvc.dll.mui

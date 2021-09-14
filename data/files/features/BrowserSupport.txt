@@ -1,0 +1,7 @@
+Windows\System32\rasman.dll
+Windows\System32\rasapi32.dll
+Windows\System32\usp10.dll
+Windows\System32\msctf.dll
+Windows\System32\ExplorerFrame.dll
+Windows\System32\shellstyle.dll
+Windows\System32\zh-CN\ExplorerFrame.dll.mui

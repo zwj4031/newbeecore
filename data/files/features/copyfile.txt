@@ -1,0 +1,10 @@
+\copyfile
+\Windows\System32\thumbcache.dll
+\Windows\System32\comctl32.dll
+\Windows\System32\duser.dll
+Windows\System32\shellstyle.dll
+Windows\System32\zh-CN\comctl32.dll.mui
+Windows\System32\zh-CN\duser.dll.mui
+windows\System32\actxprxy.dll
+--\Windows\System32\chartv.dll
+\Windows\System32\chartv.dll

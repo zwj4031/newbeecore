@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+[-HKEY_LOCAL_MACHINE\pe-soft\Classes\*\shell\UpdateEncryptionSettingsWork]
+[-HKEY_LOCAL_MACHINE\pe-soft\Classes\*\shellex\ContextMenuHandlers\{a2a9545d-a0c2-42b4-9708-a0b2badd77c8}]
+[-HKEY_LOCAL_MACHINE\pe-soft\Classes\*\shellex\ContextMenuHandlers\ModernSharing]
+[-HKEY_LOCAL_MACHINE\pe-soft\Classes\*\shellex\ContextMenuHandlers\Open With]
+[-HKEY_LOCAL_MACHINE\pe-soft\Classes\*\shellex\ContextMenuHandlers\Sharing]
+[-HKEY_LOCAL_MACHINE\pe-soft\Classes\DesktopBackground\Shell\Display]
+[-HKEY_LOCAL_MACHINE\pe-soft\Classes\CLSID\{BF0AC53F-D51C-419F-92E3-2298E125F004}]
+[-HKEY_LOCAL_MACHINE\pe-soft\Classes\Directory\background\shell\Powershell]
+[-HKEY_LOCAL_MACHINE\pe-soft\Classes\Directory\shell\Powershell]
+[-HKEY_LOCAL_MACHINE\pe-soft\Classes\Drive\shell\Powershell]
+[-HKEY_LOCAL_MACHINE\pe-soft\Classes\Drive\shell\Powershell\command]

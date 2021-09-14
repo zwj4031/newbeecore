@@ -1,0 +1,4 @@
+Windows\System32\downlevel
+Windows\System32\Dism
+\Windows\Servicing\Version
+Windows\WinSxS\amd64_microsoft-windows-servicingstack_*_10.0.*.*_none_*

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Settings component="StartMenu" version="4.3.1">
+	<MouseClick value="ClassicMenu"/>
+	<ShutdownCommand value="CommandLogOff"/>
+	<ShowNextToTaskbar value="1"/>
+	<EnableGlass value="1"/>
+	<SkinW7 value="Metro"/>
+	<SkinVariationW7 value=""/>
+	<SkinOptionsW7>
+		<Line>USER_IMAGE=1</Line>
+		<Line>SMALL_ICONS=0</Line>
+		<Line>LARGE_FONT=0</Line>
+		<Line>DISABLE_MASK=0</Line>
+		<Line>OPAQUE=0</Line>
+		<Line>TRANSPARENT_LESS=0</Line>
+		<Line>TRANSPARENT_MORE=1</Line>
+		<Line>WHITE_SUBMENUS2=0</Line>
+	</SkinOptionsW7>
+	<EnableStartButton value="1"/>
+	<CustomTaskbar value="1"/>
+	<TaskbarOpacity value="15"/>
+	<SkipMetro value="1"/>
+	<OpenMouseMonitor value="1"/>
+</Settings>

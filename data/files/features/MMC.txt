@@ -1,0 +1,8 @@
+Windows\System32\mmc.exe
+Windows\System32\mmcshext.dll
+Windows\System32\mmcbase.dll
+Windows\System32\mmcndmgr.dll
+Windows\System32\zh-CN\mmc.exe.mui
+Windows\System32\zh-CN\mmcbase.dll.mui
+Windows\System32\zh-CN\mmcndmgr.dll.mui
+Windows\System32\zh-CN\mmcshext.dll.mui

@@ -1,0 +1,3 @@
+Windows\System32\zh-CN\filemgmt.dll.mui
+Windows\System32\filemgmt.dll
+Windows\System32\services.msc

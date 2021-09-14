@@ -1,0 +1,15 @@
+;dism_adddrivers_support
+Windows\System32\SSShim.dll
+Windows\Syswow64\SSShim.dll
+\Windows\Servicing\Version
+\Windows\System32\Config\COMPONENTS
+\Windows\System32\DISM\DismHost.exe
+\Windows\System32\DISM\DmiProvider.dll
+\Windows\System32\DISM\OSProvider.dll
+\Windows\System32\DISM\vhdprovider.dll
+\Windows\System32\DISM\zh-CN\DmiProvider.dll.mui
+\Windows\System32\DISM\zh-CN\OSProvider.dll.mui
+\Windows\System32\DISM\zh-CN\VHDProvider.dll.mui
+\Windows\System32\wdscore.dll
+\Windows\WinSxS\amd64_microsoft-windows-servicingstack_*_*.*.*.*_none_*
+\Windows\WinSxS\Manifests\amd64_microsoft-windows-servicingstack_*_*.*.*.*_none_*.manifest

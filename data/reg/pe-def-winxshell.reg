@@ -1,0 +1,584 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\CTF]
+[-HKEY_LOCAL_MACHINE\PE-DEF\Keyboard Layout]
+[HKEY_LOCAL_MACHINE\PE-DEF\Control Panel\Desktop]
+"MenuShowDelay"="200"
+"WallPaper"="X:\\program files\\wallpaper.jpg"
+"Win8DpiScaling"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Control Panel\Desktop\WindowMetrics]
+"BorderWidth"="-15"
+"CaptionFont"=hex:f4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,\
+  00,00,00,01,00,00,05,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,\
+  00,20,00,59,00,61,00,48,00,65,00,69,00,20,00,55,00,49,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"CaptionHeight"="-330"
+"CaptionWidth"="-330"
+"IconFont"=hex:f4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,00,\
+  00,00,01,00,00,05,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,\
+  20,00,59,00,61,00,48,00,65,00,69,00,20,00,55,00,49,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"IconTitleWrap"="1"
+"MenuFont"=hex:f4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,00,\
+  00,00,01,00,00,05,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,\
+  20,00,59,00,61,00,48,00,65,00,69,00,20,00,55,00,49,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"MenuHeight"="-285"
+"MenuWidth"="-285"
+"MessageFont"=hex:f4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,\
+  00,00,00,01,00,00,05,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,\
+  00,20,00,59,00,61,00,48,00,65,00,69,00,20,00,55,00,49,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"ScrollHeight"="-255"
+"ScrollWidth"="-255"
+"Shell Icon Size"="32"
+"SmCaptionFont"=hex:f4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,\
+  00,00,00,00,01,00,00,05,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,\
+  74,00,20,00,59,00,61,00,48,00,65,00,69,00,20,00,55,00,49,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"SmCaptionHeight"="-330"
+"SmCaptionWidth"="-330"
+"StatusFont"=hex:f4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,\
+  00,00,00,01,00,00,05,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,\
+  00,20,00,59,00,61,00,48,00,65,00,69,00,20,00,55,00,49,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"PaddedBorderWidth"="-60"
+"AppliedDPI"=dword:00000060
+"IconSpacing"="-1128"
+"IconVerticalSpacing"="-1128"
+"MinAnimate"="0"
+
+[HKEY_LOCAL_MACHINE\pe-def\Environment]
+"Favorites"="X:\\Users\\Default\\Favorites"
+"Desktop"="X:\\Users\\Default\\Desktop"
+"StartMenu"="X:\\Users\\Default\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+"Startup"="X:\\Users\\Default\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup"
+"Programs"="X:\\Users\\Default\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs"
+"SendTo"="X:\\Users\\Default\\AppData\\Roaming\\Microsoft\\Windows\\SendTo"
+"Personal"="X:\\Users\\Default\\Documents"
+"QuickLaunch"="X:\\Users\\Default\\AppData\\Roaming\\Microsoft\\Internet Explorer\\Quick Launch"
+
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\CTF\Assemblies\0x00000409\{34745C63-B2F0-4784-8B67-5E12C8701A31}]
+"Default"="{00000000-0000-0000-0000-000000000000}"
+"KeyboardLayout"=dword:04090409
+"Profile"="{00000000-0000-0000-0000-000000000000}"
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\CTF\SortOrder\AssemblyItem\0x00000804\{34745C63-B2F0-4784-8B67-5E12C8701A31}\00000000]
+"CLSID"="{00000000-0000-0000-0000-000000000000}"
+"KeyboardLayout"=dword:04090804
+"Profile"="{00000000-0000-0000-0000-000000000000}"
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\CTF\SortOrder\Language]
+"00000000"="00000804"
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\CTF\TIP\{81D4E9C9-1D3B-41BC-9E6C-4B40BF79E35E}\LanguageProfile\0x00000804\{FA550B04-5AD7-411F-A5AC-CA038EC515D7}]
+"Enable"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Keyboard Layout\Preload]
+"1"="00000804"
+"2"="d0010804"
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Keyboard Layout\Substitutes]
+"00000804"="00000409"
+"d0010804"="00000804"
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Keyboard Layout\Toggle]
+"Hotkey"="3"
+"Language Hotkey"="3"
+"Layout Hotkey"="2"
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"DefaultStartLayout_UseWin7UpgradeBehavior"=dword:00000001
+"EnableAutoTray"=dword:00000000
+"ExplorerStartupTraceRecorded"=dword:00000001
+"FirstRunTelemetryComplete"=dword:00000001
+"link"=hex:00,00,00,00
+"LocalKnownFoldersMigrated"=dword:00000001
+"SIDUpdatedOnLibraries"=dword:00000001
+"TelemetrySalt"=dword:00000005
+"UserSignedIn"=dword:00000001
+"ShellState"=hex:24,00,00,00,33,a8,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  01,00,00,00,13,00,00,00,00,00,00,00,62,00,00,00
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"AlwaysShowMenus"=dword:00000001
+"AutoCheckSelect"=dword:00000000
+"DisablePreviewDesktop"=dword:00000000
+"DontPrettyPath"=dword:00000000
+"Filter"=dword:00000000
+"Hidden"=dword:00000001
+"HideFileExt"=dword:00000000
+"HideIcons"=dword:00000000
+"IconsOnly"=dword:00000000
+"LaunchTo"=dword:00000001
+"ListviewShadow"=dword:00000001
+"MapNetDrvBtn"=dword:00000000
+"NavPaneExpandToCurrentFolder"=dword:00000001
+"NavPaneShowAllFolders"=dword:00000000
+"SeparateProcess"=dword:00000000
+"ServerAdminUI"=dword:00000000
+"ShowCompColor"=dword:00000001
+"ShowFrequent"=dword:00000000
+"ShowInfoTip"=dword:00000001
+"ShowStatusBar"=dword:00000001
+"ShowSuperHidden"=dword:00000001
+"ShowTaskViewButton"=dword:00000000
+"ShowTypeOverlay"=dword:00000001
+"Start_AdminToolsRoot"=dword:00000000
+"Start_JumpListItems"=dword:00000008
+"Start_LargeMFUIcons"=dword:00000000
+"Start_MinMFU"=dword:00000008
+"Start_PowerButtonAction"=dword:00000004
+"Start_ShowHelp"=dword:00000000
+"Start_ShowMyDocs"=dword:00000000
+"Start_ShowMyGames"=dword:00000000
+"Start_ShowMyMusic"=dword:00000000
+"Start_ShowMyPics"=dword:00000000
+"Start_ShowNetConn"=dword:00000000
+"Start_ShowNetPlaces"=dword:00000001
+"Start_ShowPrinters"=dword:00000000
+"Start_ShowRecentDocs"=dword:00000000
+"Start_ShowRun"=dword:00000001
+"Start_ShowSetProgramAccessAndDefaults"=dword:00000000
+"Start_ShowUser"=dword:00000000
+"Start_TrackDocs"=dword:00000000
+"StartMenuAdminTools"=dword:00000001
+"StartMenuFavorites"=dword:00000001
+"StartMenuInit"=dword:00000004
+"SuperHidden"=dword:00000001
+"TaskbarGlomLevel"=dword:00000001
+"TaskbarSizeMove"=dword:00000000
+"TaskbarSmallIcons"=dword:00000000
+"WebView"=dword:00000001
+"WebViewBarricade"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\ClassicStartMenu]
+"{20D04FE0-3AEA-1069-A2D8-08002B30309D}"=dword:00000001
+"{645FF040-5081-101B-9F08-00AA002F954E}"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel]
+"{20D04FE0-3AEA-1069-A2D8-08002B30309D}"=dword:00000000
+"{645FF040-5081-101B-9F08-00AA002F954E}"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\Serialize]
+"StartupDelayInMSec"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\ImmersiveShell]
+"TabletMode"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoDriveTypeAutoRun"=dword:000000ff
+"NoRecycleFiles"=dword:00000001
+"StartMenuLogOff"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Search]
+"CortanaEnabled"=dword:00000000
+"SearchboxTaskbarMode"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\Shell\BagMRU]
+"NodeSlot"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\Shell\Bags\1\Desktop]
+"FFlags"=dword:40200225
+"IconSize"=dword:00000030
+"LogicalViewMode"=dword:00000003
+"Mode"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Policies\Microsoft\Windows\Explorer]
+"DisableNotificationCenter"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\AnimateMinMax]
+"DefaultApplied"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\ComboBoxAnimation]
+"DefaultApplied"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\ControlAnimations]
+"DefaultApplied"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\CursorShadow]
+"DefaultApplied"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\DragFullWindows]
+"DefaultApplied"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\DropShadow]
+"DefaultApplied"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\DWMAeroPeekEnabled]
+"DefaultApplied"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\DWMEnabled]
+"DefaultApplied"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\DWMSaveThumbnailEnabled]
+"DefaultApplied"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\FontSmoothing]
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\ListBoxSmoothScrolling]
+"DefaultApplied"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\ListviewAlphaSelect]
+"DefaultApplied"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\ListviewShadow]
+"DefaultApplied"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\MenuAnimation]
+"DefaultApplied"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\SelectionFade]
+"DefaultApplied"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\TaskbarAnimations]
+"DefaultApplied"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\Themes]
+"DefaultApplied"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\ThumbnailsOrIcon]
+"DefaultApplied"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\TooltipAnimation]
+"DefaultApplied"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Control Panel\Appearance]
+"SchemeLangID"=hex:04,08
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{9E04CAB2-CC14-11DF-BB8C-A2F1DED72085}]
+"Version"=dword:00000005
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{A3D53349-6E61-4557-8FC7-0028EDCEEBF6}]
+"Version"=dword:00000005
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{B267E3AD-A825-4A09-82B9-EEC22AA3B847}]
+"Version"=dword:00000005
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{BCB48336-4DDD-48FF-BB0B-D3190DACB3E2}]
+"Version"=dword:00000005
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CAA59E3C-4792-41A5-9909-6A6A8D32490E}]
+"Version"=dword:00000005
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}]
+"Version"=dword:00000005
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{F2A1CB5A-E3CC-4A2E-AF9D-505A7009D442}]
+"Version"=dword:00000005
+
+[HKEY_LOCAL_MACHINE\pe-def\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{F4E57C4B-2036-45F0-A9AB-443BCFE33D9F}]
+"Version"=dword:00000005
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{FA99DFC7-6AC2-453A-A5E2-5E2AFF4507BD}]
+"Version"=dword:00000005
+
+[HKEY_LOCAL_MACHINE\pe-def\Software\StartIsBack]
+"AllProgramsFlyout"=dword:00000000
+"AlterStyle"="X:\\Windows\\resources\\Themes\\aero\\Plain.msstyles"
+"AutoUpdates"=dword:00000000
+"CombineWinX"=dword:00000001
+"CustomColors"=""
+"Disabled"=dword:00000000
+"HideOrb"=dword:00000000
+"HideSecondaryOrb"=dword:00000000
+"HideUserFrame"=dword:00000000
+"MetroHotKey"=dword:0000000a
+"MetroHotkeyFunction"=dword:00000000
+"ModernIconsBadgesStartMenu"=dword:00000001
+"ModernIconsColorized"=dword:00000001
+"ModernIconsUnplated"=dword:00000001
+"MultiColumnFlyout"=dword:00000001
+"NoXAMLPrelaunch"=dword:00000001
+"OrbBitmap"="Windows 10"
+"SettingsVersion"=dword:00000004
+"Start_AdminToolsRoot"=dword:00000000
+"Start_AskCortana"=dword:00000000
+"Start_AutoCascade"=dword:00000001
+"Start_JumpListItems"=dword:00000008
+"Start_LargeMFUIcons"=dword:00000001
+"Start_MinMFU"=dword:00000008
+"Start_NotifyNewApps"=dword:00000000
+"Start_RightPaneIcons"=dword:00000002
+"Start_ShowCommandPrompt"=dword:00000000
+"Start_ShowControlPanel"=dword:00000002
+"Start_ShowDownloads"=dword:00000000
+"Start_ShowMyComputer"=dword:00000002
+"Start_ShowMyDocs"=dword:00000000
+"Start_ShowMyMusic"=dword:00000000
+"Start_ShowMyPics"=dword:00000000
+"Start_ShowNetConn"=dword:00000000
+"Start_ShowNetPlaces"=dword:00000000
+"Start_ShowPCSettings"=dword:00000000
+"Start_ShowPrinters"=dword:00000000
+"Start_ShowRecentDocs"=dword:00000000
+"Start_ShowRun"=dword:00000001
+"Start_ShowSetProgramAccessAndDefaults"=dword:00000000
+"Start_ShowSkyDrive"=dword:00000000
+"Start_ShowUser"=dword:00000001
+"Start_ShowVideos"=dword:00000000
+"Start_SortByName"=dword:00000001
+"Start_SortFoldersFirst"=dword:00000000
+"StartIsApps"=dword:00000000
+"StartMenuAlpha"=dword:0000006f
+"StartMenuBlur"=dword:00000001
+"StartMenuColor"=dword:ffffffff
+"StartMenuFavorites"=dword:00000000
+"StartMenuMonitor"=dword:00000001
+"StartMetroAppsFolder"=dword:00000000
+"StartMetroAppsMFU"=dword:00000000
+"StartScreenShortcut"=dword:00000000
+"TerminateOnClose"=dword:00000001
+"WelcomeShown"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\pe-def\Software\StartIsBack\ShutdownChoices]
+@=dword:00000004
+"Restart"=dword:00000004
+"Shut down"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\pe-def\Software\Microsoft\Windows\DWM]
+"AlwaysHibernateThumbnails"=dword:00000000
+"ColorizationAfterglow"=dword:c4064d6f
+"ColorizationAfterglowBalance"=dword:0000000a
+"ColorizationBlurBalance"=dword:00000001
+"ColorizationColor"=dword:c4064d6f
+"ColorizationColorBalance"=dword:00000059
+"ColorizationGlassAttribute"=dword:00000001
+"ColorizationOpaqueBlend"=dword:00000000
+"ColorPrevalence"=dword:00000000
+"Composition"=dword:00000001
+"CompositionPolicy"=dword:00000000
+"EnableAeroPeek"=dword:00000001
+"EnableWindowColorization"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\pe-def\Software\EFD Software\HDTunePro]
+"Name"="-"
+"Company"="-"
+"Test Parameters 1"="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+"Test Parameters 6"="00 00 00 00 00 00 00 00 08 00 00 0B 00 00 00 00"
+"Test Parameters 3"="29 23 6B A9 ED 27 4C E9 04 47 47 73 00 00 00 00"
+"x1"=dword:000000a2
+"y1"=dword:0000002e
+"x2"=dword:000003b5
+"y2"=dword:000002c0
+
+
+[HKEY_LOCAL_MACHINE\pe-def\Software\Microsoft\Windows\CurrentVersion\TaskManager]
+"UseStatusSetting"=dword:00000000
+"Preferences"=hex:0d,00,00,00,60,00,00,00,60,00,00,00,82,00,00,00,82,00,00,00,\
+  fd,01,00,00,f6,01,00,00,00,00,00,00,00,00,00,80,00,00,00,80,d8,01,00,80,df,\
+  01,00,80,00,01,00,01,82,00,00,00,80,00,00,00,2a,03,00,00,d8,02,00,00,e8,03,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,0f,00,00,00,01,00,00,00,00,00,00,\
+  00,08,aa,13,e4,f6,7f,00,00,00,00,00,00,00,00,00,00,00,00,00,00,ea,00,00,00,\
+  25,00,00,00,89,90,00,00,00,00,00,00,ff,00,00,00,01,01,50,00,00,00,00,00,0d,\
+  00,00,00,00,00,00,00,48,aa,13,e4,f6,7f,00,00,00,00,00,00,00,00,00,00,ff,ff,\
+  ff,ff,96,00,00,00,25,00,00,00,8b,90,00,00,01,00,00,00,00,00,00,00,00,10,10,\
+  01,00,00,00,00,03,00,00,00,00,00,00,00,60,aa,13,e4,f6,7f,00,00,00,00,00,00,\
+  00,00,00,00,ff,ff,ff,ff,78,00,00,00,25,00,00,00,8c,90,00,00,02,00,00,00,01,\
+  00,00,00,01,02,12,00,00,00,00,00,04,00,00,00,00,00,00,00,78,aa,13,e4,f6,7f,\
+  00,00,00,00,00,00,00,00,00,00,ff,ff,ff,ff,96,00,00,00,25,00,00,00,8d,90,00,\
+  00,03,00,00,00,00,00,00,00,00,01,10,01,00,00,00,00,02,00,00,00,00,00,00,00,\
+  98,aa,13,e4,f6,7f,00,00,00,00,00,00,00,00,00,00,ff,ff,ff,ff,32,00,00,00,25,\
+  00,00,00,8a,90,00,00,04,00,00,00,00,00,00,00,00,08,20,01,00,00,00,00,05,00,\
+  00,00,00,00,00,00,b0,aa,13,e4,f6,7f,00,00,00,00,00,00,00,00,00,00,ff,ff,ff,\
+  ff,c8,00,00,00,25,00,00,00,8e,90,00,00,05,00,00,00,00,00,00,00,00,01,10,01,\
+  00,00,00,00,06,00,00,00,00,00,00,00,d8,aa,13,e4,f6,7f,00,00,00,00,00,00,00,\
+  00,00,00,ff,ff,ff,ff,04,01,00,00,25,00,00,00,8f,90,00,00,06,00,00,00,00,00,\
+  00,00,00,01,10,01,00,00,00,00,07,00,00,00,00,00,00,00,00,ab,13,e4,f6,7f,00,\
+  00,00,00,00,00,00,00,00,00,ff,ff,ff,ff,49,00,00,00,49,00,00,00,90,90,00,00,\
+  07,00,00,00,ff,00,00,00,00,04,25,02,00,00,00,00,08,00,00,00,00,00,00,00,30,\
+  aa,13,e4,f6,7f,00,00,00,00,00,00,00,00,00,00,ff,ff,ff,ff,49,00,00,00,49,00,\
+  00,00,91,90,00,00,08,00,00,00,01,00,00,00,00,04,25,00,00,00,00,00,09,00,00,\
+  00,00,00,00,00,20,ab,13,e4,f6,7f,00,00,00,00,00,00,00,00,00,00,ff,ff,ff,ff,\
+  49,00,00,00,49,00,00,00,92,90,00,00,09,00,00,00,00,00,00,00,00,04,25,08,00,\
+  00,00,00,0a,00,00,00,00,00,00,00,38,ab,13,e4,f6,7f,00,00,00,00,00,00,00,00,\
+  00,00,ff,ff,ff,ff,49,00,00,00,49,00,00,00,93,90,00,00,0a,00,00,00,00,00,00,\
+  00,00,04,25,08,00,00,00,00,0b,00,00,00,00,00,00,00,58,ab,13,e4,f6,7f,00,00,\
+  00,00,00,00,00,00,00,00,ff,ff,ff,ff,49,00,00,00,49,00,00,00,39,a0,00,00,0b,\
+  00,00,00,00,00,00,00,00,04,25,08,00,00,00,00,1c,00,00,00,00,00,00,00,78,ab,\
+  13,e4,f6,7f,00,00,00,00,00,00,00,00,00,00,ff,ff,ff,ff,59,00,00,00,49,00,00,\
+  00,3a,a0,00,00,0c,00,00,00,00,00,00,00,00,01,10,08,00,00,00,00,1d,00,00,00,\
+  00,00,00,00,a0,ab,13,e4,f6,7f,00,00,00,00,00,00,00,00,00,00,ff,ff,ff,ff,64,\
+  00,00,00,49,00,00,00,4c,a0,00,00,0d,00,00,00,00,00,00,00,00,02,15,08,00,00,\
+  00,00,1e,00,00,00,00,00,00,00,c0,ab,13,e4,f6,7f,00,00,00,00,00,00,00,00,00,\
+  00,ff,ff,ff,ff,64,00,00,00,49,00,00,00,4d,a0,00,00,0e,00,00,00,00,00,00,00,\
+  00,02,15,08,00,00,00,00,03,00,00,00,0a,00,00,00,01,00,00,00,00,00,00,00,08,\
+  aa,13,e4,f6,7f,00,00,00,00,00,00,00,00,00,00,00,00,00,00,d7,00,00,00,00,00,\
+  00,00,89,90,00,00,00,00,00,00,ff,00,00,00,01,01,50,02,00,00,00,00,04,00,00,\
+  00,00,00,00,00,78,aa,13,e4,f6,7f,00,00,00,00,00,00,00,00,00,00,01,00,00,00,\
+  96,00,00,00,00,00,00,00,8d,90,00,00,01,00,00,00,00,00,00,00,01,01,10,00,00,\
+  00,00,00,03,00,00,00,00,00,00,00,60,aa,13,e4,f6,7f,00,00,00,00,00,00,00,00,\
+  00,00,ff,ff,ff,ff,64,00,00,00,00,00,00,00,8c,90,00,00,02,00,00,00,00,00,00,\
+  00,00,02,10,00,00,00,00,00,0c,00,00,00,00,00,00,00,f0,ab,13,e4,f6,7f,00,00,\
+  00,00,00,00,00,00,00,00,03,00,00,00,64,00,00,00,00,00,00,00,94,90,00,00,03,\
+  00,00,00,00,00,00,00,01,02,10,00,00,00,00,00,0d,00,00,00,00,00,00,00,18,ac,\
+  13,e4,f6,7f,00,00,00,00,00,00,00,00,00,00,ff,ff,ff,ff,64,00,00,00,00,00,00,\
+  00,95,90,00,00,04,00,00,00,00,00,00,00,00,01,10,01,00,00,00,00,0e,00,00,00,\
+  00,00,00,00,40,ac,13,e4,f6,7f,00,00,00,00,00,00,00,00,00,00,05,00,00,00,32,\
+  00,00,00,00,00,00,00,96,90,00,00,05,00,00,00,00,00,00,00,01,04,20,01,00,00,\
+  00,00,0f,00,00,00,00,00,00,00,68,ac,13,e4,f6,7f,00,00,00,00,00,00,00,00,00,\
+  00,06,00,00,00,32,00,00,00,00,00,00,00,97,90,00,00,06,00,00,00,00,00,00,00,\
+  01,04,20,01,00,00,00,00,10,00,00,00,00,00,00,00,88,ac,13,e4,f6,7f,00,00,00,\
+  00,00,00,00,00,00,00,07,00,00,00,46,00,00,00,00,00,00,00,98,90,00,00,07,00,\
+  00,00,00,00,00,00,01,01,10,01,00,00,00,00,11,00,00,00,00,00,00,00,a8,ac,13,\
+  e4,f6,7f,00,00,00,00,00,00,00,00,00,00,ff,ff,ff,ff,64,00,00,00,00,00,00,00,\
+  99,90,00,00,08,00,00,00,00,00,00,00,00,01,10,01,00,00,00,00,06,00,00,00,00,\
+  00,00,00,d8,aa,13,e4,f6,7f,00,00,00,00,00,00,00,00,00,00,09,00,00,00,04,01,\
+  00,00,00,00,00,00,8f,90,00,00,09,00,00,00,00,00,00,00,01,01,10,01,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,04,00,00,00,0b,00,00,00,01,00,00,00,00,00,00,00,08,aa,13,\
+  e4,f6,7f,00,00,00,00,00,00,00,00,00,00,00,00,00,00,d7,00,00,00,00,00,00,00,\
+  9e,90,00,00,00,00,00,00,ff,00,00,00,01,01,50,02,00,00,00,00,12,00,00,00,00,\
+  00,00,00,d0,ac,13,e4,f6,7f,00,00,00,00,00,00,00,00,00,00,ff,ff,ff,ff,2d,00,\
+  00,00,00,00,00,00,9b,90,00,00,01,00,00,00,00,00,00,00,00,04,20,01,00,00,00,\
+  00,14,00,00,00,00,00,00,00,f0,ac,13,e4,f6,7f,00,00,00,00,00,00,00,00,00,00,\
+  ff,ff,ff,ff,64,00,00,00,00,00,00,00,9d,90,00,00,02,00,00,00,00,00,00,00,00,\
+  01,10,01,00,00,00,00,13,00,00,00,00,00,00,00,18,ad,13,e4,f6,7f,00,00,00,00,\
+  00,00,00,00,00,00,ff,ff,ff,ff,64,00,00,00,00,00,00,00,9c,90,00,00,03,00,00,\
+  00,00,00,00,00,00,01,10,01,00,00,00,00,03,00,00,00,00,00,00,00,60,aa,13,e4,\
+  f6,7f,00,00,00,00,00,00,00,00,00,00,ff,ff,ff,ff,64,00,00,00,00,00,00,00,8c,\
+  90,00,00,04,00,00,00,00,00,00,00,01,02,10,00,00,00,00,00,07,00,00,00,00,00,\
+  00,00,00,ab,13,e4,f6,7f,00,00,00,00,00,00,00,00,00,00,05,00,00,00,49,00,00,\
+  00,49,00,00,00,90,90,00,00,05,00,00,00,00,00,00,00,01,04,21,00,00,00,00,00,\
+  08,00,00,00,00,00,00,00,30,aa,13,e4,f6,7f,00,00,00,00,00,00,00,00,00,00,06,\
+  00,00,00,49,00,00,00,49,00,00,00,91,90,00,00,06,00,00,00,00,00,00,00,01,04,\
+  21,00,00,00,00,00,09,00,00,00,00,00,00,00,20,ab,13,e4,f6,7f,00,00,00,00,00,\
+  00,00,00,00,00,07,00,00,00,49,00,00,00,49,00,00,00,92,90,00,00,07,00,00,00,\
+  00,00,00,00,01,04,21,08,00,00,00,00,0a,00,00,00,00,00,00,00,38,ab,13,e4,f6,\
+  7f,00,00,00,00,00,00,00,00,00,00,08,00,00,00,49,00,00,00,49,00,00,00,93,90,\
+  00,00,08,00,00,00,00,00,00,00,01,04,21,08,00,00,00,00,0b,00,00,00,00,00,00,\
+  00,58,ab,13,e4,f6,7f,00,00,00,00,00,00,00,00,00,00,09,00,00,00,49,00,00,00,\
+  49,00,00,00,39,a0,00,00,09,00,00,00,00,00,00,00,01,04,21,08,00,00,00,00,1c,\
+  00,00,00,00,00,00,00,78,ab,13,e4,f6,7f,00,00,00,00,00,00,00,00,00,00,0a,00,\
+  00,00,64,00,00,00,00,00,00,00,3a,a0,00,00,0a,00,00,00,00,00,00,00,00,01,10,\
+  08,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,02,00,00,00,08,00,00,00,01,00,00,00,00,00,00,00,08,aa,13,e4,f6,\
+  7f,00,00,00,00,00,00,00,00,00,00,00,00,00,00,c6,00,00,00,25,00,00,00,b0,90,\
+  00,00,00,00,00,00,ff,00,00,00,01,01,50,02,00,00,00,00,15,00,00,00,00,00,00,\
+  00,38,ad,13,e4,f6,7f,00,00,00,00,00,00,00,00,00,00,ff,ff,ff,ff,6b,00,00,00,\
+  25,00,00,00,b1,90,00,00,01,00,00,00,00,00,00,00,00,04,25,00,00,00,00,00,16,\
+  00,00,00,00,00,00,00,68,ad,13,e4,f6,7f,00,00,00,00,00,00,00,00,00,00,ff,ff,\
+  ff,ff,6b,00,00,00,25,00,00,00,b2,90,00,00,02,00,00,00,00,00,00,00,00,04,25,\
+  00,00,00,00,00,18,00,00,00,00,00,00,00,90,ad,13,e4,f6,7f,00,00,00,00,00,00,\
+  00,00,00,00,ff,ff,ff,ff,6b,00,00,00,25,00,00,00,b4,90,00,00,03,00,00,00,00,\
+  00,00,00,00,04,25,00,00,00,00,00,17,00,00,00,00,00,00,00,b8,ad,13,e4,f6,7f,\
+  00,00,00,00,00,00,00,00,00,00,ff,ff,ff,ff,6b,00,00,00,25,00,00,00,b3,90,00,\
+  00,04,00,00,00,00,00,00,00,00,04,25,00,00,00,00,00,19,00,00,00,00,00,00,00,\
+  f0,ad,13,e4,f6,7f,00,00,00,00,00,00,00,00,00,00,ff,ff,ff,ff,a0,00,00,00,25,\
+  00,00,00,b5,90,00,00,05,00,00,00,00,00,00,00,00,04,20,01,00,00,00,00,1a,00,\
+  00,00,00,00,00,00,20,ae,13,e4,f6,7f,00,00,00,00,00,00,00,00,00,00,ff,ff,ff,\
+  ff,7d,00,00,00,25,00,00,00,b6,90,00,00,06,00,00,00,00,00,00,00,00,04,20,01,\
+  00,00,00,00,1b,00,00,00,00,00,00,00,50,ae,13,e4,f6,7f,00,00,00,00,00,00,00,\
+  00,00,00,ff,ff,ff,ff,7d,00,00,00,25,00,00,00,b7,90,00,00,07,00,00,00,00,00,\
+  00,00,00,04,20,01,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,01,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,da,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,9d,20,00,00,20,00,00,00,91,00,00,00,64,00,00,00,32,00,00,00,ff,\
+  01,00,00,50,00,00,00,32,00,00,00,32,00,00,00,28,00,00,00,50,00,00,00,3c,00,\
+  00,00,50,00,00,00,50,00,00,00,32,00,00,00,50,00,00,00,50,00,00,00,50,00,00,\
+  00,50,00,00,00,50,00,00,00,50,00,00,00,50,00,00,00,28,00,00,00,50,00,00,00,\
+  23,00,00,00,23,00,00,00,23,00,00,00,23,00,00,00,50,00,00,00,50,00,00,00,50,\
+  00,00,00,32,00,00,00,32,00,00,00,32,00,00,00,78,00,00,00,78,00,00,00,50,00,\
+  00,00,3c,00,00,00,50,00,00,00,64,00,00,00,78,00,00,00,32,00,00,00,78,00,00,\
+  00,78,00,00,00,32,00,00,00,50,00,00,00,50,00,00,00,50,00,00,00,50,00,00,00,\
+  00,00,00,00,01,00,00,00,02,00,00,00,03,00,00,00,04,00,00,00,05,00,00,00,06,\
+  00,00,00,07,00,00,00,08,00,00,00,09,00,00,00,0a,00,00,00,0b,00,00,00,0c,00,\
+  00,00,0d,00,00,00,0e,00,00,00,0f,00,00,00,10,00,00,00,11,00,00,00,12,00,00,\
+  00,13,00,00,00,14,00,00,00,15,00,00,00,16,00,00,00,17,00,00,00,18,00,00,00,\
+  19,00,00,00,1a,00,00,00,1b,00,00,00,1c,00,00,00,1d,00,00,00,1e,00,00,00,1f,\
+  00,00,00,20,00,00,00,21,00,00,00,22,00,00,00,23,00,00,00,24,00,00,00,25,00,\
+  00,00,26,00,00,00,27,00,00,00,28,00,00,00,29,00,00,00,2a,00,00,00,2b,00,00,\
+  00,2c,00,00,00,2d,00,00,00,2e,00,00,00,00,00,00,00,00,00,00,00,1f,00,00,00,\
+  00,00,00,00,64,00,00,00,32,00,00,00,78,00,00,00,50,00,00,00,50,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,01,00,00,00,\
+  02,00,00,00,03,00,00,00,04,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00
+
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Active Setup\Installed Components\{2C7339CF-2B09-4501-B3F3-F3508C9228ED}]
+"Locale"="EN"
+"Version"="1,1,1,9"
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Active Setup\Installed Components\{6BF52A52-394A-11d3-B153-00C04F79FAA6}]
+"Locale"="EN"
+"Version"="12,0,10011,16384"
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Active Setup\Installed Components\{89820200-ECBD-11cf-8B85-00AA005B4340}]
+"Locale"="en"
+"Version"="10,0,19041,0"
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Active Setup\Installed Components\{89820200-ECBD-11cf-8B85-00AA005B4383}]
+"Locale"="*"
+"Version"="11,1,19041,0"
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Active Setup\Installed Components\{89B4C1CD-B018-4511-B0A1-5476DBF70820}]
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Internet Explorer\Desktop\General]
+"WallpaperSource"="X:\\program files\\wallpaper.jpg"
+;"WallpaperSource"="X:\\windows\\Web\\Wallpaper\\Windows\\img0.jpg"
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Internet Explorer\TabbedBrowsing]
+"TabsStickyMode"=dword:00000001
+[HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Internet Explorer\Toolbar]
+"Locked"=dword:00000001
