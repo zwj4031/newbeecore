@@ -1,3 +1,5 @@
+;useWin11explorer_need
+Windows\System32dmenrollengine.dll
 ;explorer_DWM
 Windows\explorer.exe
 Windows\System32\actxprxy.dll
@@ -31,3 +33,8 @@ Windows\System32\ISM.dll
 Windows\System32\pdh.dll
 Windows\System32\uDWM.dll
 Windows\System32\Windows.UI.Immersive.dll
+
+;icons
+\Windows\System32\imageres.dll
+\Windows\SystemResources\imageres.dll.mun
+\Windows\SystemResources\shell32.dll.mun

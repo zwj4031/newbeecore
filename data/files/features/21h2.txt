@@ -12,6 +12,7 @@ Windows\SysWOW64\dxcore.dll
 ;sun 21H2 support DBadmin
 \Windows\System32\prxyqry.dll
 \Windows\syswow64\prxyqry.dll
+
 ;22449_Boot_need
 \Windows\System32\win32ksgd.sys
 \Windows\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-Client-Desktop-Required-Package0511~*~amd64~~*.*.*.*.cat
@@ -25,9 +26,22 @@ Windows\SysWOW64\dxcore.dll
 \Windows\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-WinPE-SKU-Foundation-merged-Package~*~amd64~~*.*.*.*.cat
 \Windows\System32\netprovfw.dll 
 \Windows\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-WinPE-SKU-Foundation-merged-Package~*~amd64~~*.*.*.*.cat
+
 ;22449_DWM_need
 \Windows\System32\wuceffects.dll
 ;22449_end
-;tiankeng
+
+;22449_3Dgame_msxml_regsvr32_(W2_office2007)
+\Windows\SysWOW64\drvsetup.dll
+\Windows\SysWOW64\drvstore.dll
+\Windows\SysWOW64\aepic.dll
+
+;22449_Vmware
+\Windows\SysWOW64\WofUtil.dll
+\Windows\System32\RESAMPLEDMO.DLL
+\Windows\SysWOW64\RESAMPLEDMO.DLL
+
+;22449_wifi
+\Windows\System32\wmi.dll
 
 

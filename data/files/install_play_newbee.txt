@@ -1,5 +1,165 @@
-;supporthta_wm
+;realtek_USB_WiFi_Driver_setup_gui
+\Windows\System32\lz32.dll
+\Windows\SysWOW64\lz32.dll
 
+
+;fix_kadun_ka_startmenu_run_maybe_frozen_ie
+\Windows\System32\msIso.dll
+
+;aiqiyi_player
+\Windows\SysWOW64\fontsub.dll
+
+;Tencent_start_Cloudgame
+\Windows\SysWOW64\qwave.dll
+\Windows\SysWOW64\traffic.dll
+\Windows\SysWOW64\wmiclnt.dll
+\Windows\SysWOW64\wlanapi.dll
+\Windows\SysWOW64\netprofm.dll
+
+;newtwork_browser_use \\ip\share
+;\Windows\System32\FontGlyphAnimator.dll
+;\Windows\System32\networkexplorer.dll
+;\Windows\System32\pfclient.dll
+;\Windows\System32\threadpoolwinrt.dll
+;\Windows\System32\Windows.UI.Xaml.Controls.dll
+;\Windows\System32\Windows.UI.Xaml.dll
+;\Windows\System32\windows.ui.xaml.resources.21h1.dll
+;\Windows\System32\Windows.UI.XamlHost.dll
+;\Windows\System32\windowsudk.shellcommon.dll
+
+;QQBrowser
+\Windows\SysWOW64\wevtapi.dll
+\Windows\SysWOW64\winusb.dll
+\Windows\SysWOW64\atlthunk.dll
+
+;font_fix
+\Windows\System32\edputil.dll
+\Windows\System32\themeui.dll
+\Windows\System32\desk.cpl 
+;powercfg
+\Windows\System32\powercfg.exe
+;suolvetu
+\Windows\System32\PhotoMetadataHandler.dll
+\Windows\SysWOW64\PhotoMetadataHandler.dll
+
+;hdwwz_tianjiaguoshiyingjian
+\windows\system32\hdwwiz.cpl
+\Windows\System32\zh-CN\hdwwiz.cpl.mui
+\windows\system32\hdwwiz.exe
+\Windows\SYSTEM32\textinputframework.dll
+
+;mumu_moniqi
+\Windows\System32\opengl32.dll
+\Windows\System32\msvfw32.dll
+\Windows\System32\avicap32.dll
+\Windows\System32\glu32.dll
+\Windows\System32\d3d9.dll
+
+
+;gta5
+;\Windows\System32\d3d9.dll
+;\Windows\System32\opengl32.dll
+;\Windows\System32\mfcore.dll
+;\Windows\System32\glu32.dll
+;\Windows\System32\mfreadwrite.dll
+;\Windows\System32\mfplat.dll
+;\WINDOWS\SYSTEM32\TextInputFramework.dll 
+;\WINDOWS\SYSTEM32\vaultcli.dll
+;\WINDOWS\SYSTEM32\ndfapi.dll
+;\WINDOWS\SYSTEM32\mf.dll
+;\WINDOWS\SYSTEM32\xinput1_3.dll
+;\WINDOWS\SYSTEM32\msimg32.dll
+;\WINDOWS\SYSTEM32\crypt32.dll
+;\WINDOWS\SYSTEM32\oleacc.dll
+;\Windows\System32\dinput8.dll
+
+;shiminzhaohuan5_need
+\Windows\SysWOW64\Faultrep.dll
+\Windows\System32\\Faultrep.dll
+
+;baiduyunpan
+\Windows\SysWOW64\RMActivate_ssp.exe
+\Windows\SysWOW64\RTMediaFrame.dll
+\Windows\SysWOW64\riched20.dll
+\Windows\SysWOW64\mtxdm.dll
+\Windows\SysWOW64\msls31.dll
+\Windows\SysWOW64\MSNP.ax
+\Windows\SysWOW64\mfmjpegdec.dll
+;baiduyunpan_QRCode
+\Windows\SysWOW64\mshtml.tlb
+;baiduyun running error
+\Windows\SysWOW64\mswsock.dll
+\Windows\SysWOW64\msxml3.dll
+\Windows\SysWOW64\msxml6.dll
+\Windows\SysWOW64\cryptngc.dll
+\Windows\SysWOW64\mlang.dll
+\Windows\SysWOW64\ieframe.dll
+\Windows\SysWOW64\msIso.dll
+\Windows\SysWOW64\mshtml.dll
+
+;duos
+\windows\system32\dxva2.dll
+\windows\syswow64\dxva2.dll
+;yesshenmoniqi
+\windows\system32\dbgeng.dll 
+\windows\syswow64\dbgeng.dll 
+
+
+;msi_sqlserver_msdn2000
+\windows\SysWOW64\nddeapi.dll
+\Windows\System32\nddeapi.dll
+
+;jianrongxing_start
+\windows\SysWOW64\acppage.dll
+\Windows\System32\acppage.dll
+;20210918_jianrongxing
+;20H2_ahcache.sys_cat
+\Windows\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-Client-Desktop-Required-Package0418~*~amd64~~*.*.*.*.cat
+;21H1_22449_ahcache.sys_cat
+\Windows\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-Client-Desktop-Required-Package0519~*~amd64~~*.*.*.*.cat
+\Windows\System32\drivers\ahcache.sys
+\Windows\SysWOW64\AcLayers.dll
+\Windows\System32\AcLayers.dll
+\Windows\system32\sfc_os.dll
+\Windows\SysWOW64\sfc_os.dll
+\Windows\System32\sfc.dll
+\Windows\SysWOW64\sfc.dll
+\Windows\SysWOW64\shdocvw.dll
+\Windows\System32\shdocvw.dll
+\Windows\System32\apphelp.dll
+\Windows\System32\AppResolver.dll
+\Windows\System32\cscapi.dll
+\Windows\System32\dlnashext.dll
+\Windows\System32\rshx32.dll
+;20210920_jianrongxing
+\windows\SysWOW64\AcGenral.dll
+\windows\SysWOW64\AcLayers.dll
+\windows\SysWOW64\aepic.dll
+
+;20210921_other_needservices_PCASVC_need_apisampling.dll
+;Windows\System32\apisampling.dll
+;Windows\System32\AcGenral.dll
+;Windows\System32\pcadm.dll
+;Windows\System32\pcaevts.dll
+;Windows\System32\pcalua.exe
+;Windows\System32\pcasvc.dll
+;Windows\System32\pcaui.dll
+;Windows\System32\pcaui.exe
+;Windows\System32\apisampling.dll
+;Windows\System32\appraiser.dll
+;msi.dll
+;jianrongxing_end
+
+;20210919_2Dgame_ra2_
+\Windows\SysWOW64\winmmbase.dll
+\Windows\SysWOW64\kernel.appcore.dll
+\Windows\SysWOW64\dsound.dll
+\Windows\SysWOW64\ddraw.dll
+\Windows\SysWOW64\winmm.dll
+
+
+
+;supporthta_wm
 Windows\SYSTEM32\mshta.exe
 Windows\SYSwow64\mshta.exe
 Windows\SYSwow64\notepad.exe
@@ -9,17 +169,24 @@ Windows\SYSwow64\jscript.dll
 Windows\SysWOW64\scrrun.dll
 Windows\SysWOW64\wshom.ocx
 ;supportvbs
+Windows\SYSTEM32\scrobj.dll
 Windows\SYSTEM32\scrrun.dll
 Windows\SYSTEM32\vbscript.dll
 Windows\SysWOW64\vbscript.dll
 Windows\SYSTEM32\wscript.exe
+Windows\Syswow64\wscript.exe
 Windows\SYSTEM32\wshext.dll
 Windows\SYSTEM32\wshom.ocx
+Windows\SysWOW64\wshext.dll
+Windows\SysWOW64\wshom.ocx
 Windows\System32\cscript.exe
+Windows\Syswow64\cscript.exe
+\Program Files\Common Files\System\ado\msado15.dll
 
 ;support_photoshopCC2018X64
-;Windows\System32\mscms.dll
-;Windows\System32\opengl32.dll
+Windows\System32\mscms.dll
+Windows\System32\opengl32.dll
+Windows\System32\coloradapterclient.dll
 
 
 
@@ -48,9 +215,6 @@ Windows\System32\zh-CN\netshell.dll.mui
 ;no_net_icon_net_tray_neticon
 ;windows\System32\pnidui.dll
 
-;jianrongxing_
-\windows\SysWOW64\acppage.dll
-\Windows\System32\acppage.dll
 
 ;3Dgame_DirectPlay_Support_Age_of_Empires___World_of_Warcraft
 \windows\SysWOW64\d3dx9_25.dll
@@ -167,6 +331,7 @@ Windows\SysWOW64\jscript9.dll
 
 ;3Dgame
 \Windows\SysWOW64\msvcrt20.dll
+\Windows\System32\dinput8.dll
 \Windows\SysWOW64\dinput8.dll
 \Windows\SysWOW64\tapi32.dll
 \Windows\SysWOW64\dplayx.dll
@@ -385,8 +550,12 @@ Windows\SysWOW64\d3d8.dll
 
 
 ;chkdsk attrib
-Windows\System32\chkdsk.exe
+Windows\System32\reg.exe
+Windows\System32\chcp.com
+Windows\System32\find.exe
+Windows\System32\sc.exe
 Windows\System32\attrib.exe
+Windows\System32\chkdsk.exe
 Windows\System32\bcdedit.exe
 Windows\System32\fc.exe
 Windows\System32\setx.exe
@@ -404,6 +573,7 @@ Windows\System32\arp.exe
 Windows\System32\clip.exe
 Windows\System32\timeout.exe
 Windows\System32\Robocopy.exe
+Windows\System32\forfiles.exe
 
 ;netsetup
 ;Windows\System32\netshell.dll
@@ -511,6 +681,16 @@ windows\SysWOW64\pcacli.dll
 windows\SysWOW64\RstrtMgr.dll
 windows\SysWOW64\srpapi.dll
 windows\Installer
+;20210918_msi
+\Windows\System32\vcruntime140_clr0400.dll
+\Windows\System32\wevtutil.exe
+\Windows\SysWOW64\lodctr.exe
+\Windows\SysWOW64\loadperf.dll
+\Windows\SysWOW64\activeds.dll
+\Windows\SysWOW64\adsldpc.dll
+\Windows\SysWOW64\logoncli.dll
+\Windows\SysWOW64\RTWorkQ.dll
+\Windows\SysWOW64\srvcli.dll
 
 ;showports(com1 lpt)
 ;windows\system32\driverstore\zh-CN
@@ -639,7 +819,9 @@ Windows\System32\zh-CN\duser.dll.mui
 windows\System32\actxprxy.dll
 windows\System32\chartv.dll
 ;windows\Syswow64\chartv.dll
-
+;20210918_copyfile
+Windows\SysWOW64\Windows.FileExplorer.Common.dll
+Windows\System32\Windows.FileExplorer.Common.dll
 windows\SystemResources\shell32.dll.mun
 
 ;services
@@ -837,8 +1019,10 @@ windows\syswow64\windows.storage.dll
 windows\syswow64\wintypes.dll
 windows\system32\wow64.dll
 windows\system32\wow64cpu.dll
+;win11_22000_supportx86
 windows\system32\wow64base.dll
 windows\system32\wow64con.dll
+;win11_22000_end
 windows\system32\wow64win.dll
 windows\syswow64\net.exe
 windows\syswow64\net1.exe

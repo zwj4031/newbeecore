@@ -1,0 +1,5 @@
+;gui_icon
+\Windows\System32\fundisc.dll
+\Windows\System32\IconCodecService.dll
+\Windows\System32\FdDevQuery.dll
+\Windows\System32\PhotoMetadataHandler.dll
