@@ -1,6 +1,9 @@
 @echo off
 mode con cols=50 lines=3
 title NewBeePE共享辅助脚本by:江南一根葱
+rem 初始化连接用户名密码
+set loginpass=
+set loginname=fuck
 ::提取前三位方便输入
 for /f "tokens=1,2 delims=:" %%a in ('Ipconfig^|find /i "IPv4 地址 . . . . . . . . . . . . :"') do (
 for /f "tokens=1,2 delims= " %%i in ('echo %%b') do set myip=%%i
@@ -27,9 +30,14 @@ echo 输入要连接的共享服务器地址: [IP地址或计算机名]
 set /p smbserver=输入[回车清空]:%ip_def%
 if "%smbserver%" == "" set ip_def=&&goto menu
 set smbserver=%ip_def%%smbserver%
+net use \\%smbserver% "%loginpass%" /user:%loginname%
+if "%errorlevel%" == "2" (
+goto pwdlogin
+) else (
+goto connect
+)
 
-net use \\%smbserver% "newbee" /user:newbee
-
+:connect
 cls
 mode con cols=36 lines=26
 echo 获取到%smbserver%共享列表:
@@ -44,11 +52,9 @@ set /p sel=你要连接到哪个共享资源?:
 echo 选中 !pc%sel%!
 echo !pc%sel%!
 net use * /delete /y
-net use ^* \\%smbserver%\!pc%sel%! "" /user:fuck
+net use ^* \\%smbserver%\!pc%sel%! "%loginpass%" /user:%loginname%
 if "%errorlevel%" == "2" (
-call :youlost
-cls
-goto menu
+goto pwdlogin
 ) else (
 start "" "X:\Program Files\WinXShell.exe" -code "QuitWindow(nil,'UI_LED')"
 for /f "tokens=1-3 delims= " %%a in ('net use ^|find ":"') do set smbdrv=%%b
@@ -57,6 +63,17 @@ start "" "%programfiles%\WinXShell.exe" -ui -jcfg wxsUI\UI_LED.zip -top -wait 3 
 if exist %smbdrv%\ start "" %smbdrv%
 exit
 
+:pwdlogin
+cls
+set /p loginname=连接失败，请重新输入用户名:
+set /p loginpass=输入密码:
+net use \\%smbserver% "%loginpass%" /user:%loginname%
+if "%errorlevel%" == "2" (
+goto pwdlogin
+) else (
+goto connect
+)
+exit /b
 
 :csnetuse
 title=连接共享

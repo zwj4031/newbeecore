@@ -1,0 +1,92 @@
+<script language=vbscript>
+
+function window_onload
+
+x=250
+y=320
+window.resizeTo x,y
+x=(screen.width-x)/2
+y=(screen.height-y)/2
+window.moveTo x,y
+document.title="NBT工具箱"
+end function
+
+set ow=createobject("wscript.shell")
+
+
+function move_a_onclick
+ow.run "cmd /c NET USE n: \\TSVOD\tv1 >Nul 2>Nul & START n:"
+end function
+
+
+function move_b_onclick
+ow.run "cmd /c Net use P: \\TSVOD\tv >Nul 2>Nul & start p:"
+end function
+
+
+function game_onclick
+ow.run "cmd /c Net use y: \\Gameserver\onlinegame >Nul 2>Nul & start y:"
+end function
+
+function c_onclick
+ow.run "cmd /k echo ！！&pause"
+end function
+
+function bootfix_onclick
+
+on error resume next 
+SelectFolder 
+end function
+
+function SelectFolder() 
+Const MY_COMPUTER = &H11& 
+Const WINDOW_HANDLE = 0 
+Const OPTIONS = 0 
+Set objShell = CreateObject("Shell.Application") 
+Set objFolder = objShell.Namespace(MY_COMPUTER) 
+Set objFolderItem = objFolder.Self 
+strPath = objFolderItem.Path 
+Set objShell = CreateObject("Shell.Application") 
+Set objFolder = objShell.BrowseForFolder(WINDOW_HANDLE, "选择启动时作为引导的分区:", OPTIONS, strPath) 
+If objFolder Is Nothing Then 
+
+End If 
+Set objFolderItem = objFolder.Self 
+objPath = objFolderItem.Path 
+msgbox "您选择的引导位置是：" & objPath 
+end function
+
+
+
+</script>
+
+<style>
+
+input{background:#9ed048;}
+
+</style>
+
+
+<body scroll=no bgcolor=#48c0a3>
+
+<center>
+
+<input type=button id=move_a value=" 装 逼 欣 赏 ">
+
+<br><br>
+
+<input type=button id=move_b value=" 看 毛 线 片 ">
+
+<br><br>
+
+<input type=button id=game value=" 游 戏 菜 单 ">
+
+<br><br>
+
+<input type=button value=" 拜 拜 您 类 " onclick=window.close()>
+<br><br>
+<input type=button value="关 了 个 窗" onclick=window.close()>
+<br><br>
+<input type=button id=c value="cmd！" >
+<br><br>
+<input type=button id=bootfix value="引导修复" >

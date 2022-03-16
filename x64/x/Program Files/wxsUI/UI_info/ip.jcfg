@@ -1,0 +1,10 @@
+{
+  "name":"UI_info",
+  "trans":190,
+  "lua":"ip.lua",
+  "entry":"ip.xml", 
+  "customstyle":true,
+  "style":268435456,
+  "exstyle":260,
+  "nobaricon":true
+}

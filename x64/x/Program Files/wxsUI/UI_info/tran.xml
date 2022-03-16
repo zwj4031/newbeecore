@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="500,208" caption="0,0,0,32" defaultfontcolor="#FFE8EAF6" layeredimage="bk.png" layeredopacity="255">
+
+    <Style imagerectstyle="l,t,w,h" />
+
+    <VerticalLayout bkcolor="#FEFFFFFF">
+          <HorizontalLayout height="1">
+              <Control />
+              <!-- https://docs.microsoft.com/ja-jp/windows/uwp/design/style/segoe-ui-symbol-font -->
+         
+          </HorizontalLayout>
+        <!---VerticalLayout height="120" bkcolor="#FF910816" bordersize="5,5,5,5" bordercolor="#FFF0965C" inset="1,1,1,1"-->
+         <VerticalLayout height="206"  inset="1,1,1,1" >
+            <Label name="label_info" multiline="true" text="" font="16" showhtml="true" textcolor="#FFFFFF" textpadding="0,0,0,0" />
+        </VerticalLayout>
+
+    </VerticalLayout>
+</Window>

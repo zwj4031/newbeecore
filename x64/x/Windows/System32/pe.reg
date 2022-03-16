@@ -23,14 +23,31 @@ Windows Registry Editor Version 5.00
 @="\"X:\\windows\\system32\\Driverindexer\" load-driver \"%1\""
 
 
-[HKEY_CLASSES_ROOT\DesktopBackground\Shell\从离线系统安装网卡驱动到PE]
+;从离线系统白嫖文件的注册表
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\WinXNew]
+"MUIVerb"="从离线系统"
+"icon"="X:\\Windows\\System32\\ico\\mycomput.ico"
+"SubCommands"=""
+"NODEFAULT"=""
+"Position"="Top"
+;"Position"="Bottom"
+"SeparatorAfter"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\WinXNew\Shell\安装所有驱动到PE]
 "icon"="X:\\Windows\\System32\\ico\\mycomput.ico"
 
-[HKEY_CLASSES_ROOT\DesktopBackground\Shell\从离线系统安装网卡驱动到PE\command]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\WinXNew\Shell\安装所有驱动到PE\command]
+@="\"X:\\Program Files\\BatchTools\\驱动安装(从本机系统离线获取).bat\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\WinXNew\Shell\安装网卡驱动到PE]
+"icon"="X:\\Windows\\System32\\ico\\mycomput.ico"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\WinXNew\Shell\安装网卡驱动到PE\command]
 @="\"X:\\Program Files\\BatchTools\\驱动安装(从本机系统离线获取).bat\" net"
 
-[HKEY_CLASSES_ROOT\DesktopBackground\Shell\从离线系统安装所有驱动到PE]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\WinXNew\Shell\获取.NET支持(支持黑鸟播放器)]
 "icon"="X:\\Windows\\System32\\ico\\mycomput.ico"
 
-[HKEY_CLASSES_ROOT\DesktopBackground\Shell\从离线系统安装所有驱动到PE\command]
-@="\"X:\\Program Files\\BatchTools\\驱动安装(从本机系统离线获取).bat\""
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\WinXNew\Shell\获取.NET支持(支持黑鸟播放器)\command]
+@="\"X:\\Program Files\\BatchTools\\pe调用离线系统关键文件.bat\" net"

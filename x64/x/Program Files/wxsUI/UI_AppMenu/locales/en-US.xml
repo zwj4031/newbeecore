@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale>
+    <Font shared="true" id="14" size="14" name="Segoe UI" default="true" />
+    <Font shared="true" id="18" size="18" name="Segoe UI" />
+    <Font shared="true" id="24" size="24" name="Segoe UI" />
+    <Font shared="true" id="sym" size="12" name="Segoe MDL2 Assets" />
+    <Font shared="true" id="sym16" size="16" name="Segoe MDL2 Assets" />
+
+    <MultiLanguage id="Settings" value="Settings" />
+    <MultiLanguage id="Home" value="Home" />
+    <MultiLanguage id="Customization" value="Customization" />
+
+    <MultiLanguage id="Display" value="Display" />
+    <MultiLanguage id="DPI" value="DPI" />
+    <MultiLanguage id="Resolution" value="Resolution" />
+    <MultiLanguage id="Rotate" value="Rotate" />
+    <MultiLanguage id="Rotate_0" value="0 degree" />
+    <MultiLanguage id="Rotate_90" value="90 degree" />
+    <MultiLanguage id="Rotate_180" value="180 degree" />
+    <MultiLanguage id="Rotate_270" value="270 degree" />
+
+    <MultiLanguage id="Brightness" value="Brightness" />
+
+    <MultiLanguage id="Apply" value="<u>A</u>pply" />
+    <MultiLanguage id="Restore" value="<u>R</u>estore" />
+
+    <MultiLanguage id="Background" value="Background" />
+
+    <MultiLanguage id="Colors" value="Colors" />
+    <MultiLanguage id="SelectSysColorTheme" value="Choose your default Windows mode" />
+    <MultiLanguage id="SelectAppColorTheme" value="Choose your default app mode" />
+    <MultiLanguage id="Light" value="Light" />
+    <MultiLanguage id="Dark" value="Dark" />
+    <MultiLanguage id="TransparencyEffects" value="Transparency effects" />
+    <MultiLanguage id="ApplyAccentColorDesc" value="Show accent color on the following surfaces" />
+    <MultiLanguage id="StartTaskbarActionCenter" value="Start, taskbar, and action center" />
+    <MultiLanguage id="TitlebarsAndWinBorders" value="Title bars and window borders" />
+
+    <MultiLanguage id="Taskbar" value="Taskbar" />
+    <MultiLanguage id="AutoHideTaskbar" value="Automatically hide the taskbar" />
+    <MultiLanguage id="UseSmallButtons" value="Use small taskbar buttons" />
+    <MultiLanguage id="CombineButtons" value="Combine taskbar buttons" />
+    <MultiLanguage id="Always" value="Always, hide the labels" />
+    <MultiLanguage id="Auto" value="When taskbar is full" />
+    <MultiLanguage id="Never" value="never" />
+
+    <MultiLanguage id="On" value="On" />
+    <MultiLanguage id="Off" value="Off" />
+</Locale>

@@ -45,3 +45,14 @@ Windows\SysWOW64\dxcore.dll
 \Windows\System32\wmi.dll
 
 
+;17700_mic
+;dll for StateRepository (AppRepository). The StateRepository service is not registered in the Registry
+\Windows\System32\StateRepository.core.dll
+\Windows\System32\Windows.StateRepository.dll
+\Windows\System32\Windows.StateRepositoryBroker.dll
+\Windows\System32\Windows.StateRepositoryCore.dll
+\Windows\System32\Windows.StateRepositoryClient.dll
+;22000_mic
+\Windows\System32\StateRepository.core.dll
+\Windows\System32\CoreMessaging.dll
+\Windows\System32\CoreUIComponents.dll

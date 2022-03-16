@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window size="390,400" sizebox="4,4,4,4" caption="0,0,0,32" roundcorner="5,5" defaultfontcolor="#000000" visible="flase">
+
+ <Style imagerectstyle="l,t,w,h" />
+ <Include source="scrollbar_ltwh.xml" />
+  <!--Style name="layout_btn" textcolor="#FFFFFF" hotimage="color='#FF3D7BBC'" /-->
+ <Style name="layout_btn" bkimage="themes\left.png" textcolor="#FFFFFF" hotimage="file='themes\text.png'" />
+ <Style name="left" textcolor="#FFFFFF" hotimage="file='themes\text.png'" />
+ <Style name="right" bordersize="1,1,1,1" bordercolor="#000000" inset="1,1,1,1" multiline="true" textcolor="#000000" font="14" showhtml="true" hotimage="file='themes\text.png'" />
+ <HorizontalLayout bkimage="themes\bg.png" width="100" height="22" >
+<!--左边列表框-->
+ <VerticalLayout width="90" height="400" bkimage="themes\bluebg.png" > 
+	 <text name="petools" width="90" height="29" text=""  padding="0,2,0,0"/>		   
+	<Button name="petools" width="90" height="32" text="系统维护"  style="layout_btn" />
+	<Button name="chat" width="90" height="32" text="聊天工具"  style="layout_btn" />
+	<Button name="media" width="90" height="32" text="影音娱乐"  style="layout_btn" />
+ <Button name="work" width="90" height="32" text="文档办公"  style="layout_btn" />
+<Button name="remote" width="90" height="32" text="远程工具"  style="layout_btn" />
+<Button name="vm" width="90" height="32" text="虚拟机类"  style="layout_btn" />
+<Button name="about" width="90" height="32" text="关于"  style="layout_btn" />
+<!--左边显示框最后一个填充-->
+<text text="" font="14" textcolor="#FFFFFF" bkimage="themes\left.png" width="90" height="180" textpadding="0,0,0,0" />
+ <!--左边列表框原关闭按钮备用-->
+<Button width="1" height="1" name="label_title" textcolor="#FFFFFF" bkimage="file='themes\bk.png'" textpadding="0,0,0,0" />
+		  </VerticalLayout> 
+    <Control />
+ <VerticalLayout width="320" height="400"> 
+	 <!--text width="300" height="32"  scrollbar="true" align="center" bkimage="themes\top.png" textcolor="#ffffff" text="NB应用市场1.0" textpadding="0,0,0,0" /--> 		   
+	  <Control />
+<!--顶部标题栏显示-->
+  <HorizontalLayout width="390" height="32" bkimage="themes\left.png" >
+  	 <text width="244" height="22"  scrollbar="true" align="center" bkimage="themes\left.png" textcolor="#ffffff" text="NBAppStore PE应用市场" textpadding="0,-1,0,0" padding="-8,8,0,0"/> 		   
+    <Button name="::minbtn" text="" font="sym" textcolor="#FFFFFF" hottextcolor="#ffffffff" hotimage="color='#ff1985da'" width="32" height="22" />
+    <Button name="::closebtn" text="" font="sym" textcolor="#FFFFFF" hottextcolor="#ffffffff" hotimage="color='#ffe81123'" width="32" height="22" /> </HorizontalLayout>
+  	  <Control />
+ <HorizontalLayout bkimage="themes\bg.png" width="400" height="400" pos="100,300,400,220" bkcolor="#000000" hscrollbar="true" vscrollbar="true" sepheight="400" >
+ <!--右边软件列表显示-->
+
+ <text width="300" height="380" name="label_info" font="14" scrollbar="true" style="right" text="" textpadding="5,5,0,0" />
+   </HorizontalLayout>
+  </VerticalLayout> 
+ 
+	    </HorizontalLayout>
+	 
+
+
+  
+
+
+  
+            
+
+              <!-- https://docs.microsoft.com/ja-jp/windows/uwp/design/style/segoe-ui-symbol-font -->
+
+
+      		
+	  
+	
+</Window>

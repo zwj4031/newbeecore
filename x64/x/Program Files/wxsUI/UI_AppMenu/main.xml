@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="800,600" sizebox="4,4,4,4" caption="0,0,0,32" mininfo="600,400">
+
+<Style imagerectstyle="l,t,w,h" />
+<Include source="scrollbar_ltwh.xml" />
+<Style name="nav_item" height="40" 
+    selectedimage="color='#ff0078d7' dest='235,10,5,20'" 
+    hotimage="color='#FFA2D7FF'  dest='235,10,5,20'"
+    align="left" textpadding="52,-10,0,0" />
+<VerticalLayout bordersize="1" bordercolor="#FF1985DA">
+
+    <!-- 左-导航, 右-内容 水平布局 -->
+    <HorizontalLayout style="ct-bknav" padding="1,1,1,1">
+
+        <!-- 左侧 区域 -->
+        <VerticalLayout name="nav" width="240" >
+            <!-- 左上 logo 区域 -->
+            <Label height="32" text="应用市场" padding="20,0,0,0" />
+            <HorizontalLayout style="nav_item" padding="20,0,0,0" >
+                <Label text="" font="sym16" width="32" />
+                <Button text="%{Home}" align="left" name="home_button" />
+            </HorizontalLayout>
+
+            <Label height="32" showhtml="true" text="分类" padding="20,0,0,0" />
+
+            <!-- 左侧 导航 项目 -->
+            <VerticalLayout name="$TabList">
+
+            </VerticalLayout>
+        </VerticalLayout>
+
+
+        <!-- 右侧内容区域格式 -->
+        <VerticalLayout padding="0,1,1,1" style="ct-bkcontent">
+
+            <!-- 右侧顶部标题区域 -->
+            <VerticalLayout height="32">
+                <HorizontalLayout height="32">
+                    <Label text="标题栏有字也可以拖动" textpadding="5,0,0,0" />
+                    <Control />
+                    <!-- https://docs.microsoft.com/ja-jp/windows/uwp/design/style/segoe-ui-symbol-font -->
+                    <Button name="::minbtn" text="" font="sym" textcolor="#ff8b8b8b" hottextcolor="#ffffffff" hotimage="color='#ff1985da'" width="48" height="32" />
+                    <Button name="::closebtn" text="" font="sym" textcolor="#ff8b8b8b" hottextcolor="#ffffffff" hotimage="color='#ffe81123'" width="48" height="32" />
+                </HorizontalLayout>
+            </VerticalLayout>
+
+            <!-- 右侧 内容 主区域 -->
+            <VerticalLayout name="$TabLayoutParent">
+            </VerticalLayout>
+
+        </VerticalLayout>
+
+    </HorizontalLayout>
+</VerticalLayout>
+</Window>

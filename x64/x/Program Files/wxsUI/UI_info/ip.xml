@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="225,20" caption="0,0,0,32" defaultfontcolor="#FFE8EAF6" visible="false">
+
+    <Style imagerectstyle="l,t,w,h" />
+
+    <VerticalLayout bkcolor="#FFF9F9F9">
+          <HorizontalLayout height="1">
+              <Control />
+              <!-- https://docs.microsoft.com/ja-jp/windows/uwp/design/style/segoe-ui-symbol-font -->
+          <Button name="::closebtn" text="x" font="sym" textcolor="#ff8b8b8b" hottextcolor="#ffffffff" hotimage="color='#ff007ACC'" width="40" height="1" />
+          </HorizontalLayout>
+        <!---VerticalLayout height="120" bkcolor="#FF910816" bordersize="5,5,5,5" bordercolor="#FFF0965C" inset="1,1,1,1"-->
+             <VerticalLayout height="150" bkcolor="#FF3B3632" bordersize="3,3,3,3" bordercolor="#000000" inset="1,1,1,1">
+            <Label height="165" width="448" name="label_info" text="" font="16" showhtml="true" textcolor="#FFFFFF" textpadding="0,-148,0,0" hight="100" />
+        </VerticalLayout>
+
+    </VerticalLayout>
+</Window>

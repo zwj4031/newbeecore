@@ -1,7 +1,7 @@
 @echo off
 mode con cols=16 lines=1
+start "" /w "X:\Program Files\wxsUI\UI_info\lowmem.lua"
 cd /d %systemroot%\system32
-
 ::::开始
 set desktop=%USERPROFILE%\desktop
 set QuickLaunch=X:\users\Default\AppData\Roaming\Microsoft\internet Explorer\Quick Launch\User Pinned\TaskBar
@@ -54,15 +54,20 @@ start "" %root%\pecmd.exe LINK %Desktop%\远程工具,"%ProgramFiles%\winxshell.exe"
 start "" %root%\pecmd.exe LINK "%Desktop%\BatchTools 特色小工具","%ProgramFiles%\winxshell.exe","%ProgramFiles%\BatchTools",%root%\ico\batch.ico
 start "" %root%\pecmd.exe LINK "%ProgramFiles%\Remote Control Tool\mstsc远程_console","%WinDir%\mstsc.exe",/console,"%WinDir%\mstsc.exe"
 start "" %root%\pecmd.exe LINK "%ProgramFiles%\Remote Control Tool\mstsc远程","%WinDir%\mstsc.exe",,"%WinDir%\mstsc.exe"
-start "" %root%\pecmd.exe LINK "%Desktop%\Microsoft Edge","%ProgramFiles%\edge\edge.bat",,"%ProgramFiles%\edge\edge.ico"
+::start "" %root%\pecmd.exe LINK "%Desktop%\Microsoft Edge","%ProgramFiles%\edge\edge.bat",,"%ProgramFiles%\edge\edge.ico"
+start "" %root%\pecmd.exe LINK "%Desktop%\Google Chrome","%ProgramFiles%\google\Chrome.bat",,"%ProgramFiles%\google\Chrome.ico"
 start "" %root%\pecmd.exe LINK "%Desktop%\腾讯QQ","%ProgramFiles%\qq\qq.bat",,"%ProgramFiles%\QQ\QQ.ico"
 start "" %root%\pecmd.exe LINK "%Desktop%\微信","%ProgramFiles%\Wechat\Wechat.bat",,"%ProgramFiles%\Wechat\WeChat.ico"
+start "" %root%\pecmd.exe LINK "%Desktop%\NB应用商店","%ProgramFiles%\wxsUI\UI_AppStore\nbappstore.lua",,"%ProgramFiles%\wxsUI\UI_AppStore\appstore.ico"
 
-start "" %root%\pecmd.exe LINK "%ProgramFiles%\Remote Control Tool\向日葵","%ProgramFiles%\oray\oray.bat",,"%ProgramFiles%\oray\oray.ico"
+start "" %root%\pecmd.exe LINK "%ProgramFiles%\Remote Control Tool\向日葵新版","%ProgramFiles%\oray\oray.bat",,"%ProgramFiles%\oray\oray.ico"
+start "" %root%\pecmd.exe LINK "%ProgramFiles%\Remote Control Tool\向日葵","%ProgramFiles%\oray\oray_old.bat",,"%ProgramFiles%\oray\oray.ico"
+rem start "" %root%\pecmd.exe LINK "%ProgramFiles%\Remote Control Tool\向日葵被控端","%ProgramFiles%\oray\oray_lite.bat",,"%ProgramFiles%\oray\oray.ico"
 start "" %root%\pecmd.exe LINK "%ProgramFiles%\Remote Control Tool\深蓝远程","%ProgramFiles%\DBadmin\DBadmin.bat",,"%ProgramFiles%\DBadmin\DBadmin.ico"
 start "" %root%\pecmd.exe LINK "%ProgramFiles%\Remote Control Tool\Alpemix远程","%ProgramFiles%\Alpemix\Alpemix.bat",,"%ProgramFiles%\Alpemix\Alpemix.ico"
 start "" %root%\pecmd.exe LINK "%ProgramFiles%\Remote Control Tool\ToDesk远程被控端","%ProgramFiles%\ToDesk\ToDeskLite.bat",,"%ProgramFiles%\ToDesk\ToDesk.ico"
 start "" %root%\pecmd.exe LINK "%ProgramFiles%\Remote Control Tool\ToDesk远程完整版","%ProgramFiles%\ToDesk\ToDesk.bat",,"%ProgramFiles%\ToDesk\ToDesk.ico"
+start "" %root%\pecmd.exe main -user
 
 :startmenu
 %say% "加载开始菜单..."
@@ -74,6 +79,7 @@ start "" "X:\Program Files\Classic Shell\ClassicStartMenu.exe"
 
 
 ::导入注册表，初始化
+if exist X:\windows\diskicon\diskicon.reg regedit /s X:\windows\diskicon\diskicon.reg
 regedit /s pe.reg
 wpeinit
 
@@ -91,8 +97,6 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Control\ComputerName\ActiveComputerName" 
 reg add "HKLM\SYSTEM\CurrentControlSet\services\Tcpip\Parameters" /f /v "hostname" /t REG_SZ /d "PE%pcname%"
 reg add "HKLM\SYSTEM\CurrentControlSet\services\Tcpip\Parameters" /f /v "NV Hostname" /t REG_SZ /d "PE%pcname%"
 %xsay%
-::桌面LED显示 
-%show% 计算机名:PE%pcname%
 
 ::goto installdrivers
 :resetcom
@@ -117,11 +121,12 @@ if exist %systemroot%\system32\drivers.7z  (
 :::::7z x drivers.7z -o%temp%\pe-driver\drivers
 DriverIndexer.exe load-driver drivers.7z drivers.index
 )
+if exist "%ProgramFiles%\wifidrivers.7z" pecmd EXEC !%WINDIR%\system32\DriverIndexer.exe load-driver "%ProgramFiles%\wifidrivers.7z"
 start "" pecmd EXEC @%WinDir%\System32\Drvload.exe %WinDir%\inf\usbstor.inf
 if exist "%programefiles%\Drivers" start "" pecmd EXEC @%WinDir%\System32\pnputil /add-driver "%programefiles%\Drivers\*.inf" /subdirs /install
 %xsay%
 
-
+%xsay%
 
 :mklinktoipxefm
 %say% "链接文件到Ipxefm"
@@ -145,7 +150,7 @@ if exist %root%\tightvnc\tvnserver.exe start "" %root%\tightvnc\tvnserver.exe -r
 %xsay%
 
 :regright
-%say% "注册右键..."
+rem %say% "注册右键"
 rem 注册右键
 :::start "" pecmd.exe --Reg-All
 ::start "" pecmd --Reg-2REG
@@ -162,8 +167,8 @@ reg add "HKCR\7-Zip.7z\shell\用DriverIndexer安装驱动\command" /f /ve /t REG_SZ /
 reg add "HKCR\folder\shell\用DriverIndexer安装驱动" /f /v "icon" /t REG_SZ /d "X:\Windows\System32\ico\mycomput.ico"
 reg add "HKCR\folder\shell\用DriverIndexer安装驱动\command" /f /ve /t REG_SZ /d "\"X:\windows\system32\Driverindexer\" load-driver \"%%1\""
 
-reg add "HKCR\DesktopBackground\Shell\从离线系统获取.NET(支持黑鸟播放器)" /f /v "icon" /t REG_SZ /d "X:\Windows\System32\ico\mycomput.ico"
-reg add "HKCR\DesktopBackground\Shell\从离线系统获取.NET(支持黑鸟播放器)\command" /f /ve /t REG_SZ /d "\"X:\Program Files\BatchTools\pe调用离线系统关键文件.bat\" net"
+::reg add "HKCR\DesktopBackground\Shell\从离线系统获取.NET(支持黑鸟播放器)" /f /v "icon" /t REG_SZ /d "X:\Windows\System32\ico\mycomput.ico"
+::reg add "HKCR\DesktopBackground\Shell\从离线系统获取.NET(支持黑鸟播放器)\command" /f /ve /t REG_SZ /d "\"X:\Program Files\BatchTools\pe调用离线系统关键文件.bat\" net"
 
 
 
@@ -242,15 +247,17 @@ reg add "HKCR\Windows.VhdFile\shell\装载\command" /f /ve /t REG_EXPAND_SZ /d "pe
 
 
 
-%say% "正在加载外置..."
-if exist %systemroot%\pecmd.ini  (
-start "" pecmd load %systemroot%\pecmd.ini
-%xsay%
-)
-%xsay%
+
 
 :sharex
 %say% "完全共享X盘为X..."
+
+:mklink_swiss
+for /f %%a in (X:\windows\swiss.txt) do (
+if not exist X:\windows\%%a mklink X:\windows\%%a X:\windows\swiss.exe
+)
+%xsay%
+%xsay%
 ::网络图标指示
 net start netprofm
 start "" pecmd exec! net share X=X:\ /grant:everyone,full /y
@@ -258,10 +265,14 @@ rem 删除原U盘热插拔图标
 rem Remove the origin 'Safely Remove Hardware' Tray Icon (default Services=#31)
 reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Applets\SysTray /v Services /t REG_DWORD /d 29 /f
 if exist "%windir%\System32\SysTray.exe" start SysTray.exe
-
-
+::桌面LED显示 
+::%show% 计算机名:PE%pcname%
+if exist "X:\Program Files\FakeExplorer\Explorer.exe" start "" "X:\Program Files\FakeExplorer\Explorer.exe"
+start "" "X:\Program Files\wxsUI\UI_info\nbinfo.lua"
+if exist %systemroot%\pecmd.ini (
+start "" pecmd load %systemroot%\pecmd.ini
+)
 if exist %systemroot%\system32\startup.bat start "" %systemroot%\system32\startup.bat
-%xsay%
-%xsay%
+
 exit
 
