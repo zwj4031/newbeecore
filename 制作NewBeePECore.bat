@@ -321,8 +321,7 @@ title 复制原生壳补充的software注册表到PE
 
 for /f "tokens=*" %%e in (%~dp0data\reg\fix_soft_20221001.txt) do (
 echo %%e
-reg query "hklm\pe-soft\%%e"1>nul 2>nul
-if errorlevel 0 echo 存在"hklm\os-soft\%%e"&&reg copy "hklm\os-soft\%%e" "hklm\pe-soft\%%e" /S /F
+reg copy "hklm\os-soft\%%e" "hklm\pe-soft\%%e" /S /F
 )
 
 
@@ -819,7 +818,8 @@ echo. & echo  制作完成 & echo.
 
 
 echo 打包NewBeePlus.iso
-"%~dp0data\tools\oscdimg.exe" -h -d -m -o -u1 -lWindowsPE -bootdata:2#p00,e,b"%~dp0data\temp\etfsboot.com"#pEF,e,b"%~dp0data\temp\efisys_noprompt.bin" "%~dp0data\temp\iso" "%~dp0NewBeecore.iso"
+
+"%~dp0data\tools\oscdimg.exe" -bootdata:2#p0,e,b"%~dp0data\temp\etfsboot.com"#pEF,e,b"%~dp0data\temp\iso\efi\microsoft\boot\efisys_noprompt.bin" -h -l"Windows PE x64" -m -u2 -udfver102 "%~dp0data\temp\iso" "%~dp0NewBeecore.iso"
 
 echo 删除临时目录%~dp0data\temp
 rd /s /Q "%~dp0data\temp"
