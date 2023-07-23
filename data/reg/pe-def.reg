@@ -4,7 +4,7 @@ Windows Registry Editor Version 5.00
 [-HKEY_LOCAL_MACHINE\PE-DEF\Keyboard Layout]
 [HKEY_LOCAL_MACHINE\PE-DEF\Control Panel\Desktop]
 "MenuShowDelay"="200"
-"WallPaper"="X:\\program files\\wallpaper.jpg"
+"WallPaper"="X:\\Windows\\Web\\Wallpaper\\Windows\\img0.jpg"
 "Win8DpiScaling"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\PE-DEF\Control Panel\Desktop\WindowMetrics]
@@ -49,6 +49,7 @@ Windows Registry Editor Version 5.00
 "IconVerticalSpacing"="-1128"
 "MinAnimate"="0"
 
+
 [HKEY_LOCAL_MACHINE\pe-def\Environment]
 "Favorites"="X:\\Users\\Default\\Favorites"
 "Desktop"="X:\\Users\\Default\\Desktop"
@@ -64,6 +65,7 @@ Windows Registry Editor Version 5.00
 "HOMEPATH"="\\Users\\Default"
 "HOMEDRIVE"="X:"
 "LOCALAPPDATA"="X:\\Users\\Default\\AppData\\Local"
+
 
 
 
@@ -583,9 +585,18 @@ Windows Registry Editor Version 5.00
 "Version"="11,1,19041,0"
 [HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Active Setup\Installed Components\{89B4C1CD-B018-4511-B0A1-5476DBF70820}]
 [HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Internet Explorer\Desktop\General]
-"WallpaperSource"="X:\\program files\\wallpaper.jpg"
-;"WallpaperSource"="X:\\windows\\Web\\Wallpaper\\Windows\\img0.jpg"
+"WallpaperSource"="X:\\windows\\Web\\Wallpaper\\Windows\\img0.jpg"
 [HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Internet Explorer\TabbedBrowsing]
 "TabsStickyMode"=dword:00000001
 [HKEY_LOCAL_MACHINE\PE-DEF\Software\Microsoft\Internet Explorer\Toolbar]
 "Locked"=dword:00000001
+[HKEY_LOCAL_MACHINE\pe-def\Software\Microsoft\Windows\CurrentVersion\ThemeManager]
+"DllName"=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,\
+  74,00,25,00,5c,00,72,00,65,00,73,00,6f,00,75,00,72,00,63,00,65,00,73,00,5c,\
+  00,74,00,68,00,65,00,6d,00,65,00,73,00,5c,00,61,00,65,00,72,00,6f,00,5c,00,\
+  61,00,65,00,72,00,6f,00,2e,00,6d,00,73,00,73,00,74,00,79,00,6c,00,65,00,73,\
+  00,00,00
+"LMVersion"="105"
+[HKEY_LOCAL_MACHINE\pe-def\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize]
+"EnableTransparency"=dword:00000001
+"ColorPrevalence"=dword:00000001

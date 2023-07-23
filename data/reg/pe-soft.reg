@@ -1,36 +1,16 @@
 Windows Registry Editor Version 5.00
-;测试iscsi服务不能启动的问题
-;[-HKEY_LOCAL_MACHINE\PE-SOFT\Microsoft\Windows\CurrentVersion\WINEVT]
 
-
-;使用不安装的来宾登录
-[HKEY_LOCAL_MACHINE\PE-SOFT\Policies\Microsoft\Windows\LanmanWorkstation]
-"AllowInsecureGuestAuth"=dword:00000001
+;隐藏网络图标
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\StuckRects3]
+"Settings"=hex:30,00,00,00,fe,ff,ff,ff,22,02,00,00,03,00,00,00,3e,00,00,00,28,\
+  00,00,00,00,00,00,00,d8,02,00,00,56,05,00,00,00,03,00,00,60,00,00,00,01,00,\
+  00,00
 ;此电脑右键管理调用方式
-
-;删除原有右键管理  
-[-HKEY_LOCAL_MACHINE\PE-SOFT\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Manage]
-
-;增加自定义管理mmc单元
-
-[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\管理]
-@=hex(2):40,00,25,00,73,00,79,00,73,00,74,00,65,00,6d,00,72,00,6f,00,6f,00,74,\
-  00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,\
-  79,00,63,00,6f,00,6d,00,70,00,75,00,74,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,\
-  00,34,00,30,00,30,00,00,00
-"MUIVerb"=hex(2):40,00,25,00,73,00,79,00,73,00,74,00,65,00,6d,00,72,00,6f,00,\
-  6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
-  00,6d,00,6d,00,63,00,2e,00,6d,00,73,00,63,00,00,00
-"SuppressionPolicy"=dword:4000003c
-"icon"="X:\\Windows\\System32\\ico\\mycomput.ico"
-
-[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\管理\command]
+[HKEY_LOCAL_MACHINE\PE-SOFT\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Manage\command]
 @=hex(2):58,00,3a,00,5c,00,77,00,69,00,6e,00,64,00,6f,00,77,00,73,00,5c,00,73,\
   00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,6d,00,63,00,2e,00,\
   65,00,78,00,65,00,20,00,63,00,6f,00,6d,00,70,00,6d,00,67,00,6d,00,74,00,2e,\
   00,6d,00,73,00,63,00,00,00
-
-
 ;隐藏资源管理器左侧快速访问
 [HKEY_LOCAL_MACHINE\PE-SOFT\Classes\CLSID\{679F85CB-0220-4080-B29B-5540CC05AAB6}\ShellFolder]
 "Attributes"=dword:a0600000
@@ -120,6 +100,3 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\PE-SOFT\Classes\CLSID\{E5C31EC8-C5E6-4E07-957E-944DB4AAD85E}\InProcServer32]
 @="X:\\Windows\\System32\\StartIsBack64.dll"
 "ThreadingModel"="Apartment"
-;winxshell方案cmdline方式显示鼠标
-[HKEY_LOCAL_MACHINE\PE-SOFT\Microsoft\Windows\CurrentVersion\Policies\System]
-"EnableCursorSuppression"=dword:00000000

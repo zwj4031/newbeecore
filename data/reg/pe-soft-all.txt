@@ -1,0 +1,557 @@
+Classes\*\shellex\PropertySheetHandlers\{1f2e5c40-9550-11ce-99d2-00aa006e086c}
+Classes\.desklink
+Classes\.msc
+Classes\AppID
+Classes\CLSID
+Classes\Directory\shellex\PropertySheetHandlers\{1f2e5c40-9550-11ce-99d2-00aa006e086c}
+Classes\Drive\shell\unlock-bde
+Classes\folder
+Classes\Folder\shell\explore
+Classes\Folder\shell\open
+Classes\Folder\shell\opennewprocess
+Classes\Folder\shell\opennewwindow
+Classes\Folder\shellex\DragDropHandlers\{BD472F60-27FA-11cf-B8B4-444553540000}
+Classes\Interface
+Classes\Launcher.AllAppsDesktopApplication\shellex\ContextMenuHandlers\{90AA3A4E-1CBA-4233-B8BB-535773D48449}
+Classes\Launcher.AllAppsDesktopApplication\shellex\ContextMenuHandlers\{a2a9545d-a0c2-42b4-9708-a0b2badd77c8}
+Classes\Launcher.AllAppsDesktopApplication\shellex\ContextMenuHandlers\PintoStartScreen
+Classes\Launcher.Computer\shellex\ContextMenuHandlers\{a2a9545d-a0c2-42b4-9708-a0b2badd77c8}
+Classes\Launcher.Computer\shellex\ContextMenuHandlers\PintoStartScreen
+Classes\Launcher.DesktopPackagedApplication\shellex\ContextMenuHandlers\{90AA3A4E-1CBA-4233-B8BB-535773D48449}
+Classes\Launcher.DesktopPackagedApplication\shellex\ContextMenuHandlers\{a2a9545d-a0c2-42b4-9708-a0b2badd77c8}
+Classes\Launcher.DesktopPackagedApplication\shellex\ContextMenuHandlers\PintoStartScreen
+Classes\Launcher.ImmersiveApplication\shellex\ContextMenuHandlers\{90AA3A4E-1CBA-4233-B8BB-535773D48449}
+Classes\Launcher.ImmersiveApplication\shellex\ContextMenuHandlers\{a2a9545d-a0c2-42b4-9708-a0b2badd77c8}
+Classes\Launcher.ImmersiveApplication\shellex\ContextMenuHandlers\PintoStartScreen
+Classes\Launcher.SystemSettings\shellex\ContextMenuHandlers\{90AA3A4E-1CBA-4233-B8BB-535773D48449}
+Classes\Launcher.SystemSettings\shellex\ContextMenuHandlers\{a2a9545d-a0c2-42b4-9708-a0b2badd77c8}
+Classes\Launcher.SystemSettings\shellex\ContextMenuHandlers\PintoStartScreen
+Classes\Microsoft.Website\shellex\ContextMenuHandlers\PintoStartScreen
+Classes\mscfile
+Classes\MSILink
+Classes\NetworkExplorerPlugins
+Classes\new
+Classes\OpenSearchProvider
+Classes\PrintConfig.PrinterExtensionManager
+Classes\Printers
+Classes\SystemFileAssociations\.ico
+Classes\SystemFileAssociations\image\OpenWithList\MSPaint.exe
+Classes\SystemFileAssociations\image\shellex\{BB2E617C-0920-11d1-9A0B-00C04FC2D6C1}
+Classes\SystemFileAssociations\image\shellex\{e357fccd-a995-4576-b01f-234630154e96}
+Classes\SystemFileAssociations\image\shellex\ContextMenuHandlers
+Classes\themefile
+Classes\TypeLib\{00020430-0000-0000-C000-000000000046}
+Classes\TypeLib\{06290C00-48AA-11D2-8432-006008C3FBFC}
+Classes\TypeLib\{1EA4DBF0-3C3B-11CF-810C-00AA00389B71}
+Classes\TypeLib\{3F4DACA7-160D-11D2-A8E9-00104B365C9F}
+Classes\TypeLib\{420B2830-E718-11CF-893D-00A0C9054228}
+Classes\TypeLib\{50A7E9B0-70EF-11D1-B75A-00A0C90564FE}
+Classes\TypeLib\{563DC060-B09A-11D2-A24D-00104BD35090}
+Classes\TypeLib\{565783C6-CB41-11D1-8B02-00600806D9B6}
+Classes\TypeLib\{58FBCF7C-E7A9-467C-80B3-FC65E8FCCA08}
+Classes\TypeLib\{61E207A5-827C-42E9-ADFA-165C6A745EE4}
+Classes\TypeLib\{6271895B-E67F-4DEE-B68B-BF74ACE07753}
+Classes\TypeLib\{8628F27C-64A2-4ED6-906B-E6155314C16A}
+Classes\TypeLib\{8E80422B-CAC4-472B-B272-9635F1DFEF3B}
+Classes\TypeLib\{91CE54EE-C67C-4B46-A4FF-99416F27A8BF}
+Classes\TypeLib\{930299ce-9965-4dec-b0f4-a54848d4b667}
+Classes\TypeLib\{944DE083-8FB8-45CF-BCB7-C477ACB2F897}
+Classes\TypeLib\{ADB880A2-D8FF-11CF-9377-00AA003B7A11}
+Classes\TypeLib\{C68E3F27-AAD0-4DC4-B7E6-B3249770763D}
+Classes\TypeLib\{C866CA3A-32F7-11D2-9602-00C04F8EE628}
+Classes\TypeLib\{C9C2B807-7731-4F34-81B7-44FF7779522B}
+Classes\TypeLib\{D7CA032C-B7D0-429E-9FD7-82241C356B4A}
+Classes\TypeLib\{DB3442A7-A2E9-4A59-9CB5-F5C1A5D901E5}
+Classes\TypeLib\{DCB00D01-570F-4A9B-8D69-199FDBA5723B}
+Classes\TypeLib\{EA39B853-5769-4937-8ECE-736DE4F469BC}
+Classes\TypeLib\{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}
+Classes\TypeLib\{EB2114C0-CB02-467A-AE4D-2ED171F05E6A}
+Classes\TypeLib\{F31091E5-B0A8-11D6-B6FC-005056C00008}
+Classes\TypeLib\{F5078F18-C551-11D3-89B9-0000F81FE221}
+Classes\TypeLib\{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}
+Classes\WOW6432Node\CLSID
+Classes\WOW6432Node\Interface
+Microsoft\Active Setup
+Microsoft\Cryptography\Defaults\Provider\Microsoft Base Smart Card Crypto Provider
+Microsoft\Cryptography\OID\EncodingType 0\CryptDllFindLocalizedName\LocalizedNames
+Microsoft\Cryptography\OID\EncodingType 0\CryptsvcDllCtrl\DEFAULT
+Microsoft\Cryptography\OID\EncodingType 1\CryptDllDecodeObjectEx
+Microsoft\Cryptography\Services
+Microsoft\CTF\SystemShared
+Microsoft\CTF\TIP\{C1EE01F2-B3B6-4A6A-9DDD-E988C088EC82}\Category\Category\{24AF3031-852D-40A2-BC09-8992898CE722}\{07A5EF1A-3DE1-432D-91E3-2BCDB9111A71}
+Microsoft\CTF\TIP\{C1EE01F2-B3B6-4A6A-9DDD-E988C088EC82}\Category\Category\{565FB8D8-6BD4-4CA1-B223-0F2CCB8F4F96}\{B2C7F219-68FB-47D8-9881-AA681D0944F0}
+Microsoft\CTF\TIP\{C1EE01F2-B3B6-4A6A-9DDD-E988C088EC82}\Category\Category\{85F9794B-4D19-40D8-8864-4E747371A66D}\{A48FA74E-F767-44E4-BFBC-169E8B38FF58}
+Microsoft\CTF\TIP\{C1EE01F2-B3B6-4A6A-9DDD-E988C088EC82}\Category\Item\{07A5EF1A-3DE1-432D-91E3-2BCDB9111A71}\{24AF3031-852D-40A2-BC09-8992898CE722}
+Microsoft\CTF\TIP\{C1EE01F2-B3B6-4A6A-9DDD-E988C088EC82}\Category\Item\{A48FA74E-F767-44E4-BFBC-169E8B38FF58}\{85F9794B-4D19-40D8-8864-4E747371A66D}
+Microsoft\CTF\TIP\{C1EE01F2-B3B6-4A6A-9DDD-E988C088EC82}\Category\Item\{B2C7F219-68FB-47D8-9881-AA681D0944F0}\{565FB8D8-6BD4-4CA1-B223-0F2CCB8F4F96}
+Microsoft\DeviceReg
+Microsoft\DFS
+Microsoft\EAPSIMMethods\18\FastReauthContext
+Microsoft\EAPSIMMethods\23\FastReauthContext
+Microsoft\EAPSIMMethods\50\FastReauthContext
+Microsoft\EnterpriseCertificates\CA\Certificates
+Microsoft\EnterpriseCertificates\CA\CRLs
+Microsoft\EnterpriseCertificates\CA\CTLs
+Microsoft\EnterpriseCertificates\Disallowed\Certificates
+Microsoft\EnterpriseCertificates\Disallowed\CRLs
+Microsoft\EnterpriseCertificates\Disallowed\CTLs
+Microsoft\EnterpriseCertificates\Root\CRLs
+Microsoft\EnterpriseCertificates\Root\CTLs
+Microsoft\EnterpriseCertificates\Trust\Certificates
+Microsoft\EnterpriseCertificates\Trust\CRLs
+Microsoft\EnterpriseCertificates\Trust\CTLs
+Microsoft\EnterpriseCertificates\TrustedPeople\Certificates
+Microsoft\EnterpriseCertificates\TrustedPeople\CRLs
+Microsoft\EnterpriseCertificates\TrustedPeople\CTLs
+Microsoft\EnterpriseDataProtection
+Microsoft\EventSystem\{26c409cc-ae86-11d1-b616-00805fc79216}\EventClasses\{D5978620-5B9F-11D1-8DD2-00AA004ABD5E}-{00000000-0000-0000-0000-000000000000}-{00000000-0000-0000-0000-000000000000}
+Microsoft\EventSystem\{26c409cc-ae86-11d1-b616-00805fc79216}\EventClasses\{D5978630-5B9F-11D1-8DD2-00AA004ABD5E}-{00000000-0000-0000-0000-000000000000}-{00000000-0000-0000-0000-000000000000}
+Microsoft\EventSystem\{26c409cc-ae86-11d1-b616-00805fc79216}\EventClasses\{D5978640-5B9F-11D1-8DD2-00AA004ABD5E}-{00000000-0000-0000-0000-000000000000}-{00000000-0000-0000-0000-000000000000}
+Microsoft\EventSystem\{26c409cc-ae86-11d1-b616-00805fc79216}\EventClasses\{D5978650-5B9F-11D1-8DD2-00AA004ABD5E}-{00000000-0000-0000-0000-000000000000}-{00000000-0000-0000-0000-000000000000}
+Microsoft\EventSystem\{26c409cc-ae86-11d1-b616-00805fc79216}\EventClasses\{FAF53CC4-BD73-4E36-83F1-2B23F46E513E}-{00000000-0000-0000-0000-000000000000}-{00000000-0000-0000-0000-000000000000}
+Microsoft\Function Discovery
+Microsoft\KGL\OneSettings
+Microsoft\Managed Desktop
+Microsoft\MMC\NodeTypes\{312B59C1-4002-11d0-96F8-00A0C9191601}
+Microsoft\MMC\NodeTypes\{476e6446-aaff-11d0-b944-00c04fd8d5b0}
+Microsoft\MMC\NodeTypes\{476e6446-aaff-11d0-b944-00c04fd8d5b0}\Extensions
+Microsoft\MMC\NodeTypes\{476e6448-aaff-11d0-b944-00c04fd8d5b0}
+Microsoft\MMC\NodeTypes\{476e6448-aaff-11d0-b944-00c04fd8d5b0}\Extensions\Namespace
+Microsoft\MMC\NodeTypes\{476E6449-AAFF-11D0-B944-00C04FD8D5B0}
+Microsoft\MMC\NodeTypes\{476E6449-AAFF-11D0-B944-00C04FD8D5B0}\Dynamic Extensions
+Microsoft\MMC\NodeTypes\{476E6449-AAFF-11D0-B944-00C04FD8D5B0}\Extensions\NameSpace
+Microsoft\MMC\NodeTypes\{476E6449-AAFF-11D0-B944-00C04FD8D5B0}\Extensions\Task
+Microsoft\MMC\NodeTypes\{476e644a-aaff-11d0-b944-00c04fd8d5b0}
+Microsoft\MMC\NodeTypes\{476e644a-aaff-11d0-b944-00c04fd8d5b0}\Extensions\NameSpace
+Microsoft\MMC\SnapIns\{394C052E-B830-11D0-9A86-00C04FD8DBF7}
+Microsoft\MMC\SnapIns\{58221C67-EA27-11CF-ADCF-00AA00A80033}
+Microsoft\MMC\SnapIns\{58221C6A-EA27-11CF-ADCF-00AA00A80033}
+Microsoft\MMC\SnapIns\{5C659257-E236-11D2-8899-00104B2AFB46}
+Microsoft\MMC\SnapIns\{5D6179C8-17EC-11D1-9AA9-00C04FD8FE93}
+Microsoft\MMC\SnapIns\{74246bfc-4c96-11d0-abef-0020af6b0b7a}
+Microsoft\MMC\SnapIns\{7478EF65-8C46-11d1-8D99-00A0C913CAD4}
+Microsoft\MMC\SnapIns\{8EAD3A12-B2C1-11d0-83AA-00A0C92C9D5D}
+Microsoft\MMC\SnapIns\{90087284-d6d6-11d0-8353-00a0c90640bf}
+Microsoft\MMC\SnapIns\{B708457E-DB61-4C55-A92F-0D4B5E9B1224}
+Microsoft\MMC\SnapIns\{BD95BA60-2E26-AAD1-AD99-00AA00B8E05A}
+Microsoft\MMC\SnapIns\{C96401CC-0E17-11D3-885B-00C04F72C717}
+Microsoft\MMC\SnapIns\FX:{b05566ae-fe9c-4363-be05-7a4cbb7cb510}
+Microsoft\MMC\SnapIns\FX:{c7b8fb07-bfe1-4c2e-9217-7a69a95bbac4}
+Microsoft\MMC\UseNewUI
+Microsoft\MSMQ
+Microsoft\NetSh
+Microsoft\Ole
+Microsoft\Ole\Extensions
+Microsoft\PolicyManager\default\Bitlocker\EncryptionMethod
+Microsoft\PolicyManager\default\DataProtection
+Microsoft\PolicyManager\default\knobs
+Microsoft\PolicyManager\default\LocalUsersAndGroups\Configure
+Microsoft\PolicyManager\default\Multitasking\BrowserAltTabBlowout
+Microsoft\PolicyManager\default\NetworkIsolation
+Microsoft\PolicyManager\default\NetworkIsolation\EnterpriseCloudResources
+Microsoft\PolicyManager\default\NetworkIsolation\EnterpriseInternalProxyServers
+Microsoft\PolicyManager\default\NetworkIsolation\EnterpriseIPRange
+Microsoft\PolicyManager\default\NetworkIsolation\EnterpriseIPRangesAreAuthoritative
+Microsoft\PolicyManager\default\NetworkIsolation\EnterpriseNetworkDomainNames
+Microsoft\PolicyManager\default\NetworkIsolation\EnterpriseProxyServers
+Microsoft\PolicyManager\default\NetworkIsolation\EnterpriseProxyServersAreAuthoritative
+Microsoft\PolicyManager\default\NetworkIsolation\NeutralResources
+Microsoft\PolicyManager\default\Storage\AllowStorageSenseGlobal
+Microsoft\PolicyManager\default\System
+Microsoft\PolicyManager\default\Update
+Microsoft\Reliability Analysis\RAC
+Microsoft\RemovalTools
+Microsoft\Rpc\Extensions
+Microsoft\Rpc\SecurityService
+Microsoft\Security Center\Feature
+Microsoft\Security Center\Provider\Av
+Microsoft\Security Center\Provider\CBP
+Microsoft\Security Center\Provider\DPA
+Microsoft\Security Center\Provider\Fw
+Microsoft\Security Center\Provider\SecurityApp
+Microsoft\Security Center\Svc
+Microsoft\SecurityManager\AdminCapabilities
+Microsoft\SecurityManager\AuthorizationRules
+Microsoft\SecurityManager\AuthorizationRules\Capability\capabilityRule_DevUnlock
+Microsoft\SecurityManager\AuthorizationRules\Capability\capabilityRule_DevUnlock_Internal
+Microsoft\SecurityManager\AuthorizationRules\Capability\capabilityRule_Enterprise
+Microsoft\SecurityManager\AuthorizationRules\Capability\capabilityRule_General
+Microsoft\SecurityManager\AuthorizationRules\Capability\capabilityRule_Restricted
+Microsoft\SecurityManager\AuthorizationRules\Capability\capabilityRule_Windows
+Microsoft\SecurityManager\CapabilityClasses
+Microsoft\SecurityManager\CapabilityClasses\capabilityClass_DevUnlock
+Microsoft\SecurityManager\CapabilityClasses\capabilityClass_DevUnlock_Internal
+Microsoft\SecurityManager\CapabilityClasses\capabilityClass_Enterprise
+Microsoft\SecurityManager\CapabilityClasses\capabilityClass_General
+Microsoft\SecurityManager\CapabilityClasses\capabilityClass_Restricted
+Microsoft\SecurityManager\CapabilityClasses\capabilityClass_Windows
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\1527c705-839a-4832-9118-54d4Bd6a0c89_10.0.19041.1_neutral_neutral_cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\c5e2524a-ea46-4f67-841f-6a9465d9d515_10.0.19041.1_neutral_neutral_cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\E2A4F912-2574-4A75-9BB0-0D023378592B_10.0.19041.1_neutral_neutral_cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE_10.0.19041.1_neutral_neutral_cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.AAD.BrokerPlugin_1000.19041.1.0_neutral_neutral_cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.AccountsControl_10.0.19041.1_neutral__cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.AsyncTextService_10.0.19041.1_neutral__8wekyb3d8bbwe
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.BioEnrollment_10.0.19041.1_neutral__cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.CredDialogHost_10.0.19041.1_neutral__cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.ECApp_10.0.19041.1_neutral__8wekyb3d8bbwe
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.LockApp_10.0.19041.1_neutral__cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.MicrosoftEdge_44.19041.1.0_neutral__8wekyb3d8bbwe
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.MicrosoftEdgeDevToolsClient_1000.19041.1.0_neutral_neutral_8wekyb3d8bbwe
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.Win32WebViewHost_10.0.19041.1_neutral_neutral_cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.Windows.Apprep.ChxApp_1000.19041.1.0_neutral_neutral_cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.Windows.AssignedAccessLockApp_1000.19041.1.0_neutral_neutral_cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.Windows.CallingShellApp_1000.19041.1.0_neutral_neutral_cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.Windows.CapturePicker_10.0.19041.1_neutral__cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.Windows.CloudExperienceHost_10.0.19041.1_neutral_neutral_cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.Windows.ContentDeliveryManager_10.0.19041.1_neutral_neutral_cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.Windows.NarratorQuickStart_10.0.19041.1_neutral_neutral_8wekyb3d8bbwe
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.Windows.OOBENetworkCaptivePortal_10.0.19041.1_neutral__cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.Windows.OOBENetworkConnectionFlow_10.0.19041.1_neutral__cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.Windows.ParentalControls_1000.19041.1.0_neutral_neutral_cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.Windows.PeopleExperienceHost_10.0.19041.1_neutral_neutral_cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.Windows.PinningConfirmationDialog_1000.19041.1.0_neutral__cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.Windows.Search_1.14.0.19041_neutral_neutral_cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.Windows.SecHealthUI_10.0.19041.1_neutral__cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.Windows.SecureAssessmentBrowser_10.0.19041.1_neutral_neutral_cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.Windows.ShellExperienceHost_10.0.19041.1_neutral_neutral_cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.Windows.StartMenuExperienceHost_10.0.19041.1_neutral_neutral_cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.Windows.XGpuEjectDialog_10.0.19041.1_neutral_neutral_cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Microsoft.XboxGameCallableUI_1000.19041.1.0_neutral_neutral_cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\MicrosoftWindows.Client.CBS_119.21101.11830.0_x64__cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\MicrosoftWindows.UndockedDevKit_10.0.19041.1_neutral_neutral_cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\NcsiUwpApp_1000.19041.1.0_neutral_neutral_8wekyb3d8bbwe
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Windows.CBSPreview_10.0.19041.1_neutral_neutral_cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\windows.immersivecontrolpanel_10.0.2.1000_neutral_neutral_cw5n1h2txyewy
+Microsoft\SecurityManager\CapAuthz\ApplicationsEx\Windows.PrintDialog_6.2.1.0_neutral_neutral_cw5n1h2txyewy
+Microsoft\SecurityManager\PrincipalClasses
+Microsoft\SecurityManager\PrincipalClasses\principalClass_DevUnlock
+Microsoft\SecurityManager\PrincipalClasses\principalClass_DevUnlock_Internal
+Microsoft\SecurityManager\PrincipalClasses\principalClass_Enterprise
+Microsoft\SecurityManager\PrincipalClasses\principalClass_General
+Microsoft\SecurityManager\PrincipalClasses\principalClass_Restricted
+Microsoft\SecurityManager\PrincipalClasses\principalClass_Windows
+Microsoft\SecurityManager\TransientObjects
+Microsoft\Software\Microsoft\Shared Tools\Msinfo
+Microsoft\SQMClient
+Microsoft\SystemCertificates\AuthRoot\CRLs
+Microsoft\SystemCertificates\AuthRoot\CTLs
+Microsoft\SystemCertificates\CA\Certificates\109F1CAED645BB78B3EA2B94C0697C740733031C
+Microsoft\SystemCertificates\CA\Certificates\FEE449EE0E3965A5246F000E87FDE2A065FD89D4
+Microsoft\SystemCertificates\CA\CTLs
+Microsoft\SystemCertificates\Disallowed\CRLs
+Microsoft\SystemCertificates\Remote Desktop\Certificates
+Microsoft\SystemCertificates\Remote Desktop\CRLs
+Microsoft\SystemCertificates\Remote Desktop\CTLs
+Microsoft\SystemCertificates\ROOT\Certificates\18F7C1FCC3090203FD5BAA2F861A754976C8DD25
+Microsoft\SystemCertificates\ROOT\Certificates\245C97DF7514E7CF2DF8BE72AE957B9E04741E85
+Microsoft\SystemCertificates\ROOT\Certificates\3B1EFD3A66EA28B16697394703A72CA340A05BD5
+Microsoft\SystemCertificates\ROOT\Certificates\7F88CD7223F3C813818C994614A89C99FA3B5247
+Microsoft\SystemCertificates\ROOT\Certificates\8F43288AD272F3103B6FB1428485EA3014C0BCFE
+Microsoft\SystemCertificates\ROOT\Certificates\A43489159A520F0D93D032CCAF37E7FE20A8B419
+Microsoft\SystemCertificates\ROOT\Certificates\CDD4EEAE6000AC7F40C3802C171E30148030C072
+Microsoft\SystemCertificates\ROOT\CRLs
+Microsoft\SystemCertificates\ROOT\CTLs
+Microsoft\SystemCertificates\SmartCardRoot\Certificates
+Microsoft\SystemCertificates\SmartCardRoot\CRLs
+Microsoft\SystemCertificates\SmartCardRoot\CTLs
+Microsoft\SystemCertificates\trust\Certificates
+Microsoft\SystemCertificates\trust\CRLs
+Microsoft\SystemCertificates\trust\CTLs
+Microsoft\SystemCertificates\TrustedPeople\Certificates
+Microsoft\SystemCertificates\TrustedPeople\CRLs
+Microsoft\SystemCertificates\TrustedPeople\CTLs
+Microsoft\SystemCertificates\Windows Live ID Token Issuer\Certificates\0217922CA1B6F0BD0F1D7FF6E7BDC29B2FAAA060
+Microsoft\SystemCertificates\Windows Live ID Token Issuer\Certificates\2C85006A1A028BCC349DF23C474724C055FDE8B6
+Microsoft\SystemCertificates\Windows Live ID Token Issuer\CRLs
+Microsoft\SystemCertificates\Windows Live ID Token Issuer\CTLs
+Microsoft\TabletTip\ZOrderNonCompete
+Microsoft\TermServLicensing
+Microsoft\Tracing\RASPLAP
+Microsoft\Tracing\smartscreen_RASAPI32
+Microsoft\UPnP Control Point
+Microsoft\UserManager\Users\1044480
+Microsoft\Wbem\CIMOM
+Microsoft\Wbem\ESS\//./root/CIMV2\SCM Event Provider
+Microsoft\Wbem\ESS\//./root/subscription
+Microsoft\Wbem\WMIMigration
+Microsoft\WcmSvc
+Microsoft\Windows NT\CurrentVersion\Console\TrueTypeFont
+Microsoft\Windows NT\CurrentVersion\Containers
+Microsoft\Windows NT\CurrentVersion\Drivers32
+Microsoft\Windows NT\CurrentVersion\EditionVersion
+Microsoft\Windows NT\CurrentVersion\GRE_Initialize
+Microsoft\Windows NT\CurrentVersion\IniFileMapping\win.ini
+Microsoft\Windows NT\CurrentVersion\NetworkCards
+Microsoft\Windows NT\CurrentVersion\NetworkList
+Microsoft\Windows NT\CurrentVersion\PasswordLess
+Microsoft\Windows NT\CurrentVersion\Prefetcher
+Microsoft\Windows NT\CurrentVersion\setup
+Microsoft\Windows NT\CurrentVersion\SPP
+Microsoft\Windows NT\CurrentVersion\Svchost
+Microsoft\Windows NT\CurrentVersion\Svchost\appmodel
+Microsoft\Windows NT\CurrentVersion\Svchost\LocalServiceNetworkRestricted
+Microsoft\Windows NT\CurrentVersion\Svchost\print
+Microsoft\Windows NT\CurrentVersion\SystemRestore
+Microsoft\Windows NT\CurrentVersion\Terminal Server
+Microsoft\Windows NT\CurrentVersion\Windows\Win32kWPP
+Microsoft\Windows NT\CurrentVersion\Winlogon\GPExtensions\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}
+Microsoft\Windows NT\CurrentVersion\Winlogon\GPExtensions\{827D319E-6EAC-11D2-A4EA-00C04F79F83A}
+Microsoft\Windows NT\CurrentVersion\WUDF
+Microsoft\Windows NT\CurrentVersion\WUDF\Services\{193a1820-d9ac-4997-8c55-be817523f6aa}
+Microsoft\Windows\CurrentVersion\App Management\WindowsFeatureCategories
+Microsoft\Windows\CurrentVersion\ApplicationAssociationToasts
+Microsoft\Windows\CurrentVersion\AppModel\StagingInfo
+Microsoft\Windows\CurrentVersion\AppModel\StateChange
+Microsoft\Windows\CurrentVersion\AppModel\StateRepository
+Microsoft\Windows\CurrentVersion\Appx
+Microsoft\Windows\CurrentVersion\Appx\DeploymentExtensionModules
+Microsoft\Windows\CurrentVersion\Appx\PackageState
+Microsoft\Windows\CurrentVersion\Appx\PackageVolumes
+Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{2135f72a-90b5-4ed3-a7f1-8bb705ac276a}
+Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{25CBB996-92ED-457e-B28C-4774084BD562}
+Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{3dd6bec0-8193-4ffe-ae25-e08e39ea4063}
+Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{cb82ea12-9f71-446d-89e1-8d0924e1256e}
+Microsoft\Windows\CurrentVersion\Authentication\LogonUI\Background
+Microsoft\Windows\CurrentVersion\Authentication\LogonUI\BootAnimation
+Microsoft\Windows\CurrentVersion\Authentication\LogonUI\ClearAutologon
+Microsoft\Windows\CurrentVersion\Authentication\LogonUI\TestHooks
+Microsoft\Windows\CurrentVersion\Authentication\LogonUI\UserSwitch
+Microsoft\Windows\CurrentVersion\Authentication\LogonUI\UserTile
+Microsoft\Windows\CurrentVersion\Authentication\LogonUI\ValidateUsername
+Microsoft\Windows\CurrentVersion\BitLocker
+Microsoft\Windows\CurrentVersion\Census
+Microsoft\Windows\CurrentVersion\Control Panel\Cpls\desk.cpl
+Microsoft\Windows\CurrentVersion\Control Panel\Cpls\inetcpl.cpl
+Microsoft\Windows\CurrentVersion\Control Panel\Cpls\intl.cpl
+Microsoft\Windows\CurrentVersion\Control Panel\Cpls\sysdm.cpl
+Microsoft\Windows\CurrentVersion\Control Panel\Cpls\systemcpl.dll
+Microsoft\Windows\CurrentVersion\Control Panel\Cpls\timedate.cpl
+Microsoft\Windows\CurrentVersion\Control Panel\don't load
+Microsoft\Windows\CurrentVersion\Control Panel\Glass Colorization\Swatches\{1E806D7D-F0C4-4F5E-876A-232C1E62F955}
+Microsoft\Windows\CurrentVersion\Control Panel\Glass Colorization\Swatches\{24D775FF-3435-4F33-A2DE-9D86A5A4B40E}
+Microsoft\Windows\CurrentVersion\Control Panel\Glass Colorization\Swatches\{2F1411A0-5BA2-40BB-A731-2EB5BCC8CA24}
+Microsoft\Windows\CurrentVersion\Control Panel\Glass Colorization\Swatches\{2F4CBDD2-35D9-4618-9B7F-4D5EE36B60B4}
+Microsoft\Windows\CurrentVersion\Control Panel\Glass Colorization\Swatches\{32D17E91-6042-4c7f-9E59-CB1EFF01391C}
+Microsoft\Windows\CurrentVersion\Control Panel\Glass Colorization\Swatches\{57D1C9EC-BDE8-451C-A8C0-DC9618A77262}
+Microsoft\Windows\CurrentVersion\Control Panel\Glass Colorization\Swatches\{64A6FD77-9D49-4cdd-BA05-70DFE9ECE9B4}
+Microsoft\Windows\CurrentVersion\Control Panel\Glass Colorization\Swatches\{7E90182C-B135-4a81-BBC6-64A82883219A}
+Microsoft\Windows\CurrentVersion\Control Panel\Glass Colorization\Swatches\{86A129BE-D8E4-4190-8F0D-7EDADEC798D5}
+Microsoft\Windows\CurrentVersion\Control Panel\Glass Colorization\Swatches\{8DD9E9AD-9315-4B9B-8473-9A1C9EA7D4B6}
+Microsoft\Windows\CurrentVersion\Control Panel\Glass Colorization\Swatches\{AFE71214-8915-49f3-8719-C38D8BEDCCD0}
+Microsoft\Windows\CurrentVersion\Control Panel\Glass Colorization\Swatches\{B5650616-CAD6-4961-85D3-6BE2385482B8}
+Microsoft\Windows\CurrentVersion\Control Panel\Glass Colorization\Swatches\{B8C9A217-1BEC-49BB-A919-C69CE5EA31A2}
+Microsoft\Windows\CurrentVersion\Control Panel\Glass Colorization\Swatches\{DB39F7C6-CB7A-4F86-B41A-E1491F2F8717}
+Microsoft\Windows\CurrentVersion\Control Panel\Glass Colorization\Swatches\{EB768E8E-0A90-4f0b-BA48-5FB46067AD41}
+Microsoft\Windows\CurrentVersion\Control Panel\Glass Colorization\Swatches\{FD81078C-1B36-4595-A92E-91F05C4FA5DC}
+Microsoft\Windows\CurrentVersion\Control Panel\Settings\Network
+Microsoft\Windows\CurrentVersion\Control Panel\Theme
+Microsoft\Windows\CurrentVersion\Control Panel\ThemeVolatile
+Microsoft\Windows\CurrentVersion\Diagnostics\DiagTrack\TraceManager
+Microsoft\Windows\CurrentVersion\DriverSearching
+Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\AlwaysShowMenus
+Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\AutoCheckSelect
+Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\DesktopProcess
+Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\FolderSizeTip
+Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\Hidden
+Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\HideDrivesWithNoMedia
+Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\HideFileExt
+Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\HideMergeConflicts
+Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\IconsOnly
+Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\PersistBrowsers
+Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\SharingWizardOn
+Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\ShowCompColor
+Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\ShowDriveLetters
+Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\ShowFullPath
+Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\ShowInfoTip
+Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\ShowPreviewHandlers
+Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\ShowStatusBar
+Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\ShowSyncProviderNotifications
+Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\ShowTypeOverlay
+Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\SuperHidden
+Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\TypeAhead
+Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}
+Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Windows.AddMediaServer
+Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Windows.BitLocker
+Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Windows.CleanUp
+Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Windows.HistoryVaultRestore
+Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Windows.RibbonSync.WorkOfflineOnline
+Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Windows.zip
+Microsoft\Windows\CurrentVersion\Explorer\ControlPanel\NameSpace\{74246bfc-4c96-11d0-abef-0020af6b0b7a}
+Microsoft\Windows\CurrentVersion\Explorer\ControlPanel\NameSpace\{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}
+Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}
+Microsoft\Windows\CurrentVersion\Explorer\DeviceUpdateLocations
+Microsoft\Windows\CurrentVersion\Explorer\DocObjectView
+Microsoft\Windows\CurrentVersion\Explorer\DriveIcons
+Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{008CA0B1-55B4-4C56-B8A8-4DE4B299D3BE}
+Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{1e87508d-89c2-42f0-8a7e-645a0f50ca58}
+Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{9274BD8D-CFD1-41C3-B35E-B13F55A758F4}
+Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{A52BBA46-E9E1-435f-B3D9-28DAA648C0F6}
+Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{D20BEEC4-5CA8-4905-AE3B-BF251EA09B53}
+Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel
+Microsoft\Windows\CurrentVersion\Explorer\KindMap
+Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\DelegateFolders\{35786D3C-B075-49b9-88DD-029876E11C01}
+Microsoft\Windows\CurrentVersion\Explorer\NetworkNeighborhood\NameSpace\{D4480A50-BA28-11d1-8E75-00C04FA31A86}
+Microsoft\Windows\CurrentVersion\Explorer\OpenContainingFolderHiddenList
+Microsoft\Windows\CurrentVersion\Explorer\Power
+Microsoft\Windows\CurrentVersion\Explorer\ShellServiceObjects\{3BF043EF-A974-49B3-8322-B853CF1E5EC5}
+Microsoft\Windows\CurrentVersion\Explorer\ShellServiceObjects\{C2796011-81BA-4148-8FCA-C6643245113F}
+Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run
+Microsoft\Windows\CurrentVersion\Flighting\Build
+Microsoft\Windows\CurrentVersion\HomeGroup\SupportedPubSvcTypes
+Microsoft\Windows\CurrentVersion\ImmersiveShell
+Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProtocolDefaults
+Microsoft\Windows\CurrentVersion\Internet Settings\Zones\0
+Microsoft\Windows\CurrentVersion\Management Infrastructure\Protocols\WINRM\1.0
+Microsoft\Windows\CurrentVersion\NetworkServiceTriggers\Triggers\1f81d131-3fac-4537-9e0c-7e7b0c2f4b55
+Microsoft\Windows\CurrentVersion\NetworkServiceTriggers\Triggers\bc90d167-9470-4139-a9ba-be0bbbf5b74d
+Microsoft\Windows\CurrentVersion\OptimalLayout
+Microsoft\Windows\CurrentVersion\Policies\DataCollection\Users
+Microsoft\Windows\CurrentVersion\Policies\Ext\CLSID
+Microsoft\Windows\CurrentVersion\Policies\System
+Microsoft\Windows\CurrentVersion\PreviewHandlers
+Microsoft\Windows\CurrentVersion\PropertySystem\SystemPropertyHandlers
+Microsoft\Windows\CurrentVersion\PushNotifications\Applications\Windows.System.AppInitiatedDownload
+Microsoft\Windows\CurrentVersion\PushNotifications\Applications\Windows.SystemToast.Explorer
+Microsoft\Windows\CurrentVersion\PushNotifications\Applications\Windows.SystemToast.LowDisk
+Microsoft\Windows\CurrentVersion\PushNotifications\Applications\Windows.SystemToast.RasToastNotifier
+Microsoft\Windows\CurrentVersion\Reliability\MemoryDiagnostic
+Microsoft\Windows\CurrentVersion\Reliability\shutdown
+Microsoft\Windows\CurrentVersion\Reliability\WinRE
+Microsoft\Windows\CurrentVersion\SettingSync
+Microsoft\Windows\CurrentVersion\Setup
+Microsoft\Windows\CurrentVersion\Shell Extensions\Approved
+Microsoft\Windows\CurrentVersion\ShellCompatibility\InboxApp
+Microsoft\Windows\CurrentVersion\SHUTDOWN
+Microsoft\Windows\CurrentVersion\SideBySide\IsolatedSxSAssemblies
+Microsoft\Windows\CurrentVersion\SideBySide\Winners\amd64_microsoft.vc80.crt_1fc8b3b9a1e18e3b_none_751bbd257fdbc422
+Microsoft\Windows\CurrentVersion\SideBySide\Winners\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_none_a28692199dcba471
+Microsoft\Windows\CurrentVersion\SideBySide\Winners\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_zh-cn_7e873ca8c1808db3
+Microsoft\Windows\CurrentVersion\SideBySide\Winners\amd64_microsoft.windows.common-controls_6595b64144ccf1df_none_62fe57338acfab7a
+Microsoft\Windows\CurrentVersion\SideBySide\Winners\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_none_6e8eef9408f10c66
+Microsoft\Windows\CurrentVersion\SideBySide\Winners\amd64_microsoft.windows.i..utomation.proxystub_6595b64144ccf1df_none_9f9796e7f24cbbb9
+Microsoft\Windows\CurrentVersion\SideBySide\Winners\amd64_microsoft.windows.isolationautomation_6595b64144ccf1df_none_3330287935bfa22d
+Microsoft\Windows\CurrentVersion\SideBySide\Winners\amd64_microsoft.windows.systemcompatible_6595b64144ccf1df_none_c2a08f6c3cf7c9eb
+Microsoft\Windows\CurrentVersion\SideBySide\Winners\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_none_4a207b402ad93a1c
+Microsoft\Windows\CurrentVersion\SideBySide\Winners\amd64_policy.8.0.microsoft.vc80.crt_1fc8b3b9a1e18e3b_none_a0fbb53a85bbf8e1
+Microsoft\Windows\CurrentVersion\SideBySide\Winners\amd64_policy.9.0.microsoft.vc90.crt_1fc8b3b9a1e18e3b_none_bb22ca2f5e815913
+Microsoft\Windows\CurrentVersion\SideBySide\Winners\wow64_microsoft-windows-a..core-base.resources_31bf3856ad364e35_zh-cn_dca0ab20242713f1
+Microsoft\Windows\CurrentVersion\SideBySide\Winners\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_none_bcc8f3fc9457ed28
+Microsoft\Windows\CurrentVersion\SideBySide\Winners\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_none_ea33c8f0b247cd77
+Microsoft\Windows\CurrentVersion\SideBySide\Winners\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_zh-cn_c634737fd5fcb6b9
+Microsoft\Windows\CurrentVersion\SideBySide\Winners\x86_microsoft.windows.common-controls_6595b64144ccf1df_none_aaab8e0a9f4bd480
+Microsoft\Windows\CurrentVersion\SideBySide\Winners\x86_microsoft.windows.gdiplus_6595b64144ccf1df_none_b63c266b1d6d356c
+Microsoft\Windows\CurrentVersion\SideBySide\Winners\x86_microsoft.windows.i..utomation.proxystub_6595b64144ccf1df_none_e744cdbf06c8e4bf
+Microsoft\Windows\CurrentVersion\SideBySide\Winners\x86_microsoft.windows.isolationautomation_6595b64144ccf1df_none_7add5f504a3bcb33
+Microsoft\Windows\CurrentVersion\SideBySide\Winners\x86_microsoft.windows.systemcompatible_6595b64144ccf1df_none_0a4dc6435173f2f1
+Microsoft\Windows\CurrentVersion\SideBySide\Winners\x86_microsoft-windows-servicingstack_31bf3856ad364e35_none_ee01dfbc727bc8e6
+Microsoft\Windows\CurrentVersion\SideBySide\Winners\x86_policy.8.0.microsoft.vc80.crt_1fc8b3b9a1e18e3b_none_e8a8ec119a3821e7
+Microsoft\Windows\CurrentVersion\SideBySide\Winners\x86_policy.9.0.microsoft.vc90.crt_1fc8b3b9a1e18e3b_none_02d0010672fd8219
+Microsoft\Windows\CurrentVersion\SMI
+Microsoft\Windows\CurrentVersion\SMI\WinSxS Settings
+Microsoft\Windows\CurrentVersion\SystemProtectedUserData
+Microsoft\Windows\CurrentVersion\Tablet PC
+Microsoft\Windows\CurrentVersion\ThemeManager
+Microsoft\Windows\CurrentVersion\Themes
+Microsoft\Windows\CurrentVersion\TouchKeyboard\Users
+Microsoft\Windows\CurrentVersion\UserPictureChange
+Microsoft\Windows\CurrentVersion\WindowTabManager
+Microsoft\Windows\CurrentVersion\WINEVT\Channels\Uac/Debug
+Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{01578f96-c270-4602-ade0-578d9c29fc0c}
+Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{017ba13c-9a55-4f1f-8200-323055aac810}
+Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{3a5f2396-5c8f-4f1f-9b67-6cca6c990e61}
+Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{67d07935-283a-4791-8f8d-fa9117f3e6f2}
+Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{9580d7dd-0379-4658-9870-d5be7d52d6de}
+Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{b92cf7fd-dc10-4c6b-a72d-1613bf25e597}
+Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{c100becc-d33a-4a4b-bf23-bbef4663d017}
+Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{c100becf-d33a-4a4b-bf23-bbef4663d017}
+Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{d37e7910-79c8-57c4-da77-52bb646364cd}
+Microsoft\Windows\CurrentVersion\Wosc\Client\Persistent\ClientState\WOSC
+Microsoft\Windows\Dwm
+Microsoft\Windows\Tablet PC
+Microsoft\WindowsRuntime\ActivatableClassId
+Microsoft\WindowsRuntime\Server\StateRepository
+Microsoft\WindowsSelfHost\FIDs\ByFID
+Microsoft\WindowsSelfHost\FIDs\Unknown
+Microsoft\XAML
+Policies\Microsoft\SystemCertificates\CA
+Policies\Microsoft\SystemCertificates\Disallowed
+Policies\Microsoft\SystemCertificates\Root\CRLs
+Policies\Microsoft\SystemCertificates\Root\CTLs
+Policies\Microsoft\SystemCertificates\trust\Certificates
+Policies\Microsoft\SystemCertificates\trust\CRLs
+Policies\Microsoft\SystemCertificates\trust\CTLs
+Policies\Microsoft\SystemCertificates\TrustedPeople\Certificates
+Policies\Microsoft\SystemCertificates\TrustedPeople\CRLs
+Policies\Microsoft\SystemCertificates\TrustedPeople\CTLs
+Policies\Microsoft\Windows Defender\Policy Manager
+Policies\Microsoft\Windows\BITS
+Policies\Microsoft\Windows\CurrentVersion\Internet Settings
+Policies\Microsoft\Windows\DataCollection
+Policies\Microsoft\Windows\safer\codeidentifiers
+WOW6432Node\Microsoft\Cryptography\Defaults
+WOW6432Node\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllGetSignedDataMsg\{5598CFF1-68DB-4340-B57F-1CACF88C9A51}
+Wow6432Node\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllIsMyFileType2\{5598CFF1-68DB-4340-B57F-1CACF88C9A51}
+WOW6432Node\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllPutSignedDataMsg\{5598CFF1-68DB-4340-B57F-1CACF88C9A51}
+WOW6432Node\Microsoft\Cryptography\OID\EncodingType 1\CertDllVerifyRevocation
+Wow6432Node\Microsoft\Cryptography\OID\EncodingType 1\CertDllVerifyRevocation\DEFAULT
+WOW6432Node\Microsoft\CTF\Modern
+Wow6432Node\Microsoft\EAPSIMMethods\18
+Wow6432Node\Microsoft\EAPSIMMethods\23
+Wow6432Node\Microsoft\EAPSIMMethods\50
+WOW6432Node\Microsoft\Edge\IEToEdge
+WOW6432Node\Microsoft\EdgeUpdate
+WOW6432Node\Microsoft\Notepad
+Wow6432Node\Microsoft\Security Center\Feature
+Wow6432Node\Microsoft\Security Center\Provider\Av
+Wow6432Node\Microsoft\Security Center\Provider\CBP
+Wow6432Node\Microsoft\Security Center\Provider\DPA
+Wow6432Node\Microsoft\Security Center\Provider\Fw
+Wow6432Node\Microsoft\Security Center\Provider\SecurityApp
+Wow6432Node\Microsoft\Security Center\Svc
+WOW6432Node\Microsoft\Software\Microsoft\Shared Tools
+WOW6432Node\Microsoft\WBEM\Scripting
+WOW6432Node\Microsoft\Windows NT\CurrentVersion\Drivers32
+Wow6432Node\Microsoft\Windows NT\CurrentVersion\Winlogon
+Wow6432Node\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{2135f72a-90b5-4ed3-a7f1-8bb705ac276a}
+Wow6432Node\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{25CBB996-92ED-457e-B28C-4774084BD562}
+Wow6432Node\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{27FBDB57-B613-4AF2-9D7E-4FA7A66C21AD}
+Wow6432Node\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{3dd6bec0-8193-4ffe-ae25-e08e39ea4063}
+Wow6432Node\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{cb82ea12-9f71-446d-89e1-8d0924e1256e}
+WOW6432Node\Microsoft\Windows\CurrentVersion\Component Based Servicing
+Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}
+WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\DocObjectView
+Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions
+WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}
+WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{1B3EA5DC-B587-4786-B4EF-BD1DC332AEAE}
+WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{1e87508d-89c2-42f0-8a7e-645a0f50ca58}
+WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{31C0DD25-9439-4F12-BF41-7FF4EDA38722}
+WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{339719B5-8C47-4894-94C2-D8F77ADD44A6}
+WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}
+WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{48daf80b-e6cf-4f4e-b800-0e69d84ee384}
+WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{52a4f021-7b75-48a9-9f6b-4b87a210bc8f}
+WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}
+WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{82A74AEB-AEB4-465C-A014-D097EE346D63}
+WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{9e3995ab-1f9c-4f13-b827-48b24b6c7174}
+WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}
+WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{A52BBA46-E9E1-435f-B3D9-28DAA648C0F6}
+WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}
+WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B7534046-3ECB-4C18-BE4E-64CD4CB7D6AC}
+WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}
+Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderTypes
+WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderTypes\{5c4f28b5-f869-4e84-8e60-f11db97c5cc7}\Modifiers
+WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderTypes\{5c4f28b5-f869-4e84-8e60-f11db97c5cc7}\TopViews\{00000000-0000-0000-0000-000000000000}
+Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\Power
+Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\ShellServiceObjects
+Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings
+WOW6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\Lockdown_Zones\0
+WOW6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\0
+WOW6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\1
+WOW6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2
+WOW6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3
+WOW6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\4
+WOW6432Node\Microsoft\Windows\CurrentVersion\MMDevices\Audio\RemoteCapture\{A3ED9185-1E02-411C-B11B-05D92F25CEF4}
+WOW6432Node\Microsoft\Windows\CurrentVersion\MMDevices\Audio\RemoteRender\{6C26BA7D-F0B2-4225-B422-8168C5261E45}
+WOW6432Node\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved
+WOW6432Node\Microsoft\Windows\CurrentVersion\Themes

@@ -1,0 +1,4 @@
+DriverDatabase\DeviceIds
+DriverDatabase\DriverFiles
+DriverDatabase\DriverInfFiles
+DriverDatabase\DriverPackages

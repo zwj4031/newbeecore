@@ -1,0 +1,7 @@
+;support_vss
+\Windows\System32\VSSVC.exe
+\Windows\System32\vssapi.dll
+\Windows\System32\vsstrace.dll
+\Windows\System32\VSSVC.exe
+\Windows\System32\vss_ps.dll
+\Windows\System32\vssadmin.exe

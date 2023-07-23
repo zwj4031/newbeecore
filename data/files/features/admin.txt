@@ -12,8 +12,13 @@
 \Windows\System32\AuthExt.dll
 \Windows\System32\batmeter.dll
 \Windows\System32\Windows.Globalization.dll
+;11_need
+\Windows\System32\biwinrt.dll
+\Windows\System32\Windows.Devices.Printers.Extensions.dll
+\Windows\System32\Windows.Devices.Sensors.dll 
+
 ;ie
-\Program Files (x86)\Internet Explorer
+;\Program Files (x86)\Internet Explorer
 ;Need_file
 \Windows\System32\userinit.exe
 \Windows\System32\userinitext.dll

@@ -1,0 +1,23 @@
+;camera
+\Windows\System32\CapabilityAccessHandlers.dll
+\Windows\SysWOW64\CapabilityAccessManagerClient.dll
+\Windows\SysWOW64\ksproxy.ax
+\Windows\SysWOW64\ksuser.dll
+\Windows\SysWOW64\qcap.dll
+\Windows\SysWOW64\usermgrcli.dll
+\Windows\SysWOW64\UserMgrProxy.dll
+\Windows\SysWOW64\Windows.Media.MediaControl.dll
+;Capture Application_Record
+\Windows\WMSysPr9.prx
+\Windows\SysWOW64\COLORCNV.DLL
+\Windows\SysWOW64\Kswdmcap.ax
+\Windows\SysWOW64\mfsensorgroup.dll
+\Windows\SysWOW64\qasf.dll
+\Windows\SysWOW64\VIDRESZR.DLL
+\Windows\SysWOW64\wdmaud.drv
+\Windows\SysWOW64\WMADMOE.DLL
+\Windows\SysWOW64\WMASF.DLL
+\Windows\SysWOW64\WMVCORE.DLL
+\Windows\SysWOW64\WMVENCOD.DLL
+
+

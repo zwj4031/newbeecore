@@ -38,6 +38,11 @@
 ;\Windows\System32\wwancfg.dll
 ;\Windows\System32\wwansvc.dll
 ;\Windows\System32\wwapi.dll
+;preview_txt_jpg
+\Windows\System32\prevhost.exe
+\Windows\SysWOW64\prevhost.exe
+\Windows\System32\capisp.dll
+\Windows\System32\bootsect.exe
 
 ;realtek_USB_WiFi_Driver_setup_gui
 \Windows\System32\lz32.dll

@@ -1,4 +1,10 @@
-Windows\System32\downlevel
-Windows\System32\Dism
+\Windows\System32\downlevel
+\Windows\System32\Dism
 \Windows\Servicing\Version
-Windows\WinSxS\amd64_microsoft-windows-servicingstack_*_10.0.*.*_none_*
+\Windows\WinSxS\amd64_microsoft-windows-servicingstack_*_10.0.*.*_none_*
+\Windows\WinSxS\Catalogs
+\Windows\servicing\Version
+\Windows\servicing\Sessions
+\Windows\servicing\Packages
+\Windows\servicing\SQM
+\Windows\System32\SMI
