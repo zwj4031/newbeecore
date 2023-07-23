@@ -11,7 +11,7 @@
           </HorizontalLayout>
         <!---VerticalLayout height="120" bkcolor="#FF910816" bordersize="5,5,5,5" bordercolor="#FFF0965C" inset="1,1,1,1"-->
 	  <!--VerticalLayout width="509" height="274" bkimage="duanwang.png" bkcolor="#FF3B3632" bordersize="1,1,1,1" bordercolor="#ffffffff" inset="5,-1,5,5"-->
-     <VerticalLayout width="401" height="254" bkimage="bg.png" bordersize="-1,-1,-1,-1" bordercolor="#ffffffff" inset="5,-1,5,5">
+     <VerticalLayout width="401" height="254" bkimage="bg.png" bordersize="0,0,0,0" bordercolor="#ffffffff" inset="5,-1,5,5">
 			  <!---label width="500" height="258" name="label_info" multiline="true" text="" font="16" showhtml="true" textcolor="#FFFFFF" textpadding="0,0,0,0" /-->
             <text width="401" height="254" name="label_info" multiline="true" text="" font="14" showhtml="true" textcolor="#FFFFFF" textpadding="0,2,0,0" />
         </VerticalLayout>

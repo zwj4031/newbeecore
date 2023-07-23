@@ -48,7 +48,7 @@
     "3rd_open_arguments":"\"%s\"",
     "cascademenu":
     {
-      "#WinXNew":"Directory\\Background\\shell\\WinXNew"
+      "WinXNew":"Directory\\Background\\shell\\WinXNew"
     },
     "#iconsize":32,
     "bkcolor comment":"green for eyes",

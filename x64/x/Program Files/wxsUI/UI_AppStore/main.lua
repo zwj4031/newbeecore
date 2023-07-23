@@ -5,11 +5,13 @@ dofile(UI_Path .. 'nav.lua')
 dofile(UI_Path .. 'page.lua')
 dofile(UI_Path .. 'helper_nbdl.lua') --helper_nbdl
 dofile(UI_Path .. 'helper_openfile.lua') --helper_openfile
+dofile(UI_Path .. 'helper_ntboot.lua') --helper_ntboot
 function onload()
   UI_Inited = 0
   Nav:Init()
   helper_nbdl_onload() --helper_nbdl
   helper_openfile_onload() --helper_openfile
+  helper_ntboot_onload() --helper_ntboot
   UI_Inited = 1
 end
 

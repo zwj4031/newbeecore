@@ -39,6 +39,9 @@ Nav:SetTabLayoutItemXML(tablayout_template, '.+-(.+)')
 local appstore_path = APP_Path .. '\\AppStore'
 
 tab_list = dir.folders(appstore_path)
+--table.insert(tab_list, '10086-…Ë÷√')
+--≈≈–Ú≤‚ ‘
+table.sort(tab_list)
 Nav:SetTabList(tab_list)
 
 -- load AppStore, CatalogInfo, AppInfo

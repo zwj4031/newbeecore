@@ -89,7 +89,7 @@ function onlink(url)
     winapi.show_message("改计算机名", url)
 	else	   
 	exec('/show', [["WinXShell.exe" -ui -jcfg wxsUI\\UI_openfile\\main.jcfg -file ]] .. url) 
-       --app:run(url .. ":\\")
+       --App:Run(url .. ":\\")
    end
   sui:close()	
 end

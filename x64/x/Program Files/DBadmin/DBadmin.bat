@@ -1,5 +1,6 @@
 @echo off
 mode con cols=32 lines=1
+start "" "X:\Program Files\WinXShell.exe" -ui -jcfg wxsUI\UI_DL\main.jcfg -nbapp dbadmin&&exit
 :var
 set appname=…Ó¿∂‘∂≥Ã
 set appfile=dbadmin.rar

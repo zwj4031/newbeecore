@@ -58,6 +58,17 @@ if bios_str == nil then
 else
     bios_str = "UEFI"
 end
+
+function setpage(pagepath)
+  if pagepath == "" then
+   winapi.show_message("虚拟内存", "页面文件设置取消")
+  else
+  --System:CreatePageFile(pagepath, 8192,8192)
+   exec('/hide', 'pecmd PAGE ' .. pagepath .. 'PAGEFILE.SYS 8192 8192')
+   winapi.show_message("虚拟内存", [[页面文件]] .. pagepath .. [[\PAGEFILE.SYS 已经建立]])
+  end  
+end
+	
 -- 正则匹配获取多行
 function string.gfind(stdout, patten)
     local i, j = 0, 0
@@ -91,14 +102,16 @@ function onlink(url)
 	elseif url == "banjia" and SystemDrive == "X:" then
         exec('/hide', 'cmd /c wscript.exe //nologo wxsUI\\UI_info\\banjia.vbs')
 	elseif url == "page" and SystemDrive == "X:" then
-        exec('/hide', 'cmd /c wscript.exe //nologo wxsUI\\UI_info\\page.vbs')	
+   local pagepath = Dialog:BrowseFolder('你要把[虚拟内存页面文件]设置何处？适合小内存机器使用QQ微信等工具，默认8G', 17)
+   setpage(pagepath)
+    --exec('/hide', 'cmd /c wscript.exe //nologo wxsUI\\UI_info\\page.vbs')	
 	elseif url == "banjia" and SystemDrive ~= "X:" then
         winapi.show_message("文档搬家", "不支持非PE环境")
     elseif url == "changename" then
         winapi.show_message("改计算机名", url)
     else
-        --app:run('X:\\Progra~1\\Explorer.exe', '"' .. url .. ':\"')
-        app:run(url .. ":\\")
+        --App:Run('X:\\Progra~1\\Explorer.exe', '"' .. url .. ':\"')
+        App:Run(url .. ":\\")
     end
 end
 --to kb mb gb tb

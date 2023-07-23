@@ -1,0 +1,6 @@
+{
+  "name":"UI_AppStore",
+  "lua":"nbtool_ck.lua",
+  "entry":"nbtool_ck.xml", 
+  "nobaricon":true
+}

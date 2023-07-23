@@ -17,18 +17,18 @@ handle_system_property = 'auto'
 --[[ add one more '-' to be '---', will enable this function
 function do_ocf(lnkfile, realfile) -- handle open containing folder menu
   -- local path = realfile:match('(.+)\\')
-  -- app:run('cmd', '/k echo ' .. path)
+  -- App:Run('cmd', '/k echo ' .. path)
 
   -- totalcmd
-  app:run('X:\\Progra~1\\TotalCommander\\TOTALCMD64.exe', '/O /T /A \"' .. realfile .. '\"')
+  App:Run('X:\\Progra~1\\TotalCommander\\TOTALCMD64.exe', '/O /T /A \"' .. realfile .. '\"')
   -- XYplorer
-  app:run('X:\\Progra~1\\XYplorer\\XYplorer.exe', '/select=\"' .. realfile .. '\"')
+  App:Run('X:\\Progra~1\\XYplorer\\XYplorer.exe', '/select=\"' .. realfile .. '\"')
 end
 --]]
 
 function onload()
   -- app:call('run', 'notepad.exe')
-  -- app:run('notepad.exe')
+  -- App:Run('notepad.exe')
   app:print('WinXShell.exe loading...')
   app:print('CommandLine:' .. cmd_line)
   app:print('WINPE:'.. tostring(is_pe))
@@ -122,7 +122,7 @@ end
 
 function onclick_startmenu_controlpanel()
   if is_wes then
-    app:run('control.exe')
+    App:Run('control.exe')
     return 0
   end
   return 1
@@ -130,7 +130,7 @@ end
 
 function onclick_tray_clockarea(isdouble)
   if isdouble then
-    app:run('control.exe', 'timedate.cpl')
+    App:Run('control.exe', 'timedate.cpl')
   else
     wxsUI('UI_Calendar', 'Calendar.jcfg')
   end
@@ -149,7 +149,7 @@ end
 function initcontrolpanel(ver)
   --  4161    Control Panel
   local ctrlpanel_title = app:call('resstr', '#{@shell32.dll,4161}')
-  app:run('control.exe')
+  App:Run('control.exe')
   app:call('sleep', 500)
   if CloseWindow('CabinetWClass', ctrlpanel_title) == 0 then
     -- 32012    All Control Panel Items

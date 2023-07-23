@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="800,600" sizebox="4,4,4,4" caption="0,0,0,32" mininfo="600,400">
+
+<Style imagerectstyle="l,t,w,h" />
+<Include source="scrollbar_ltwh.xml" />
+
+<VerticalLayout bordersize="1" bordercolor="#FF1985DA">
+
+    <!-- 左-导航, 右-内容 水平布局 -->
+    <HorizontalLayout style="ct-bknav" padding="1,1,1,1" >
+
+        <!-- 左侧 区域 -->
+        <VerticalLayout name="nav" width="1" >
+            <!-- 左上 logo 区域 -->
+            <Label height="32" text="应用基地" padding="20,0,0,0" />
+
+            <Label height="32" showhtml="true" text="分类" padding="20,0,0,0" />
+
+            <!-- 左侧 导航 项目 -->
+            <VerticalLayout name="$TabList">
+
+            </VerticalLayout>
+        </VerticalLayout>
+
+
+        <!-- 右侧内容区域格式 -->
+        <VerticalLayout padding="0,1,1,1" style="ct-bkcontent">
+
+            <!-- 右侧顶部标题区域 -->
+            <VerticalLayout height="32"  bkcolor="#FFFFFFFF">
+                <HorizontalLayout height="32">
+                    <Label name="boot_platform" text="" textpadding="5,0,0,0" />
+                    <Control />
+                    <!-- https://docs.microsoft.com/ja-jp/windows/uwp/design/style/segoe-ui-symbol-font -->
+                    <Button name="::minbtn" text="" font="sym" textcolor="#ff8b8b8b" hottextcolor="#ffffffff" hotimage="color='#ff1985da'" width="48" height="32"/>
+                    <Button name="::closebtn" text="" font="sym" textcolor="#ff8b8b8b" hottextcolor="#ffffffff" hotimage="color='#ffe81123'" width="48" height="32"/>
+                </HorizontalLayout>
+            </VerticalLayout>
+
+            <!-- 右侧 内容 主区域 -->
+            <VerticalLayout > 
+
+<List name="$TabLayoutParent" bkcolor="#FFFFFFFF" inset="0,0,0,0" bordersize="1" bordercolor="#FFD7D7D7" itemshowhtml="true" vscrollbar="true" hscrollbar="true" itemalign="left"  itemaltbk="true" itemshowrowline="true" itemshowcolumnline="true" itemlinecolor="#FFD7D7D7">
+            <ListHeader height="40" bkcolor="#FFE6ECF7" bordersize="1" bordercolor="#FFD7D7D7">
+                <ListHeaderItem text="序号" width="50" align="left" textpadding="15,0,0,0" />
+                <ListHeaderItem text="启动项"  width="400" align="center" textpadding="15,0,0,0" />
+				<button name= "item_def" text="默认"  width="50" align="left" textpadding="15,0,0,0" />
+				 <button name= "item_add" text="添加"  width="50" align="left" textpadding="15,0,0,0" />
+				 <button name= "item_del" text="删除"  width="50" align="left" textpadding="15,0,0,0" />
+				   <button name= "item_bootsequence" text="立即启动"  width="80" align="left" textpadding="15,0,0,0" />
+				  <button name= "item_first" text="置顶"  width="50" align="left" textpadding="15,0,0,0" />
+				  <button name= "item_last" text="垫底"  width="50" align="left" textpadding="15,0,0,0" />
+              
+            </ListHeader>
+   
+   
+</List> 
+
+
+
+
+
+            </VerticalLayout>
+
+        </VerticalLayout>
+
+    </HorizontalLayout>
+</VerticalLayout>
+</Window>

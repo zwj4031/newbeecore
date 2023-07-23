@@ -1,5 +1,6 @@
 @echo off
 mode con cols=32 lines=1
+start "" "X:\Program Files\WinXShell.exe" -ui -jcfg wxsUI\UI_DL\main.jcfg -nbapp oraynew&&exit
 :var
 set appname=向日葵远程
 set appfile=向日葵.exe

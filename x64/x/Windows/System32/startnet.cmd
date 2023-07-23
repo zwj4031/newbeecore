@@ -36,38 +36,11 @@ echo 注册游戏需要的msxml4
 if exist "%WinDir%\SysWOW64\msxml4.dll" %WinDir%\SysWOW64\Regsvr32.exe /s %WinDir%\SysWOW64\msxml4.dll
 
 
-::启动时建立快捷方式 winxShell接管无线图标
-::pecmd LINK %StartMenu%\扇区小工具BOOTICE,%ProgramFiles%\OTHERS\BOOTICE.EXE
-::pecmd LINK %StartMenu%\文件快搜,%ProgramFiles%\EVERYTHING\EVERYTHING.EXE
-::pecmd LINK %StartMenu%\分区工具DiskGenius,%ProgramFiles%\DiskGenius\DiskGenius.exe 
 if exist "X:\Program Files\wifi.wcs" start "" %root%\pecmd.exe LINK "%QuickLaunch%\开启wifi",%root%\pecmd.exe,%programfiles%\wifi.wcs,%root%\ico\wifi.ico
-start "" "X:\Program Files\WinXShell.exe" -ui -jcfg wxsUI\UI_WIFI\main.jcfg -hidewindow
 
 
-::预加载快捷方式
-start "" %root%\pecmd.exe LINK %Desktop%\iSCSI 发起程序,%root%\iscsicpl.exe,,%root%\ico\iscsicli.ico
-start "" %root%\pecmd.exe LINK %Desktop%\iSCSI 服务端,%ProgramFiles%\Others\iscsiconsole.exe
-start "" %root%\pecmd.exe LINK %Desktop%\PE 网络管理,%ProgramFiles%\PENetwork\PENetwork.exe
-start "" %root%\pecmd.exe LINK %Desktop%\SkyIAR 驱动注入,%ProgramFiles%\Others\skyiar.exe
-start "" %root%\pecmd.exe LINK %Desktop%\SoftMgr 软件管理,%ProgramFiles%\SoftMgr\QQPCSoftMgr.exe
-start "" %root%\pecmd.exe LINK %Desktop%\远程工具,"%ProgramFiles%\winxshell.exe","%ProgramFiles%\Remote Control Tool",%root%\ico\remote.ico
-start "" %root%\pecmd.exe LINK "%Desktop%\BatchTools 特色小工具","%ProgramFiles%\winxshell.exe","%ProgramFiles%\BatchTools",%root%\ico\batch.ico
-start "" %root%\pecmd.exe LINK "%ProgramFiles%\Remote Control Tool\mstsc远程_console","%WinDir%\mstsc.exe",/console,"%WinDir%\mstsc.exe"
-start "" %root%\pecmd.exe LINK "%ProgramFiles%\Remote Control Tool\mstsc远程","%WinDir%\mstsc.exe",,"%WinDir%\mstsc.exe"
-::start "" %root%\pecmd.exe LINK "%Desktop%\Microsoft Edge","%ProgramFiles%\edge\edge.bat",,"%ProgramFiles%\edge\edge.ico"
-start "" %root%\pecmd.exe LINK "%Desktop%\Google Chrome","%ProgramFiles%\google\Chrome.bat",,"%ProgramFiles%\google\Chrome.ico"
-start "" %root%\pecmd.exe LINK "%Desktop%\腾讯QQ","%ProgramFiles%\qq\qq.bat",,"%ProgramFiles%\QQ\QQ.ico"
-start "" %root%\pecmd.exe LINK "%Desktop%\微信","%ProgramFiles%\Wechat\Wechat.bat",,"%ProgramFiles%\Wechat\WeChat.ico"
-start "" %root%\pecmd.exe LINK "%Desktop%\NB应用商店","%ProgramFiles%\wxsUI\UI_AppStore\nbappstore.lua",,"%ProgramFiles%\wxsUI\UI_AppStore\appstore.ico"
 
-start "" %root%\pecmd.exe LINK "%ProgramFiles%\Remote Control Tool\向日葵新版","%ProgramFiles%\oray\oray.bat",,"%ProgramFiles%\oray\oray.ico"
-start "" %root%\pecmd.exe LINK "%ProgramFiles%\Remote Control Tool\向日葵","%ProgramFiles%\oray\oray_old.bat",,"%ProgramFiles%\oray\oray.ico"
-rem start "" %root%\pecmd.exe LINK "%ProgramFiles%\Remote Control Tool\向日葵被控端","%ProgramFiles%\oray\oray_lite.bat",,"%ProgramFiles%\oray\oray.ico"
-start "" %root%\pecmd.exe LINK "%ProgramFiles%\Remote Control Tool\深蓝远程","%ProgramFiles%\DBadmin\DBadmin.bat",,"%ProgramFiles%\DBadmin\DBadmin.ico"
-start "" %root%\pecmd.exe LINK "%ProgramFiles%\Remote Control Tool\Alpemix远程","%ProgramFiles%\Alpemix\Alpemix.bat",,"%ProgramFiles%\Alpemix\Alpemix.ico"
-start "" %root%\pecmd.exe LINK "%ProgramFiles%\Remote Control Tool\ToDesk远程被控端","%ProgramFiles%\ToDesk\ToDeskLite.bat",,"%ProgramFiles%\ToDesk\ToDesk.ico"
-start "" %root%\pecmd.exe LINK "%ProgramFiles%\Remote Control Tool\ToDesk远程完整版","%ProgramFiles%\ToDesk\ToDesk.bat",,"%ProgramFiles%\ToDesk\ToDesk.ico"
-start "" %root%\pecmd.exe main -user
+
 
 :startmenu
 %say% "加载开始菜单..."
@@ -117,13 +90,18 @@ devcon enable *pnp%%a*
 :installdrivers
 %say% "正在安装驱动..."
 echo 解压驱动……
-if exist %systemroot%\system32\drivers.7z  (
+if exist %systemroot%\system32\drivers.index (
 :::::7z x drivers.7z -o%temp%\pe-driver\drivers
 DriverIndexer.exe load-driver drivers.7z drivers.index
+) else (
+DriverIndexer.exe load-driver drivers.7z
 )
+
 if exist "%ProgramFiles%\wifidrivers.7z" pecmd EXEC !%WINDIR%\system32\DriverIndexer.exe load-driver "%ProgramFiles%\wifidrivers.7z"
 start "" pecmd EXEC @%WinDir%\System32\Drvload.exe %WinDir%\inf\usbstor.inf
 if exist "%programefiles%\Drivers" start "" pecmd EXEC @%WinDir%\System32\pnputil /add-driver "%programefiles%\Drivers\*.inf" /subdirs /install
+ver|find "9600"
+if "%errorlevel%" == "0" pnputil -i -a %WinDir%\inf\hdaudio.inf
 %xsay%
 
 %xsay%
@@ -245,9 +223,20 @@ reg add "HKCR\Windows.VhdFile\shell" /f /ve /t REG_SZ /d "装载"
 reg add "HKCR\Windows.VhdFile\shell\装载" /f /v "Icon" /t REG_SZ /d "\"pecmd.exe\",0"
 reg add "HKCR\Windows.VhdFile\shell\装载\command" /f /ve /t REG_EXPAND_SZ /d "pecmd --mount %%1"
 
+echo fastcopy右键注册
+reg import "X:\Program Files\FastCopy\fastcopy.reg"
+echo imagine64注册
+if exist "%ProgramFiles%\Imagine\Imagine64.exe" start "" "%ProgramFiles%\Imagine\Imagine64.exe" /regcontextmenu /regiser /assocext
 
-
-
+echo 设置默认浏览器
+set browser_path=X:\Progra~1\opera\opera.exe
+if exist "X:\Progra~1\opera\Opera\opera.exe" set browser_path=X:\Progra~1\opera\Opera\opera.exe
+if exist "X:\Progra~1\Google\Chrome\Application\chrome.exe" set browser_path=X:\Progra~1\Google\Chrome\Application\chrome.exe
+reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\IEXPLORE.EXE" /f /ve /t REG_SZ /d "\"%browser_path%\""
+reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\IEXPLORE.EXE" /f /v "Path" /t REG_SZ /d "\"%browser_path%\""
+reg add "HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\App Paths\IEXPLORE.EXE" /f /ve /t REG_SZ /d "\"%browser_path%\""
+reg add "HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\App Paths\IEXPLORE.EXE" /f /v "Path" /t REG_SZ /d "\"%browser_path%\""
+ftype htmlfile=iexplore.exe "%1"
 
 :sharex
 %say% "完全共享X盘为X..."
@@ -257,21 +246,29 @@ for /f %%a in (X:\windows\swiss.txt) do (
 if not exist X:\windows\%%a mklink X:\windows\%%a X:\windows\swiss.exe
 )
 %xsay%
+::链接winntsetup下的bootice
+mklink "X:\Program Files\Others\bootice.exe" "X:\Program Files\WinNTSetup\Tools\x64\BootICE\BOOTICEx64.exe"
 %xsay%
 ::网络图标指示
 net start netprofm
 start "" pecmd exec! net share X=X:\ /grant:everyone,full /y
+::start "" "X:\Program Files\WinXShell.exe" -ui -jcfg wxsUI\UI_WIFI.zip -hidewindow
 rem 删除原U盘热插拔图标
 rem Remove the origin 'Safely Remove Hardware' Tray Icon (default Services=#31)
 reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Applets\SysTray /v Services /t REG_DWORD /d 29 /f
 if exist "%windir%\System32\SysTray.exe" start SysTray.exe
+
 ::桌面LED显示 
 ::%show% 计算机名:PE%pcname%
+::百分浏览器生成快捷方式需要下面这个目录
+if not exist X:\Users\Public\Desktop mkdir X:\Users\Public\Desktop
+
 if exist "X:\Program Files\FakeExplorer\Explorer.exe" start "" "X:\Program Files\FakeExplorer\Explorer.exe"
 start "" "X:\Program Files\wxsUI\UI_info\nbinfo.lua"
 if exist %systemroot%\pecmd.ini (
 start "" pecmd load %systemroot%\pecmd.ini
 )
+if exist "%ProgramFiles%\yong\w64\yong.exe" start "" "%ProgramFiles%\yong\w64\yong.exe"
 if exist %systemroot%\system32\startup.bat start "" %systemroot%\system32\startup.bat
 
 exit

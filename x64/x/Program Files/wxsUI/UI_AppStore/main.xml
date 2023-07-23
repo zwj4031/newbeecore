@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<Window size="800,600" sizebox="4,4,4,4" caption="0,0,0,32" mininfo="600,400">
+<Window size="800,610" sizebox="4,4,4,4" caption="0,0,0,32" mininfo="600,400">
 
 <Style imagerectstyle="l,t,w,h" />
 <Include source="scrollbar_ltwh.xml" />
 <Style name="nav_item" height="40" 
-    selectedimage="color='#ff0078d7' dest='235,10,5,20'" 
-    hotimage="color='#FFA2D7FF'  dest='235,10,5,20'"
+      selectedimage="color='#ff0078d7' dest='155,5,5,20'" 
+    hotimage="color='#FFA2D7FF'  dest='155,5,5,20'"
     align="left" textpadding="52,-10,0,0" />
 <VerticalLayout bordersize="1" bordercolor="#FF1985DA">
 
@@ -13,13 +13,13 @@
     <HorizontalLayout style="ct-bknav" padding="1,1,1,1" >
 
         <!-- 左侧 区域 -->
-        <VerticalLayout name="nav" width="240" >
+        <VerticalLayout name="nav" width="160" >
             <!-- 左上 logo 区域 -->
             <Label height="32" text="应用市场" padding="20,0,0,0" />
-            <HorizontalLayout style="nav_item" padding="20,0,0,0" >
-                <Label text="" font="sym16" width="32" />
-                <Button text="%{Home}" align="left" name="home_button" />
-            </HorizontalLayout>
+            <!--HorizontalLayout style="nav_item" padding="20,0,0,0" -->
+                <!--Label text="" font="sym16" width="32" /-->
+                
+            <!--/HorizontalLayout-->
 
             <Label height="32" showhtml="true" text="分类" padding="20,0,0,0" />
 
@@ -27,6 +27,8 @@
             <VerticalLayout name="$TabList">
 
             </VerticalLayout>
+			<Label name="boot_platform" text="" textpadding="5,0,0,0" />
+			
         </VerticalLayout>
 
 
@@ -36,9 +38,11 @@
             <!-- 右侧顶部标题区域 -->
             <VerticalLayout height="32">
                 <HorizontalLayout height="32">
-                    <Label text="本地版本:220306" textpadding="5,0,0,0" />
+                    <Label text="本地版本:230328" textpadding="5,0,0,0" />
                     <Control />
                     <!-- https://docs.microsoft.com/ja-jp/windows/uwp/design/style/segoe-ui-symbol-font -->
+					   <Button name="set_button" text="" font="sym" textcolor="#ff8b8b8b" hottextcolor="#ffffffff" hotimage="color='#ff1985da'" width="48" height="32" />
+
                     <Button name="::minbtn" text="" font="sym" textcolor="#ff8b8b8b" hottextcolor="#ffffffff" hotimage="color='#ff1985da'" width="48" height="32" />
                     <Button name="::closebtn" text="" font="sym" textcolor="#ff8b8b8b" hottextcolor="#ffffffff" hotimage="color='#ffe81123'" width="48" height="32" />
                 </HorizontalLayout>
@@ -46,9 +50,20 @@
 
             <!-- 右侧 内容 主区域 -->
             <VerticalLayout name="$TabLayoutParent">
+   
             </VerticalLayout>
+			
+        	    <Combo visible="false" float="true" itemfont="crr" itemlinecolor="#00000000" dropboxsize="0,450" itemshowhtml="true" itemfont="16" style="nb-combo" pos="0,580,100,0" align="center" name="listwinver" wheel="false" height="32" width="580" padding="0,0,0,0" textpadding="2,0,0,2"
+                        vscrollbar="true" hscrollbar="true">
+						
+						
+						                    
+                    </Combo>
+			
 
         </VerticalLayout>
+		
+		
 
     </HorizontalLayout>
 </VerticalLayout>

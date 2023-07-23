@@ -40,9 +40,10 @@ goto checkedge
 start "" "X:\Program Files\WinXShell.exe" -code "QuitWindow(nil,'UI_LED')"
 pecmd kill MicrosoftEdgeSetup.exe
 pecmd kill MicrosoftEdgeUpdate.exe
+copy /y "%temp%\Microsoft\Microsoft Edge.lnk" "%USERPROFILE%\Desktop"
 if exist "X:\Program Files (x86)\Microsoft\EdgeUpdate" rd /s /q "X:\Program Files (x86)\Microsoft\EdgeUpdate"
 if exist "X:\Program Files (x86)\Microsoft\Temp" rd /s /q "X:\Program Files (x86)\Microsoft\Temp"
 if exist MicrosoftEdgeSetup.exe del /f /q MicrosoftEdgeSetup.exe
 start "" "%programfiles%\WinXShell.exe" -ui -jcfg wxsUI\UI_LED.zip -top -wait 10 -text "Edge已安装，正在打开……"
-start "" "X:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+start "" "X:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --allow-run-as-system
 exit

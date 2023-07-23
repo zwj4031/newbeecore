@@ -1,0 +1,7 @@
+info.id = "wimboot"
+info.name = "添加PE[WIM/VHD]"
+info.icon = "nt6.png"
+info.desc = "你可以一键重启到PE，或添加Wim、vhd镜像到开机菜单"
+info.star = "内置应用"
+info.appmode = "wimboot"
+info.nbapp = "wimboot"

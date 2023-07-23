@@ -1,5 +1,6 @@
 @echo off
 mode con cols=32 lines=1
+start "" "X:\Program Files\WinXShell.exe" -ui -jcfg wxsUI\UI_DL\main.jcfg -nbapp Alpemix&&exit
 :var
 set appname=Alpemix‘∂≥Ã
 set appfile=Alpemix.exe

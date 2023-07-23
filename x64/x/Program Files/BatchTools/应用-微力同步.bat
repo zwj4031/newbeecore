@@ -4,17 +4,13 @@ title=正在下载微力同步
 cd /d %~dp0
 set appdir=verysync
 set appexe=verysync.exe
-set dlurl=http://dl-cn.verysync.com/releases/v2.8.2/verysync-windows-386-v2.8.2.zip
+set dlurl=http://www.verysync.com/download.php?platform=windows-amd64
 set outfile=very.zip
 
 :downloadapp
-if not exist "X:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" (
-start "" "%programfiles%\WinXShell.exe" -ui -jcfg wxsUI\UI_LED.zip -top -wait 5 -text "未安装Microsoft Edge，本应用依赖Microsoft Edge"
-exit
-) else (
 start "" "%programfiles%\WinXShell.exe" -ui -jcfg wxsUI\UI_LED.zip -top -text "正在下载安装微力同步……"
-aria2c -c %dlurl% -d %temp% -o %outfile%
-)
+aria2c -c --user-agent="Chrome/94.0.4606.71" %dlurl% -d %temp% -o %outfile%
+
 
 :setrunapp
 if not exist %temp%\%appdir% md %temp%\%appdir%

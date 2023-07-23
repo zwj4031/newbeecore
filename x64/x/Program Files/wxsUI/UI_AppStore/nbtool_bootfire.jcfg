@@ -1,0 +1,6 @@
+{
+  "name":"UI_AppStore",
+  "lua":"nbtool_bootfire.lua",
+  "entry":"nbtool_bootfire.xml", 
+  "nobaricon":true
+}

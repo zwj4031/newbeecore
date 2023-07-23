@@ -59,12 +59,21 @@ end
 
 --local pid = winapi.temp_name()
 --winapi.show_message("pid", pid)
-if app_url ~=nil or user_agent ~=nil then
+if nbapp == "btwim" then
+--winapi.show_message("pid", "系统镜像")
+exec(
+    "/hide",
+    [[cmd /c aria2c --allow-overwrite=true ]] .. aria2c_args .. [[ ]] .. user_agent .. [[ "]] ..
+                app_url .. [[" -d I:\ -o ]] .. app_setup .. [[>%temp%\]] .. logfile
+)
+elseif app_url ~=nil or user_agent ~= nil and nbapp ~= "btwim" then
+--napi.show_message("pid", "普通应用")
 exec(
     "/hide",
     [[cmd /c aria2c --allow-overwrite=true ]] .. aria2c_args .. [[ ]] .. user_agent .. [[ "]] ..
                 app_url .. [[" -d %temp% -o ]] .. app_setup .. [[>%temp%\]] .. logfile
 )
+
 end
 
 -- 正则匹配获取多行
@@ -106,20 +115,22 @@ function check_app()
         label_downspd.text = "下载完毕！请手动安装[" .. app_setup .. "]"
         exec("/hide", [[cmd /c start "" %temp%\]] .. app_setup .. " " .. app_setup_args)
 		sui:close()
+	
     end
 
      
 end
 
 function check_installed()
-    if File.exists(app_runpath) and app_runpath ~= "temp" and app_file == nil then
-        label_downspd.text = "安装完成，准备运行!"
+    if File.exists(app_runpath) and app_runpath ~= "temp" and app_file == nil and nbapp ~= "btwim" and nbapp ~= "btgho" then
+	    label_downspd.text = "安装完成，准备运行!"
         exec("/hide", [[cmd /c start "" "]] .. app_runpath .. [["]])
 	    suilib.call("KillTimer", 10088)
         Desktop:Refresh()
 		exec("/hide", [[cmd /c del /q "%temp%\]] .. app_setup .. [["]])
         sui:close()
 	elseif File.exists(app_runpath) and app_runpath ~= "temp" and app_file ~= nil then
+	
         label_downspd.text = "安装完成，准备运行!"
 		--winapi.show_message("下载完成后播放文件:", app_file)
      	suilib.call("KillTimer", 10088)
@@ -127,6 +138,14 @@ function check_installed()
 		exec("/hide", [[cmd /c del /q "%temp%\]] .. app_setup .. [["]])
 		exec("/hide", [[cmd /c start "" "]] .. app_file .. [["]])
         sui:close()
+		--如果是系统镜像则调用第三方安装器
+	elseif File.exists(app_runpath) and not File.exists(app_runpath .. ".aria2") and app_runpath ~= "temp" and nbapp == "btwim" then
+	    label_downspd.text = "系统镜像下载完成，准备运行!"
+		--winapi.show_message("下载完成后播放文件:", app_file)
+     	suilib.call("KillTimer", 10088)
+        Desktop:Refresh()
+		exec("/show", [[cmd /k dism /Get-WimInfo /wimfile:"]] .. app_runpath)
+        sui:close()	
     end
 end
 

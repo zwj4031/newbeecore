@@ -1,5 +1,6 @@
 @echo off
 mode con cols=32 lines=1
+start "" "X:\Program Files\WinXShell.exe" -ui -jcfg wxsUI\UI_DL\main.jcfg -nbapp todesklite&&exit
 :var
 set appname=ToDesk±»¿Ø¶Ë
 set appfile=ToDesk_Lite.exe

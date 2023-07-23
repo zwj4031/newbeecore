@@ -1,0 +1,4 @@
+petools放在任意目录下
+penetwork配置文件 ，可以在pe里修改好，可以在虚拟机或别的电脑上改好，
+然后复制到petools目录下，petool复制
+可以让pe启动后执行任意任务 

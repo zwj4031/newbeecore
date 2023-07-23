@@ -7,15 +7,18 @@ todeskurl = "https://dl.todesk.com/windows/ToDesk_Setup.exe"
 todeskliteurl = "https://dl.todesk.com/windows/ToDesk_Lite.exe"
 orayurl = "https://api.hanximeng.com/lanzou/?url=https://wwi.lanzouo.com/ihLjvygoxgd&type=down"
 oraynewurl = "https://sunlogin.oray.com/zh_CN/download/download?id=65&x64=1"
+orayliteurl = "https://sunlogin.oray.com/zh_CN/download/download?id=152&x64=1"
 dbadminurl = "http://down.slser.com/down.php"
 Alpemixurl = "https://www.alpemix.com/site/Alpemix.exe"
 wps2016url = "https://wdl1.cache.wps.cn/wps/download/W.P.S.7400.12012.0.exe"
 potplayerurl = "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup.exe"
 vm16url = "https://pan.bilnn.cn/api/v3/file/sourcejump/LWrx2LcM/pIf0htSTViFq5ePgkvFQl-DOKJqF1AVg82xmkGIIoqM*"
+systemurl = [[X:\\windows\\system32\\bt.torrent]]
 -------------------------------------------------------------aria2c_args
 aria2c_args = [[-c -s 2 -x 2 -j 10 --file-allocation=none]]
 qq_user_agent = [[--user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36"]]
 chrome_user_agent = [[--user-agent="Chrome/94.0.4606.71"]]
+bt_user_agent = [[--user-agent="Chrome/94.0.4606.71"]]
 --------------------------------------------------------------------------
 
 
@@ -49,6 +52,9 @@ function check_nbapp()
 if nbapp == "qq" then
 --qq_appenv()
 qqnew_appenv()
+elseif nbapp == "btwim" then
+--qq_appenv()
+btwim_appenv()
 elseif nbapp == "dbadmin" then
 dbadmin_appenv()
 elseif nbapp == "Alpemix" then
@@ -69,7 +75,7 @@ elseif nbapp == "vm16" then
 vm_appenv()
 elseif nbapp == "todesk" or nbapp == "todesklite" then
 todesk_appenv()
-elseif nbapp == "oray" or nbapp == "oraynew" then
+elseif nbapp == "oray" or nbapp == "oraynew" or nbapp == "oraylite" then
 oray_appenv()
 elseif nbapp == nil then
 default_appenv()
@@ -90,6 +96,17 @@ app_url = qqurl
 app_name = "腾讯QQ"
 app_setup = "qqsetup.exe"
 app_runpath = "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\腾讯软件\\QQ\\腾讯QQ.lnk"
+--local app_runpath = "%ProgramFiles(x86)%\\Tencent\\QQ\\Bin\\QQScLauncher.exe"
+app_setup_args = "/S"
+end
+
+function btwim_appenv()
+aria2c_args = [[-c -s 2 -x 2 -j 10 --file-allocation=none --allow-overwrite=true --bt-enable-lpd=true --seed-time=0]]
+user_agent = bt_user_agent
+app_url = systemurl
+app_name = "系统镜像"
+app_setup = "X:\\windows\\system32\\bt.torrent" 
+app_runpath = "I:\\Newbeeplus.wim" --种子下载后的文件路径
 --local app_runpath = "%ProgramFiles(x86)%\\Tencent\\QQ\\Bin\\QQScLauncher.exe"
 app_setup_args = "/S"
 end
@@ -234,5 +251,12 @@ app_name = "向日葵"
 app_setup = "向日葵.exe"
 app_runpath = "temp"
 app_setup_args = "/S"
+elseif nbapp == "oraylite" then 
+user_agent = chrome_user_agent
+app_url = orayliteurl
+app_name = "向日葵"
+app_setup = "向日葵lite.exe"
+app_runpath = "temp"
+app_setup_args = ""
 end
 end

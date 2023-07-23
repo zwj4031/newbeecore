@@ -1,0 +1,27 @@
+VMware16Pro
+ZF3R0-FHED2-M80TY-8QYGC-NPKYF
+YF390-0HF8P-M81RQ-2DXQE-M2UT6
+ZF71R-DMX85-08DQY-8YMNC-PPHV8
+VMware17Pro
+MC60H-DWHD5-H80U9-6V85M-8280D
+
+Edge添加永久IE模式企业网站列表，要打开企业网站列表管理器
+需要打开Edge并输入edge://compat/sitelistmanager来导入
+需要打开IE兼容模式功能edge://settings/defaultBrowser
+
+微软原版系统镜像解析xml地址
+win10 https://go.microsoft.com/fwlink/?LinkId=841361
+win11 https://go.microsoft.com/fwlink?linkid=2156292
+谷歌浏览器完整包直链地址
+Windows版（含更新组件）64位
+https://dl.google.com/update2/installers/ChromeStandaloneSetup64.exe
+https://dl.google.com/tag/s/installdataindex/update2/installers/ChromeStandaloneSetup64.exe
+
+Windows版（含更新组件）32位
+https://dl.google.com/update2/installers/ChromeStandaloneSetup.exe
+https://dl.google.com/tag/s/installdataindex/update2/installers/ChromeStandaloneSetup.exe
+
+Win10专业教育版镜像ESD 19044
+http://dl.delivery.mp.microsoft.com/filestreamingservice/files/e7aa8b81-ee80-4b52-8f04-c364f0ce1af1/19044.1288.211006-0501.21h2_release_svc_refresh_CLIENTCONSUMER_RET_x64FRE_zh-cn.esd
+Win11 Business 版本ESD镜像22000.318
+http://dl.delivery.mp.microsoft.com/filestreamingservice/files/73bedbd0-f169-4f2b-82ea-e6fa078838d6/22000.318.211104-1236.co_release_svc_refresh_CLIENTBUSINESS_VOL_x64FRE_zh-cn.esd

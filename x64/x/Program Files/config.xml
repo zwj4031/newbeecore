@@ -9,7 +9,7 @@
 		<Setting name="CheckBoxSelection">no</Setting>
 		<Setting name="CloseMainWindowOnTabClose">yes</Setting>
 		<Setting name="ConfirmCloseTabs">no</Setting>
-		<Setting name="DisableFolderSizesNetworkRemovable">no</Setting>
+		<Setting name="DisableFolderSizesNetworkRemovable">yes</Setting>
 		<Setting name="DisplayCentreColor" r="255" g="255" b="255"/>
 		<Setting name="DisplayFont" Height="-13" Width="0" Weight="500" Italic="no" Underline="no" Strikeout="no" Font="Segoe UI"/>
 		<Setting name="DisplaySurroundColor" r="0" g="94" b="138"/>
@@ -30,7 +30,7 @@
 		<Setting name="LastSelectedTab">0</Setting>
 		<Setting name="LockToolbars">yes</Setting>
 		<Setting name="NextToCurrent">no</Setting>
-		<Setting name="NewTabDirectory">此电脑</Setting>
+		<Setting name="NewTabDirectory"></Setting>
 		<Setting name="OneClickActivate">no</Setting>
 		<Setting name="OneClickActivateHoverTime">500</Setting>
 		<Setting name="OverwriteExistingFilesConfirmation">yes</Setting>
@@ -39,7 +39,7 @@
 		<Setting name="ShowApplicationToolbar">no</Setting>
 		<Setting name="ShowBookmarksToolbar">yes</Setting>
 		<Setting name="ShowDrivesToolbar">yes</Setting>
-		<Setting name="ShowDisplayWindow">yes</Setting>
+		<Setting name="ShowDisplayWindow">no</Setting>
 		<Setting name="ShowExtensions">yes</Setting>
 		<Setting name="ShowFilePreviews">yes</Setting>
 		<Setting name="ShowFolders">yes</Setting>
@@ -53,31 +53,32 @@
 		<Setting name="ShowPrivilegeLevelInTitleBar">yes</Setting>
 		<Setting name="ShowStatusBar">yes</Setting>
 		<Setting name="ShowTabBarAtBottom">no</Setting>
-		<Setting name="ShowTaskbarThumbnails">yes</Setting>
+		<Setting name="ShowTaskbarThumbnails">no</Setting>
 		<Setting name="ShowToolbar">yes</Setting>
 		<Setting name="ShowUserNameTitleBar">no</Setting>
 		<Setting name="SizeDisplayFormat">1</Setting>
 		<Setting name="SortAscendingGlobal">yes</Setting>
-		<Setting name="StartupMode">1</Setting>
+		<Setting name="StartupMode">2</Setting>
 		<Setting name="SynchronizeTreeview">yes</Setting>
 		<Setting name="TVAutoExpandSelected">no</Setting>
 		<Setting name="UseFullRowSelect">no</Setting>
-		<Setting name="IconTheme">0</Setting>
+		<Setting name="IconTheme">2</Setting>
 		<Setting name="ToolbarState" Button0="Back" Button1="Forward" Button2="Up" Button3="Separator" Button4="Folders" Button5="Separator" Button6="Cut" Button7="Copy" Button8="Paste" Button9="Delete" Button10="Delete Permanently" Button11="Properties" Button12="Search" Button13="Separator" Button14="New Folder" Button15="Copy To" Button16="Move To" Button17="Separator" Button18="Views" Button19="Open Command Prompt" Button20="Refresh" Button21="Separator" Button22="Bookmark the current tab" Button23="Organize Bookmarks"/>
 		<Setting name="TreeViewDelayEnabled">no</Setting>
 		<Setting name="TreeViewWidth">208</Setting>
 		<Setting name="ViewModeGlobal">4</Setting>
 		<Setting name="CheckPinnedToNamespaceTreeProperty">no</Setting>
-		<Setting name="EnableDarkMode">no</Setting>
+		<Setting name="Theme">0</Setting>
 		<Setting name="DisplayMixedFilesAndFolders">no</Setting>
 		<Setting name="UseNaturalSortOrder">yes</Setting>
 		<Setting name="OpenTabsInForeground">no</Setting>
+		<Setting name="GroupSortDirectionGlobal">0</Setting>
 	</Settings>
 	<WindowPosition>
-		<Setting name="Position" Flags="2" ShowCmd="3" MinPositionX="-32000" MinPositionY="-32000" MaxPositionX="-1" MaxPositionY="-1" NormalPositionLeft="20" NormalPositionTop="38" NormalPositionRight="1003" NormalPositionBottom="667"/>
+		<Setting name="Position" Flags="2" ShowCmd="3" MinPositionX="-1" MinPositionY="-1" MaxPositionX="-1" MaxPositionY="-1" NormalPositionLeft="49" NormalPositionTop="172" NormalPositionRight="1032" NormalPositionBottom="596"/>
 	</WindowPosition>
 	<Tabs>
-		<Tab name="0" Directory="X:\Program Files" ApplyFilter="no" AutoArrange="yes" Filter="" FilterCaseSensitive="no" ShowHidden="yes" ShowInGroups="no" SortAscending="yes" SortMode="1" ViewMode="4" Locked="no" AddressLocked="no" UseCustomName="no" CustomName="">
+		<Tab name="0" Directory="::{20D04FE0-3AEA-1069-A2D8-08002B30309D}" ApplyFilter="no" AutoArrange="yes" Filter="" FilterCaseSensitive="no" GroupMode="1" ShowHidden="yes" ShowInGroups="no" SortAscending="yes" GroupSortDirection="0" SortMode="1" ViewMode="4" Locked="no" AddressLocked="no" UseCustomName="no" CustomName="">
 			<Columns>
 				<Column name="Generic" Name="yes" Name_Width="284" Type="yes" Type_Width="131" Size="yes" Size_Width="63" DateModified="yes" DateModified_Width="125" Attributes="no" Attributes_Width="150" SizeOnDisk="no" SizeOnDisk_Width="150" ShortName="no" ShortName_Width="150" Owner="no" Owner_Width="150" ProductName="no" ProductName_Width="150" Company="no" Company_Width="150" Description="no" Description_Width="150" FileVersion="no" FileVersion_Width="150" ProductVersion="no" ProductVersion_Width="150" ShortcutTo="no" ShortcutTo_Width="150" HardLinks="no" HardLinks_Width="150" Extension="no" Extension_Width="150" Created="no" Created_Width="150" Accessed="no" Accessed_Width="150" Title="no" Title_Width="150" Subject="no" Subject_Width="150" Author="no" Author_Width="150" Keywords="no" Keywords_Width="150" Comment="no" Comment_Width="150" CameraModel="no" CameraModel_Width="150" DateTaken="no" DateTaken_Width="150" Width="no" Width_Width="150" Height="no" Height_Width="150" MediaBitrate="no" MediaBitrate_Width="150" MediaCopyright="no" MediaCopyright_Width="150" MediaDuration="no" MediaDuration_Width="150" MediaProtected="no" MediaProtected_Width="150" MediaRating="no" MediaRating_Width="150" MediaAlbumArtist="no" MediaAlbumArtist_Width="150" MediaAlbum="no" MediaAlbum_Width="150" MediaBeatsPerMinute="no" MediaBeatsPerMinute_Width="150" MediaComposer="no" MediaComposer_Width="150" MediaConductor="no" MediaConductor_Width="150" MediaDirector="no" MediaDirector_Width="150" MediaGenre="no" MediaGenre_Width="150" MediaLanguage="no" MediaLanguage_Width="150" MediaBroadcastDate="no" MediaBroadcastDate_Width="150" MediaChannel="no" MediaChannel_Width="150" MediaStationName="no" MediaStationName_Width="150" MediaMood="no" MediaMood_Width="150" MediaParentalRating="no" MediaParentalRating_Width="150" MediaParentalRatingReason="no" MediaParentalRatingReason_Width="150" MediaPeriod="no" MediaPeriod_Width="150" MediaProducer="no" MediaProducer_Width="150" MediaPublisher="no" MediaPublisher_Width="150" MediaWriter="no" MediaWriter_Width="150" MediaYear="no" MediaYear_Width="150"/>
 				<Column name="MyComputer" Name="yes" Name_Width="150" Type="yes" Type_Width="150" TotalSize="yes" TotalSize_Width="150" FreeSpace="yes" FreeSpace_Width="150" VirtualComments="no" VirtualComments_Width="150" FileSystem="no" FileSystem_Width="150"/>
@@ -99,7 +100,7 @@
 		<Column name="NetworkPlaces" Name="yes" Name_Width="150" VirtualComments="yes" VirtualComments_Width="150"/>
 	</DefaultColumns>
 	<Bookmarksv2>
-		<PermanentItem name="BookmarksToolbar" DateCreatedLow="1149115766" DateCreatedHigh="30903368" DateModifiedLow="1580933246" DateModifiedHigh="30907325">
+		<PermanentItem name="BookmarksToolbar" DateCreatedLow="1149115766" DateCreatedHigh="30903368" DateModifiedLow="3957720473" DateModifiedHigh="31034055">
 			<Bookmark name="0" Type="1" GUID="EA496C47-6529-416F-96BB-42343F625A86" ItemName="PE的System32" Location="X:\Windows\System32" DateCreatedLow="108525869" DateCreatedHigh="30903369" DateModifiedLow="217597898" DateModifiedHigh="30903369">
 			</Bookmark>
 			<Bookmark name="1" Type="1" GUID="EA985F6C-9881-4FE7-98B8-72889980B26A" ItemName="PE的SysWOW64" Location="X:\Windows\SysWOW64" DateCreatedLow="519455713" DateCreatedHigh="30903369" DateModifiedLow="629619793" DateModifiedHigh="30903369">
@@ -110,27 +111,24 @@
 			</Bookmark>
 			<Bookmark name="4" Type="1" GUID="1138BEF0-1543-42FA-BB91-E2B7225F9ABD" ItemName="ipxefm" Location="X:\ipxefm" DateCreatedLow="2469316284" DateCreatedHigh="30903369" DateModifiedLow="2488518400" DateModifiedHigh="30903369">
 			</Bookmark>
+			<Bookmark name="5" Type="1" GUID="A0607F33-4E51-400F-A6BF-C4298B0501A1" ItemName="桌面" Location="X:\Users\Default\Desktop" DateCreatedLow="383428778" DateCreatedHigh="30914198" DateModifiedLow="400614376" DateModifiedHigh="30914198">
+			</Bookmark>
 		</PermanentItem>
 		<PermanentItem name="BookmarksMenu" DateCreatedLow="1149115766" DateCreatedHigh="30903368" DateModifiedLow="1149115766" DateModifiedHigh="30903368">
 		</PermanentItem>
 		<PermanentItem name="OtherBookmarks" DateCreatedLow="1149115766" DateCreatedHigh="30903368" DateModifiedLow="1149115766" DateModifiedHigh="30903368">
 		</PermanentItem>
-	</Bookmarksv2>
-	<ApplicationToolbar>
-	</ApplicationToolbar>
+	</Bookmarksv2><ApplicationToolbar/>
 	<Toolbars>
 		<Toolbar name="0" id="0" Style="769" Length="609"/>
 		<Toolbar name="1" id="1" Style="257" Length="0"/>
 		<Toolbar name="2" id="2" Style="769" Length="161"/>
 		<Toolbar name="3" id="3" Style="769" Length="251"/>
 		<Toolbar name="4" id="4" Style="777" Length="0"/>
-	</Toolbars>
-	<ColorRules>
-		<ColorRule name="Compressed files" FilenamePattern="" CaseInsensitive="no" Attributes="2048" r="0" g="0" b="255"/>
-		<ColorRule name="Encrypted files" FilenamePattern="" CaseInsensitive="no" Attributes="16384" r="0" g="128" b="0"/>
-	</ColorRules>
+	</Toolbars><ColorRules><ColorRule name="Compressed files" FilenamePattern="" CaseInsensitive="no" Attributes="2048" r="0" g="0" b="255"/><ColorRule name="Encrypted files" FilenamePattern="" CaseInsensitive="no" Attributes="16384" r="0" g="128" b="0"/></ColorRules>
 	<State>
-		<DialogState name="AddBookmark" PosX="336" PosY="170" Width="366" Height="365"/>
+		<DialogState name="Search" PosX="254" PosY="127" Width="531" Height="536" ColumnWidth1="162" ColumnWidth2="292" SearchDirectoryText="*.jpg" SearchSubFolders="yes" UseRegularExpressions="no" CaseInsensitive="no" Archive="no" Hidden="no" ReadOnly="no" System="no" SortMode="1" SortAscending="yes" Directory0="D:\" Pattern0="*.jpg"/>
+		<DialogState name="AddBookmark" PosX="336" PosY="170" Width="366" Height="427"/>
 		<DialogState name="ManageBookmarks" PosX="173" PosY="183" Width="693" Height="400"/>
 		<DialogState name="DisplayColors" PosX="185" PosY="188" Width="669" Height="401"/>
 	</State>

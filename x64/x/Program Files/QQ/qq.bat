@@ -1,5 +1,6 @@
 @echo off
 mode con cols=32 lines=1
+start "" "X:\Program Files\WinXShell.exe" -ui -jcfg wxsUI\UI_DL\main.jcfg -nbapp qq&&exit
 title=正在下载QQ2021
 cd /d %~dp0
 if exist "X:\Program Files (x86)\Tencent\QQ\Bin\QQScLauncher.exe" goto runapp
@@ -19,7 +20,7 @@ exit /b
 
 :downsetup
 start "" "%programfiles%\WinXShell.exe" -ui -jcfg wxsUI\UI_LED.zip -top -text "未检测到QQ，准备下载安装QQ……"
-aria2c --check-certificate=false "https://down.qq.com/qqweb/PCQQ/PCQQ_EXE/PCQQ2021.exe" -c
+aria2c --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" --check-certificate=false "https://down.qq.com/qqweb/PCQQ/PCQQ_EXE/PCQQ2021.exe" -c
 start "" "X:\Program Files\WinXShell.exe" -code "QuitWindow(nil,'UI_LED')"
 start "" "%programfiles%\WinXShell.exe" -ui -jcfg wxsUI\UI_LED.zip -top -text "下载完成，正在安装QQ……"
 if exist PCQQ2021.exe start "" PCQQ2021.exe /s &&goto checkQQ

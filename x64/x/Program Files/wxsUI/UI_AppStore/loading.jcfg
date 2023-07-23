@@ -1,0 +1,6 @@
+{
+  "name":"UI_AppStore",
+  "lua":"loading.lua",
+  "entry":"loading.xml", 
+  "nobaricon":true
+}

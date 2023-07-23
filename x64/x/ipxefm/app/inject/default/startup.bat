@@ -18,6 +18,7 @@ set xsay=start "" "X:\Program Files\WinXShell.exe" -code "QuitWindow(nil,'UI_LED
 set xshow=start "" "X:\Program Files\WinXShell.exe" -code "QuitWindow(nil,'UI_show')"
 set wait=%root%\pecmd.exe wait 800
 )
+if not "%3" == "" set args3=%3
 if not "%2" == "" set args1=%1&&set args2=%2&&goto startjob
 ::公用脚本1结束
 
@@ -65,7 +66,7 @@ mklink %temp%\cmd.exe x:\windows\system32\cmd.exe
 %root%\pecmd.exe LINK %Desktop%\伽卡教师端,"%rootx86%\gakax86.exe",,"%rootx86%\gakax86.exe"
 %root%\pecmd.exe LINK %Desktop%\伽卡学生端,"%rootx86%\gakax86.exe",student,"%rootx86%\gakax86.exe"
 %root%\pecmd.exe LINK %Desktop%\DG分区工具,"%rootx86%\DiskGeniusx86.exe"
-if exist "%programfiles%\winxshell.exe" start "" "%programfiles%\winxshell.exe" -code Desktop:Refresh()
+::if exist "%programfiles%\winxshell.exe" start "" "%programfiles%\winxshell.exe" -code Desktop:Refresh()
 %root%\pecmd.exe kill penetwork.exe
 if exist "%SystemDrive%\Program Files\PENetwork\penetwork.reg" reg import "%SystemDrive%\Program Files\PENetwork\penetwork.reg" 
 if exist "%SystemDrive%\Program Files\PENetwork\penetwork.exe" start "" /min "%SystemDrive%\Program Files\PENetwork\penetwork.exe" 
@@ -78,6 +79,7 @@ set %%b
 if not "%1" == "" set job=%1
 echo 服务器IP地址为  %ip%
 echo 本次执行的任务  %job%
+echo 本次执行的任务参数  %args2%
 
 :::旧的查找ip方式
 :::for /f "tokens=2 delims==" %%a in ('dir /b %root%\serverip*') do set ip=%%a
@@ -121,7 +123,8 @@ goto checkip
 :getipok
 %xsay%
 %xshow%
-%show% %myip% 
+::显示ip-newbeepe中要注释掉下面一行
+:::%show% %myip% 
 %say% "获取IP成功！本机ip:%myip% 上报中......" %font%
 %wait%
 echo .>%myip%
@@ -139,12 +142,14 @@ goto init
 %say% "获取IP失败，DHCP服务不常，或没有网卡驱动" %font%
 %wait%
 %xsay%
-%show% %myip% 
+::显示ip-newbeepe中要注释掉下面一行
+::%show% %myip% 
 goto init
 ::::::::::::::检测IP脚本结束::::::::::::::
 
 
 :init
+if exist "X:\Program Files\wxsUI\UI_info\nbinfo.lua" start "" "X:\Program Files\wxsUI\UI_info\nbinfo.lua"
 ::nc受控服务端
 if exist %root%\nc.bat pecmd exec -hide %root%\nc.bat
 ::启动tightvnc
@@ -265,9 +270,9 @@ call :checkdiskspace
 call :initdiskpart
 call :checksmbfile
 start "" %root%\btx64.exe
+call :cloud
 %say% "正在下载%p2pfile%，请等待..." %font%
 goto checkp2pfile
-call :cloud
 exit /b
 
 ::::::执行任务
@@ -296,6 +301,7 @@ exit /b
 ::::::执行检测硬盘容量任务
 :checkdiskspace
 %xsay%
+::如果发现固态变成从盘来分了，请自行修改disknum后的数字， =0为主盘，
 set seldisk=masterdisk&&set disknum=0&&call :checkdisk
 set seldisk=slaverdisk&&set disknum=1&&call :checkdisk
 ::[主盘]
@@ -322,7 +328,8 @@ exit /b
 :checkdisk
 for /f "tokens=1-2,4-5" %%i in ('echo list disk ^| diskpart ^| find ^"磁盘 %disknum%^"') do (
 	echo %%i %%j %%k %%l
-	if %%k gtr 101 if %%k lss 221 set %seldisk%=120G
+	rem if %%k gtr 101 if %%k lss 221 set %seldisk%=120G
+	if %%k gtr 1 if %%k lss 221 set %seldisk%=single
 	if %%k gtr 222 if %%k lss 233 set %seldisk%=240G
     if %%k gtr 234 if %%k lss 257 set %seldisk%=256G
     if %%k gtr 446 if %%k lss 501 set %seldisk%=500G
@@ -411,12 +418,14 @@ exit /b
 
 ::::::执行ghost网克任务
 :netghost
-%say% "连接会话名称为mousedos的ghostsrv……" %font%
+set srvname=mousedos
+if not "%args2%" == "" set srvname=%args2%
+%say% "连接会话名称为%srvname%的ghostsrv……" %font%
 %wait%
 %xsay%
 %root%\pecmd.exe kill ghostx64.exe >nul
 cd /d "X:\windows\system32" >nul
-ghostx64.exe -ja=mousedos -batch >nul
+ghostx64.exe -ja=%srvname% -batch >nul
 if errorlevel 1 goto netghost
 exit
 
@@ -473,4 +482,95 @@ for /l %%i in (15,-1,1) do (
 %xsay%
 )
 
+:xrun
+%xsay%
+%say% "下载并运行%ip%上的%args2%" %font%
+if exist X:\%args2% del /q X:\%args2%
+tftp -i %ip% get %args2% X:\%args2%
+if exist X:\%args2% start "" X:\%args2%
+%xsay%
+exit /b
 
+:xdown
+%xsay%
+%say% "下载%ip%上的%args2%" %font%
+if exist X:\%args2% del /q X:\%args2%
+tftp -i %ip% get %args2% X:\%args2%
+%xsay%
+exit /b
+
+
+:ifw
+%xsay%
+%say% "连接%ip%上名称为mousedos的IFW多播服务器" %font%
+if "args3" == "" set args3=0
+start "" imagew64 /r /o /f:\\\%ip%**mousedos* /rb:%args3%
+rem start "" imagew64 /r /o /d:0 /f:\\\%ip%**mousedos* /rb:%args3%
+rem start "" imagew64 /r /o /f:\\\%ip%**mousedos* /d:w0 /rb:%args3%
+rem start "" imagew64 /r /o /f:\\\%ip%**mousedos* /d:w0 /rb:0 还原完成不做任何操作
+rem start "" imagew64 /r /o /f:\\\%ip%**mousedos* /d:w0 /rb:1 还原完成自动重启
+rem start "" imagew64 /r /o /f:\\\%ip%**mousedos* /d:w0 /rb:8 还原完成自动关机
+%xsay%
+exit /b
+
+:iscsi
+set iscsiip=%ip%
+set iscsiport=3260
+%say% "启动iscsi服务................" %font%
+net start msiscsi
+%xsay%
+call :iscsi_login
+rem 自动恢复iscsi盘下的系统镜像  第一个参数表示路径，第二个参数表示卷 默认1  第三个参数表示目标盘符，默认C:
+::call :builddp \64位零售中文版.esd 5 C:
+::call :restore_image
+exit/b
+
+:iscsi_login
+iscsicli AddTargetPortal %iscsiip% %iscsiport%
+start "" "X:\Program Files\WinXShell.exe" -ui -jcfg wxsUI\UI_led.zip -wait 6 -top -text "连接%iscsiip%的iscsi服务........."
+for /f %%a in ('iscsicli ListTargets ^|find "iqn"') do (
+start /w /min iscsicli LoginTarget %%a T * * * * * * * * * * * * * * * 0
+if "%errorlevel%" == "0" %say% "此次连上iscsi服务器 %%a" %font%
+%wait%
+%xsay%
+)
+
+
+exit /b
+
+
+
+:iscsi_logout
+for /f "tokens=3 delims=: " %%i in ('iscsicli SessionList ^|find "会话 ID"') do (
+%say% "此次断开iscsi会话ID: %%i" %font%
+iscsicli LogoutTarget %%i
+%xsay%
+)
+iscsicli RemoveTargetPortal %iscsiip% %iscsiport%
+iscsicli listtargets t 
+exit /b
+
+
+:builddp
+set restore_file=%1
+set wim_index=%2
+set Drive_Letter=%3
+(
+echo [operation]
+echo action=restore
+echo silent=1
+echo [source]
+rem 在|后面的表示分卷，这里是第1卷
+echo %restore_file%^|%wim_index%
+echo [destination]
+echo DriveLetter = %Drive_Letter%
+echo [miscellaneous]
+echo format = 1
+echo fixboot=auto
+echo shutdown=2
+)>dp.ini
+exit /b
+
+:restore_image
+start "" %root%\cgix64 dp.ini
+exit /b

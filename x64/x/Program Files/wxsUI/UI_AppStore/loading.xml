@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="580,152" caption="0,0,0,32" defaultfontcolor="#FFE8EAF6"  layeredimage="bk.png" layeredopacity="255" >
+
+    <Style imagerectstyle="l,t,w,h" />
+
+    <VerticalLayout bkcolor="#FEFFFFFF">
+          <HorizontalLayout height="32" visible="false" >
+              <Control />
+              <!-- https://docs.microsoft.com/ja-jp/windows/uwp/design/style/segoe-ui-symbol-font -->
+              <Button name="::closebtn" text="  " font="24" textcolor="#ff8b8b8b" hottextcolor="#ffffffff" hotimage="color='#ff007ACC'" width="48" height="32" />
+          </HorizontalLayout>
+        <VerticalLayout height="120"  inset="1,1,1,1" >
+            <Label name="label_info" text="<b>热烈欢迎各位领导莅临指导。</b>" font="24" showhtml="true" textcolor="#FFF8D714" textpadding="40,20,0,0" />
+        </VerticalLayout>
+
+    </VerticalLayout>
+</Window>

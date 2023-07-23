@@ -1,0 +1,106 @@
+{
+	"Init" :
+	[
+	   /*
+	   {
+			"Exec" : "cmd.exe"
+		},
+		{
+			"Shortcut" : "%UserProfile%\\Desktop\\记事本",
+			"File" : "%SystemRoot%\\notepad.exe",
+			"Icon" : "%SystemRoot%\\System32\\SHELL32.dll",
+			"Id" : 4
+		}
+		*/
+	],	
+	"Hotkey":
+	[
+
+		{
+			"Key" : "ctrl-m",
+			"Note" : "键盘模拟鼠标",
+			"Exec" : "%ProgramFiles%\\OTHERS\\mouse.exe"
+		},	
+
+		{
+			"Key" : "ctrl-g",
+			"Note" : "手动运行ghost",
+			"Exec" : "%ProgramFiles%\\GhostCGI\\Ghost64.exe"
+		},	
+		
+		{
+			"Key" : "ctrl-d",
+			"Note" : "DG分区工具",
+			"Exec" : "%ProgramFiles%\\DiskGenius\\DiskGenius.exe"
+		},	
+		
+		{
+			"Key" : "ctrl-alt-a",
+			"Note" : "截图工具",
+			"Exec" : "%ProgramFiles%\\Snapshot\\SNAPSHOT.EXE"
+		},			
+		
+		{
+			"Key" : "ctrl-alt-n",
+			"Exec" : "%windir%\\notepad.exe /t fuck"
+		},
+		{
+			"Key" : "ctrl-0x47",
+			"Exec" : "cmd.exe /c a.bat",
+			"Window" : "hide"
+		},
+		{
+			"Key" : "shift-alt-c",
+			"Note" : "注册表编辑器",
+			"Exec" : "regedit.exe"
+		},
+		{
+			"Key" : "ctrl-alt-c",
+			"Kill" : "self"
+		},
+		{
+			"Key" : "ctrl-alt-1",
+			"Monitor" : "\\\\.\\DISPLAY1",
+			"Resolution" : "1024x768"
+		},
+		{
+			"Key" : "ctrl-0",
+			"Note" : "设置分辨率为1024X768",
+			"Resolution" : "1024x768"
+		},
+		{
+			"Key" : "ctrl-alt-2",
+			"Note" : "设置分辨率为1920x1080",
+			"Resolution" : "1920x1080"
+		},
+		{
+			"Key" : "ctrl-i",
+			"Note" : "重新默认浏览器",
+			"Exec" : "X:\\Program Files\\BatchTools\\设置默认浏览器.bat"
+		},
+		{
+			"Key" : "ctrl-shift-2",
+			"Note" : "截图 (当前窗口)",
+			"Screenshot" : "current",
+			"Save" : "clipboard"
+		},
+		{
+			"Key" : "ctrl-shift-3",
+			"Note" : "截图",
+			"Screenshot" : "all",
+			"Save" : "ask"
+		}
+	],
+	"Systray" :
+	[
+		{
+			"Name" : "注册表编辑器",
+			"Exec" : "regedit.exe"
+		},
+		{
+			"Name" : "打开系统目录",
+			"Shell" : "open",
+			"File" : "%SystemRoot%"
+		}
+	]
+}

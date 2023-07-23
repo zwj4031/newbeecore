@@ -1,0 +1,16 @@
+_SUB runapp
+     NAME &&fname=%1     
+     EXEC =!%myfile%
+     WAIT 500
+_END 
+
+
+
+
+
+find $3=%&bx64%, envi &&wei=64! envi &&wei=
+FORX !\petools\NBAPP\VMTool%&wei%.exe,fexe,1,envi &&myfile=%fexe%
+find $Z=Z%&myfile%,TEAM mess+icon0 Œ¥ƒ‹’“µΩ\petools\NBAPP\VMTool%&wei%.exe | TEXT | exit file
+FDRV fDrive=%&myfile%
+TEAM TEXT   ÷¥––VMtools.....$30|WAIT 100
+CALL runapp %&myfile%

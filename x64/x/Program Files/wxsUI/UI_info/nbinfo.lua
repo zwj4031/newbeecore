@@ -2,4 +2,4 @@
 --LINK([[%StartMenu%\文件快搜.lnk]],[[%ProgramFiles%\EVERYTHING\EVERYTHING.EXE]])
 --LINK([[%StartMenu%\分区工具DiskGenius.lnk]],[[%ProgramFiles%\DiskGenius\DiskGenius.exe]])
 
-exec('/hide','X:\\Program Files\\WinXShell.exe -ui -jcfg wxsUI\\UI_info\\main.jcfg -nwinfo -top')
+exec('/show','X:\\Program Files\\WinXShell.exe -ui -jcfg wxsUI\\UI_info\\main.jcfg -nwinfo -top')

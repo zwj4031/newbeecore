@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="400,240" sizebox="4,4,4,4" caption="0,0,0,32" mininfo="400,240">
+   <Style name="nb-combo" itemfont="998" bkimage="file='themes\ComboButton.png' corner='2,2,36,2'"
+        bordersize="2" bordercolor="#ff999999" focusbordercolor="#ff666666"
+        itemselectedtextcolor="#ff000000" itemselectedbkcolor="#ff3179c9" itemtextcolor="#ff000000" itembkcolor="#fff2f2f2"
+        itemhottextcolor="#ff000000" itemhotbkcolor="#ff3179c9" />
+<Style imagerectstyle="l,t,w,h" />
+<Include source="scrollbar_ltwh.xml" />
+<Style name="nav_item" height="40" 
+      selectedimage="color='#ff0078d7' dest='155,5,5,20'" 
+    hotimage="color='#FFA2D7FF'  dest='155,5,5,20'"
+    align="left" textpadding="52,-10,0,0" />
+<VerticalLayout bordersize="1" bordercolor="#FF1985DA">
+
+    <!-- 左-导航, 右-内容 水平布局 -->
+    <HorizontalLayout style="ct-bknav" padding="1,1,1,1" >
+
+        <!-- 左侧 区域 -->
+        <VerticalLayout name="nav" width="1" >
+            <!-- 左上 logo 区域 -->
+            <Label height="0" text="应用市场" padding="20,0,0,0" />
+            <HorizontalLayout style="nav_item" padding="20,0,0,0" >
+                <Label text="" font="sym16" width="32" />
+                <Button text="%{Home}" align="left" name="home_button" />
+            </HorizontalLayout>
+
+            <Label height="0" showhtml="true" text="分类" padding="20,0,0,0" />
+
+            <!-- 左侧 导航 项目 -->
+            <VerticalLayout name="$TabList">
+
+            </VerticalLayout>
+					 
+
+        </VerticalLayout>
+
+
+        <!-- 右侧内容区域格式 -->
+        <VerticalLayout padding="0,1,1,1" style="ct-bkcontent" bkimage="bg.png">
+
+            <!-- 右侧顶部标题区域 -->
+            <VerticalLayout height="32">
+                <HorizontalLayout height="32">
+                    <text height="32" showhtml="true" text="<i nbgi.png><a ghost><i ghost32.png></a>NBGI一键还原" textpadding="5,0,0,0" />
+                    <Control />
+                    <!-- https://docs.microsoft.com/ja-jp/windows/uwp/design/style/segoe-ui-symbol-font -->
+                    <Button name="::minbtn" text="" font="sym" textcolor="#ff8b8b8b" hottextcolor="#ffffffff" hotimage="color='#ff1985da'" width="48" height="32" />
+                    <Button name="::closebtn" text="" font="sym" textcolor="#ff8b8b8b" hottextcolor="#ffffffff" hotimage="color='#ffe81123'" width="48" height="32" />
+                </HorizontalLayout>
+				
+            </VerticalLayout>
+
+            <!-- 右侧 内容 主区域 -->
+            <VerticalLayout name="$TabLayoutParent" height="100">
+		<VerticalLayout>
+ 		                        <Label align="center" text="请选择硬盘或分区" font="24" height="32" showhtml="true" padding="0,20,0,0" />
+                    <Combo float="true" itemfont="crr" itemlinecolor="#00000000" dropboxsize="0,250" itemshowhtml="true" itemfont="16" style="nb-combo" pos="0,65,100,0" align="center" name="UPanList_combo" normalimage="file='bg_selected.png'" wheel="false" height="32" width="395" padding="0,10,0,0" textpadding="2,0,0,2"
+                        vscrollbar="true" hscrollbar="true">
+						
+						                    
+                    </Combo>
+					
+					  </VerticalLayout>
+					  
+
+
+
+            </VerticalLayout>
+	 <!-- 按钮区域 -->		
+ 
+ <HorizontalLayout>			
+  <Label name="null" text="" font="16" width="80" />
+  
+ <CheckBox name="check_restart" style="switch" text="完成后重启" selected="false" width="40" textpadding="0,0,120,0" padding="0,5,90,0" />	
+ <CheckBox name="check_format" style="switch" text="格式化分区" selected="true" width="52" textpadding="0,0,120,0" padding="0,5,90,0" />
+
+ 
+ <Button name="btn_reload" width="40" height="30"   
+    bkcolor="#FF00FF00"   
+    text="刷新"  
+    normalimage="file='bg_button_normal.png' source='1,1,59,24'"   
+    hotimage="file='bg_button_hover.png' source='1,1,59,24'"   
+    pushedimage="file='big_button_down.png' source='1,1,59,24'"   
+    borderround="4,4" />  		
+ 
+ </HorizontalLayout>	
+ 
+			<VerticalLayout padding="0,0,0,0" width="400" bordercolor="#FF1985DA" >
+			
+         
+ </VerticalLayout>             
+<Progress name="job" text="就绪[此版本为演示版，只支持还原WIM/GHO镜像"   
+   
+    width="400" height="18" bkcolor="#FFFFFFFF"   
+    foreimage="Progress.png"   
+    min="0" max="100" value="0"   
+    hor="true" align="center" />  			  
+						                  
+
+        </VerticalLayout>
+
+    </HorizontalLayout>
+</VerticalLayout>
+</Window>
