@@ -1,8 +1,92 @@
+;Raylink_2024
+\Windows\System32\mfplat.dll
+\Windows\System32\Windows.Storage.OneCore.dll
+;sql_2008R2
+\Program Files (x86)\Common Files\System\ado\msado15.dll
+\Program Files (x86)\Common Files\System\ado\msadrh15.dll
+\Program Files (x86)\Common Files\System\Ole DB\oledb32.dll
+\Program Files (x86)\Common Files\System\Ole DB\sqloledb.dll
+\Program Files (x86)\Common Files\System\Ole DB\msdatl3.dll
+\Program Files (x86)\Common Files\System\Ole DB\sqloledb.rll
+\Program Files (x86)\Common Files\System\Ole DB\oledb32r.dll
+\Program Files (x86)\Common Files\System\Ole DB\zh-CN\sqloledb.rll.mui
+\Windows\SysWow64\msdart.dll
+\Windows\SysWow64\security.dll
+\Windows\SysWow64\comsvcs.dll
+\Windows\SysWow64\cryptdll.dll
+\Windows\SysWow64\dbnetlib.dll
+\Windows\SysWow64\dsparse.dll
+\Windows\SysWow64\msv1_0.dll
+\Windows\SysWow64\ntdsapi.dll
+\Windows\SysWow64\NtlmShared.dll
+;Refs_support
+;\Windows\System32\uReFS.dll
+;\Windows\System32\uReFSv1.dll
+;\Windows\System32\Drivers\refs.sys
+;\Windows\System32\Drivers\refsv1.sys
+;\Windows\SysWow64\uReFS.dll
+;\Windows\SysWow64\uReFSv1.dll
+;DisplayEnhancementService_liangdutiaojie
+\Windows\System32\Microsoft.Graphics.Display.DisplayEnhancementService.dll
+;explorer_init_need
+;\Windows\System32\IEAdvpack.dll
+;\Windows\System32\iedkcs32.dll
+
+;spacedesk Windows VIEWER(Server->features\spacedesk.txt)
+\Windows\SysWOW64\d3d10.dll
+\Windows\SysWOW64\d3d10core.dll
+;mlx_Mellanox_card_Services->mlx4_bus_ibbus_ndfltr_winmad_winverbs
+\windows\System32\drivers\mlx4_bus.sys
+\windows\System32\drivers\ibbus.sys
+\windows\System32\drivers\ndfltr.sys
+\windows\System32\drivers\winmad.sys
+\windows\System32\drivers\winverbs.sys
+\windows\INF\mlx4_bus.inf
+\windows\INF\mlx4_bus.PNF
+\windows\INF\netmlx5.inf
+\windows\System32\DriverStore\FileRepository\mlx4_bus.inf_amd64_*
+\windows\System32\DriverStore\FileRepository\netmlx5.inf_amd64_*
+\Windows\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-Client-Desktop-Required-Package0110~*~amd64~~*.*.*.*.cat
+
+;icssvc_wifi_hot
+\Windows\System32\SystemEventsBrokerClient.dll
+;add_net_services_Psched
+\Windows\System32\drivers\pacer.sys
+\Windows\inf\netpacer.inf
+;add_net_services_Psched_Link-Layer Topology Discovery Responder
+\Windows\system32\driverstore\filerepository\rspndr.inf_*
+\Windows\System32\drivers\rspndr.sys
+\Windows\inf\rspndr.inf
+\Windows\system32\lltdres.dll
+;add_net_services_lltdio
+\Windows\System32\lltdapi.dll
+\Windows\System32\drivers\lltdio.sys
+\Windows\system32\driverstore\filerepository\lltdio.inf_amd64_*
+\Windows\inf\lltdio.inf
+;add_net_services_Microsoft_LLDP 
+\Windows\System32\drivers\mslldp.sys
+\Windows\system32\driverstore\filerepository\netloop.inf_*
+\Windows\inf\netloop.inf
+;add_net_services_Microsoft Network Adapter Multiplexor Protocol
+\Windows\System32\drivers\NdisImPlatform.sys
+;\Windows\system32\driverstore\filerepository\NdisImPlatformMp_*
+\Windows\inf\NdisImPlatformMp.inf
+\Windows\inf\NdisImPlatform.inf
+
+;taskmgr_username
+\Windows\System32\utildll.dll
+
+;VBS_ActiveX_Adobe.Stream_need_copy_clsid
+\Program Files\Common Files\System\ado\msado15.dll
+\Windows\System32\msdart.dll
+;vbs_open_dialog
+;\Windows\System32\mshtml.dll
 ;dingtalk_x64_new
 ;\Windows\system32\esent.dll
 ;services_BrokerInfrastructure
 \Windows\system32\bisrv.dll
 \Windows\system32\psmsrv.dll
+\Windows\System32\ResourcePolicyServer.dll
 ;shutdown.exe
 \Windows\system32\shutdown.exe
 ;wpeutil_create_pagefile.sys
@@ -24,6 +108,7 @@
 ;printer_server
 ;\windows\system32\drivers\HTTP.sys
 ;\Windows\System32\spoolsv.exe
+;\Windows\System32\prncache.dll
 ;;FFU_test
 ;\Windows\System32\vssapi.dll
 ;\Windows\System32\vsstrace.dll
@@ -436,7 +521,7 @@
 ;msi_sqlserver_msdn2000
 \Windows\SysWOW64\nddeapi.dll
 \Windows\System32\nddeapi.dll
-
+比如我
 ;jianrongxing_start
 \Windows\SysWOW64\acppage.dll
 \Windows\System32\acppage.dll

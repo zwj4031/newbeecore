@@ -1,3 +1,9 @@
+\Windows\System32\nettrace.dll
+\Windows\System32\dot3cfg.dll
+\Windows\Syswow64\nettrace.dll
+\Windows\Syswow64\dot3cfg.dll
+;wlanapi
+\Windows\WinSxS\amd64_microsoft-windows-onecoreuap-wlansvc_*
 ;22621_boot_need
 \Windows\System32\CodeIntegrity
 ;11pe_Boot_need
