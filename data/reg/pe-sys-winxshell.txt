@@ -527,5 +527,47 @@ ControlSet001\Services\Spooler
 ;qwPE
 ControlSet001\Services\EventSystem
 ControlSet001\Services\BrokerInfrastructure
-:NTQQ_Need
+ResourcePolicyStore
+;NTQQ_Need
 ControlSet001\Control\Session Manager\Environment
+;NetClient
+ControlSet001\Control\Class\{4d36e973-e325-11ce-bfc1-08002be10318}
+;Microsoft Network Adapter Multiplexor Protocol
+ControlSet001\Services\NdisImPlatform
+;Qos
+ControlSet001\Services\Psched
+;Link-Layer Topology Discovery Responder
+ControlSet001\Services\rspndr
+;Link-Layer Topology Discovery Responder I/O
+ControlSet001\Services\lltdio
+;Microsoft LLDP 
+ControlSet001\Services\MsLldp
+ControlSet001\Control\NetworkSetup2\Protocols
+;mlx_Mellanox_card_Services->mlx4_bus|ibbus|ndfltr|winmad|winverbs
+ControlSet001\Services\ibbus
+ControlSet001\Services\mlx4_bus
+ControlSet001\Services\ndfltr
+ControlSet001\Services\WinMad
+ControlSet001\Services\WinVerbs
+;spacedesk Windows server driver
+ControlSet001\Services\QWAVE
+ControlSet001\Services\QWAVEdrv
+ControlSet001\Services\Winsock
+ControlSet001\Services\Winsock2
+ControlSet001\Control\NetworkSetup2\Filters
+;test_copy_control_(no_network)
+;ControlSet001\Control
+;test_switch_display
+ControlSet001\Services\DispBrokerDesktopSvc  
+ControlSet001\Services\displayenhancementservice
+ControlSet001\Services\indirectkmd
+;3389
+ControlSet001\Services\TermService
+;wudf_Services
+ControlSet001\Services\WUDFWpdFs
+ControlSet001\Services\WUDFWpdMtp
+ControlSet001\Services\WUDFRd
+ControlSet001\Services\WudfPf
+;DisplayEnhancementService_liangdutiaojie
+ControlSet001\Services\DisplayEnhancementService
+ControlSet001\Control\Power\PowerSettings\7516b95f-f776-4464-8c53-06167f40cc99\aded5e82-b909-4619-9949-f5d71dac0bcb
